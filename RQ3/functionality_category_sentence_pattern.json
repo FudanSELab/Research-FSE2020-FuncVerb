@@ -1,0 +1,1431 @@
+[{
+	"category": 1,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 51,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 4,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB - NOUN - for - NOUN - to - NOUN - through - NOUN": 1,
+		"VERB - NOUN - as - NOUN - for - NOUN": 2,
+		"VERB - NOUN - from - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 48,
+	"sentence_pattern_dict": {
+		"VERB": 4,
+		"VERB - NOUN": 58,
+		"VERB - NOUN - with - NOUN - from - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 7,
+		"VERB - NOUN - to - NOUN - from - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 8,
+		"VERB - NOUN - about - VERB": 1,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 5,
+		"VERB - NOUN - by - VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 44,
+		"VERB - NOUN - by - VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - about - NOUN - from - NOUN": 1,
+		"VERB - to - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 39,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN": 58,
+		"VERB - NOUN - in - NOUN": 8,
+		"VERB - to - NOUN": 3,
+		"VERB - NOUN - VERB - NOUN": 4,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 9,
+		"VERB - NOUN - in - NOUN - for - NOUN": 1,
+		"VERB": 82,
+		"VERB - NOUN - about - NOUN": 1,
+		"VERB - NOUN - for - NOUN - over - NOUN": 1,
+		"VERB - on - NOUN - VERB - NOUN - for - NOUN": 1,
+		"VERB - on - NOUN - VERB - NOUN": 2,
+		"VERB - NOUN - for - VERB - NOUN": 1,
+		"VERB - from - NOUN": 1
+	}
+}, {
+	"category": 43,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - at - NOUN": 40,
+		"VERB - NOUN - to - NOUN - at - NOUN": 5,
+		"VERB - NOUN - at - NOUN - in - NOUN": 8,
+		"VERB - NOUN - to - NOUN": 348,
+		"VERB - to - NOUN": 22,
+		"VERB - NOUN": 150,
+		"VERB - NOUN - in - NOUN": 6,
+		"VERB - NOUN - to - NOUN - to - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 23,
+		"VERB - NOUN - as - NOUN - for - NOUN": 1,
+		"VERB - NOUN - before - NOUN": 2,
+		"VERB - NOUN - to - NOUN - as - NOUN - for - NOUN": 1,
+		"VERB - to - NOUN - at - NOUN": 2,
+		"VERB - NOUN - PREP - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 6,
+		"VERB - for - NOUN": 5,
+		"VERB - NOUN - VERB - in - NOUN": 3,
+		"VERB - NOUN - with - NOUN": 24,
+		"VERB - NOUN - for - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN - to - NOUN": 7,
+		"VERB - NOUN - as - NOUN": 13,
+		"VERB - NOUN - for - NOUN - by - NOUN": 2,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - about - NOUN - on - NOUN": 2,
+		"VERB - NOUN - about - NOUN": 1,
+		"VERB - NOUN - about - NOUN - in - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 6,
+		"VERB - NOUN - VERB - NOUN": 2,
+		"VERB - NOUN - as - NOUN - to - NOUN": 2,
+		"VERB - NOUN - to - NOUN - for - NOUN": 5,
+		"VERB": 28,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - to - NOUN - as - NOUN": 3,
+		"VERB - NOUN - to - NOUN - with - NOUN": 3,
+		"NOUN - VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN - in - NOUN": 1,
+		"VERB - NOUN - between - NOUN": 2,
+		"VERB - NOUN - in - NOUN - at - NOUN - within - NOUN": 3,
+		"VERB - NOUN - from - NOUN - to - NOUN": 3,
+		"VERB - NOUN - to - NOUN - by - VERB - NOUN": 5,
+		"VERB - NOUN - for - NOUN - to": 2,
+		"VERB - NOUN - at - NOUN - with - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 6,
+		"VERB - by - NOUN - with - NOUN": 1,
+		"VERB - NOUN - to - NOUN - by - VERB - to - NOUN": 1,
+		"VERB - NOUN - without - VERB - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN": 3,
+		"VERB - NOUN - during - NOUN": 1,
+		"VERB - NOUN - to - VERB": 1,
+		"VERB - NOUN - to - NOUN - with - NOUN - at - NOUN": 1,
+		"VERB - NOUN - at - NOUN - within - NOUN": 1,
+		"VERB - NOUN - to - NOUN - without - VERB - NOUN": 1,
+		"VERB - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - per - NOUN": 1,
+		"VERB - to - NOUN - VERB": 1,
+		"VERB - NOUN - for - NOUN - to - NOUN": 1,
+		"VERB - NOUN - VERB": 1,
+		"VERB - NOUN - onto - NOUN": 7,
+		"VERB - NOUN - from - NOUN - on - NOUN - from - NOUN": 1,
+		"VERB - NOUN - within - NOUN": 1,
+		"VERB - NOUN - by - NOUN": 1
+	}
+}, {
+	"category": 3,
+	"sentence_pattern_dict": {
+		"VERB - for - NOUN - between - NOUN": 6,
+		"VERB - NOUN - from - NOUN": 3,
+		"VERB": 860,
+		"VERB - NOUN - VERB": 3,
+		"VERB - for - NOUN - on - NOUN": 2,
+		"VERB - NOUN": 58,
+		"VERB - NOUN - for - NOUN - with - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 12,
+		"VERB - NOUN - for - NOUN - along - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 4,
+		"VERB - for - NOUN": 4,
+		"NOUN - VERB - NOUN": 4,
+		"VERB - to - NOUN": 6,
+		"VERB - NOUN - as - NOUN - in - NOUN": 3,
+		"VERB - NOUN - for - NOUN - at - NOUN": 1,
+		"VERB - NOUN - in - NOUN - as - NOUN - in - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 3,
+		"VERB - NOUN - inside - NOUN": 1,
+		"VERB - at - NOUN": 1,
+		"VERB - on - NOUN": 1
+	}
+}, {
+	"category": 6,
+	"sentence_pattern_dict": {
+		"VERB": 151,
+		"VERB - NOUN": 638,
+		"VERB - NOUN - for - NOUN": 135,
+		"VERB - NOUN - with - NOUN - about - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN": 3,
+		"VERB - NOUN - to - NOUN": 156,
+		"VERB - NOUN - in - NOUN": 37,
+		"VERB - NOUN - to - NOUN - for - NOUN": 3,
+		"VERB - NOUN - to - NOUN - in - NOUN": 5,
+		"VERB - NOUN - as - NOUN": 13,
+		"VERB - NOUN - to - NOUN - by - NOUN": 1,
+		"VERB - NOUN - to - NOUN - on - NOUN": 2,
+		"VERB - NOUN - between - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 13,
+		"VERB - NOUN - in - NOUN - from - NOUN": 2,
+		"VERB - NOUN - as - NOUN - on - NOUN": 2,
+		"VERB - NOUN - from - NOUN - VERB - in - NOUN": 1,
+		"NOUN": 8,
+		"VERB - NOUN - VERB": 7,
+		"VERB - NOUN - for - NOUN - from - NOUN": 3,
+		"VERB - for - NOUN": 8,
+		"VERB - NOUN - as - NOUN - in - VERB - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN - with - NOUN": 5,
+		"VERB - NOUN - as - NOUN - in - NOUN": 1,
+		"VERB - to - NOUN": 9,
+		"VERB - NOUN - within - NOUN": 4,
+		"VERB - by - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 4,
+		"VERB - NOUN - to - NOUN - from - NOUN": 1,
+		"VERB - NOUN - for - NOUN - in - NOUN - from - NOUN": 2,
+		"VERB - NOUN - at - NOUN": 5,
+		"VERB - NOUN - in - NOUN - since - NOUN - in - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 8,
+		"VERB - NOUN - before - VERB - during - NOUN": 1,
+		"VERB - to - NOUN - as - NOUN": 1,
+		"VERB - to - NOUN - in - NOUN": 3,
+		"VERB - NOUN - VERB - NOUN": 2,
+		"VERB - NOUN - between - NOUN - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN - to - NOUN": 3,
+		"VERB - NOUN - as - NOUN - for - NOUN": 2,
+		"VERB - NOUN - about - NOUN": 3,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - to": 4,
+		"VERB - NOUN - for - NOUN - to - NOUN": 2,
+		"VERB - to - NOUN - VERB - NOUN - with - NOUN": 1,
+		"VERB - on - NOUN": 1,
+		"VERB - NOUN - to - NOUN - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN - for - NOUN": 3,
+		"VERB - NOUN - to - NOUN - VERB - to - NOUN": 1,
+		"VERB - NOUN - for - NOUN - for - NOUN": 2,
+		"VERB - NOUN - before - NOUN": 1,
+		"VERB - NOUN - for - VERB": 3,
+		"VERB - NOUN - VERB - between - VERB - NOUN - during - NOUN": 1,
+		"VERB - NOUN - about - VERB - in - NOUN": 1,
+		"VERB - with - NOUN": 1,
+		"VERB - NOUN - after - VERB - with - NOUN": 1,
+		"VERB - NOUN - during - VERB": 1,
+		"VERB - NOUN - before - VERB - NOUN": 1,
+		"VERB - NOUN - to - NOUN - at - NOUN": 1,
+		"VERB - NOUN - during - NOUN": 1,
+		"VERB - NOUN - for - PREP - NOUN": 1,
+		"VERB - at - NOUN": 1,
+		"VERB - NOUN - to - NOUN - with - NOUN": 2,
+		"VERB - as - NOUN": 2,
+		"VERB - NOUN - in - NOUN - for - NOUN - at - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN - between - NOUN": 1,
+		"VERB - in - NOUN - to - VERB": 1,
+		"VERB - NOUN - for - NOUN - as - NOUN": 6,
+		"VERB - NOUN - in - NOUN - as - NOUN": 3,
+		"VERB - NOUN - as - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - for - NOUN - at - NOUN": 2,
+		"VERB - on - NOUN - on - NOUN": 1,
+		"VERB - NOUN - with - NOUN - to - NOUN": 2,
+		"VERB - NOUN - VERB - about - NOUN - in - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 4,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 137,
+		"VERB - NOUN - with - NOUN": 57,
+		"VERB - NOUN - with - NOUN - VERB - NOUN": 14,
+		"VERB": 15,
+		"VERB - NOUN - in - NOUN": 5,
+		"VERB - with - NOUN": 1,
+		"VERB - NOUN - in - NOUN - to - VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - in - NOUN - to - VERB - in - NOUN": 1,
+		"VERB - NOUN - with - NOUN - from - NOUN": 2,
+		"VERB - NOUN - for - NOUN": 9,
+		"VERB - NOUN - as - NOUN": 4,
+		"VERB - NOUN - with - VERB": 1,
+		"NOUN": 6,
+		"VERB - NOUN - by - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - for - NOUN - in - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN": 2,
+		"VERB - NOUN - with - NOUN - for - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - with - NOUN - about - NOUN": 2,
+		"VERB - by - VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN - with - NOUN": 4,
+		"VERB - in - NOUN - in - NOUN": 2,
+		"VERB - in - NOUN - with - NOUN - at - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - within - NOUN": 2,
+		"VERB - in - NOUN - for - NOUN": 1,
+		"VERB - in - NOUN": 1
+	}
+}, {
+	"category": 12,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - from - NOUN": 172,
+		"VERB - NOUN - in - NOUN": 136,
+		"VERB - NOUN": 1773,
+		"VERB - NOUN - as - NOUN": 46,
+		"VERB - NOUN - to - NOUN - from - NOUN": 3,
+		"VERB": 160,
+		"VERB - NOUN - for - NOUN": 277,
+		"VERB - NOUN - for - VERB - NOUN - VERB - NOUN - at - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 53,
+		"VERB - NOUN - with - NOUN - as - NOUN": 2,
+		"VERB - NOUN - with - NOUN - for - NOUN - like - NOUN": 1,
+		"VERB - NOUN - as - NOUN - with - NOUN": 3,
+		"VERB - NOUN - for - NOUN - in - NOUN": 12,
+		"VERB - NOUN - for - VERB - NOUN": 7,
+		"VERB - NOUN - in - NOUN - with - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN - about - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 24,
+		"VERB - NOUN - as - NOUN - after - NOUN": 7,
+		"VERB - in - NOUN": 10,
+		"VERB - NOUN - to - NOUN - on - NOUN": 2,
+		"VERB - NOUN - with - NOUN - from - NOUN": 3,
+		"VERB - NOUN - for - NOUN - at - NOUN": 9,
+		"VERB - NOUN - in - NOUN - for - NOUN": 5,
+		"VERB - NOUN - at - NOUN": 27,
+		"VERB - NOUN - between - NOUN": 6,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - about - NOUN": 17,
+		"VERB - NOUN - within - NOUN": 8,
+		"VERB - NOUN - at - NOUN - for - NOUN": 1,
+		"VERB - for - NOUN": 7,
+		"VERB - NOUN - in - VERB": 1,
+		"VERB - NOUN - for - NOUN - from - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN": 1,
+		"VERB - NOUN - for - VERB - with - NOUN": 1,
+		"VERB - NOUN - inside - NOUN": 1,
+		"VERB - NOUN - at - NOUN - in - NOUN": 3,
+		"VERB - NOUN - over - NOUN - in - NOUN": 5,
+		"VERB - NOUN - for - NOUN - to - NOUN": 1,
+		"VERB - NOUN - as - NOUN - for - NOUN": 2,
+		"VERB - NOUN - for - NOUN - on - NOUN": 4,
+		"VERB - NOUN - as - NOUN - VERB - NOUN": 1,
+		"VERB - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - NOUN": 6,
+		"VERB - NOUN - VERB": 23,
+		"VERB - NOUN - over - NOUN - with - NOUN": 1,
+		"VERB - NOUN - at - NOUN - within - NOUN": 1,
+		"VERB - in - NOUN - at - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN": 5,
+		"VERB - NOUN - for - NOUN - VERB": 1,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - in - NOUN - in - NOUN": 2,
+		"VERB - NOUN - on - NOUN": 12,
+		"VERB - NOUN - before - NOUN": 3,
+		"VERB - NOUN - with - NOUN - for - NOUN": 3,
+		"VERB - NOUN - from - NOUN - as - NOUN": 8,
+		"VERB - NOUN - for - VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - as - NOUN - in - NOUN": 40,
+		"VERB - NOUN - at - NOUN - as - NOUN": 3,
+		"VERB - NOUN - except - NOUN": 1,
+		"VERB - NOUN - for - NOUN - with - NOUN - to - NOUN": 2,
+		"VERB - NOUN - around - NOUN": 1,
+		"VERB - NOUN - between - VERB - NOUN - during - NOUN": 1,
+		"VERB - NOUN - for - NOUN - within - NOUN": 1,
+		"VERB - before - NOUN": 1,
+		"VERB - after - NOUN": 1,
+		"VERB - NOUN - in - NOUN - on - NOUN": 1,
+		"VERB - NOUN - in - NOUN - since - NUM": 1,
+		"VERB - NOUN - during - VERB": 1,
+		"VERB - NOUN - for - NOUN - as - NOUN": 1,
+		"VERB - as - NOUN": 1,
+		"VERB - NOUN - for - NOUN - with - NOUN": 2,
+		"VERB - NOUN - as - NOUN - from - NUM": 1,
+		"VERB - NOUN - from - NOUN - in - NOUN": 13,
+		"VERB - NOUN - in - NOUN - to - NOUN": 1,
+		"VERB - NOUN - with - NOUN - to - NOUN": 1,
+		"VERB - from - NOUN": 2,
+		"VERB - NOUN - about - NOUN - for - NOUN": 2,
+		"VERB - NOUN - after - NOUN": 1,
+		"VERB - NOUN - in - NOUN - per - NOUN": 1,
+		"VERB - NOUN - from - VERB": 1,
+		"VERB - NOUN - by - NOUN - as - NUM": 1,
+		"VERB - NOUN - on - VERB - NOUN": 1,
+		"VERB - NOUN - for - NOUN - beyond - NOUN": 1,
+		"VERB - NOUN - at - NOUN - to - NOUN": 1,
+		"VERB - NOUN - for - NOUN - along - NOUN": 13,
+		"VERB - NOUN - along - NOUN - as - NOUN - for - NOUN": 1,
+		"VERB - NOUN - along - NOUN": 1,
+		"VERB - NOUN - from - NOUN - to - NOUN": 1,
+		"VERB - NOUN - from - NOUN - on - NOUN": 1,
+		"VERB - NOUN - via - NOUN": 1,
+		"VERB - NOUN - about - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - from - NOUN - with - NOUN - as - NOUN": 1,
+		"VERB - NOUN - in - NOUN - for - VERB - NOUN": 1,
+		"VERB - with - NOUN": 1,
+		"VERB - NOUN - in - NOUN - from - NOUN": 4,
+		"VERB - NOUN - for - VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - for - NOUN - as": 1,
+		"VERB - about - NOUN": 8,
+		"VERB - for - NOUN - at - NOUN": 1,
+		"VERB - NOUN - at - NOUN - as - NOUN - in - NOUN": 2,
+		"VERB - NOUN - for - VERB": 4,
+		"VERB - for - NOUN - as - NOUN - in - NOUN": 1,
+		"VERB - NOUN - like - VERB - NOUN": 3,
+		"VERB - NOUN - as - NOUN - with - NOUN - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN - at - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - for - NOUN": 1,
+		"VERB - NOUN - along - VERB": 2,
+		"VERB - NOUN - with - NOUN - in - NOUN": 3,
+		"VERB - NOUN - under - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - on - NOUN": 1,
+		"VERB - to - NOUN": 2,
+		"VERB - with - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - as - NOUN - for - VERB - NOUN": 1,
+		"VERB - NOUN - on - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - without - NOUN - as - NOUN": 1,
+		"VERB - NOUN - with - VERB": 1,
+		"VERB - NOUN - about - VERB - NOUN": 1,
+		"VERB - NOUN - since - NOUN": 1,
+		"VERB - NOUN - from - NOUN - in - NOUN - for - NOUN": 1,
+		"VERB - NOUN - in - VERB - NOUN": 1
+	}
+}, {
+	"category": 91,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB - NOUN - as - NOUN - to - NOUN": 1,
+		"VERB - NOUN": 5
+	}
+}, {
+	"category": 158,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - for - NOUN": 1
+	}
+}, {
+	"category": 59,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 106,
+		"VERB - NOUN - from - NOUN": 130,
+		"VERB": 18,
+		"VERB - NOUN - for - NOUN - from - NOUN": 7,
+		"VERB - NOUN - in - NOUN": 10,
+		"VERB - from - NOUN": 10,
+		"VERB - NOUN - at - NOUN - in - NOUN": 3,
+		"VERB - NOUN - for - NOUN": 19,
+		"VERB - NOUN - at - NOUN - from - NOUN": 4,
+		"VERB - NOUN - from - NOUN - for - NOUN": 2,
+		"VERB - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - at - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - at - NOUN": 9,
+		"VERB - NOUN - to - NOUN - from - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 8,
+		"VERB - NOUN - VERB": 1,
+		"VERB - NOUN - with - NOUN - from - NOUN": 2,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB - in - NOUN": 1,
+		"VERB - via - NOUN": 1,
+		"VERB - for - NOUN - from - NOUN": 1,
+		"VERB - NOUN - in - NOUN - from - NOUN": 1,
+		"VERB - from - NOUN - in - NOUN": 1,
+		"VERB - NOUN - after - NOUN - VERB - NOUN": 1,
+		"VERB - by - NOUN": 3,
+		"VERB - NOUN - as - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - off - NOUN": 1
+	}
+}, {
+	"category": 31,
+	"sentence_pattern_dict": {
+		"VERB - as - NOUN - for - VERB": 1,
+		"VERB - NOUN": 100,
+		"VERB - NOUN - for - NOUN": 10,
+		"PREP - NOUN": 2,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 5,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - for - VERB - to - NOUN": 1,
+		"VERB - in - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN - on - NOUN": 1,
+		"VERB": 5
+	}
+}, {
+	"category": 7,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 487,
+		"VERB - NOUN - with - NOUN": 57,
+		"VERB - NOUN - from - NOUN - with - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 53,
+		"VERB - NOUN - in - NOUN": 3,
+		"VERB - NOUN - by - VERB - NOUN": 5,
+		"VERB - NOUN - for - NOUN - from - NOUN": 3,
+		"VERB - NOUN - for - NOUN": 69,
+		"VERB - NOUN - with - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - for - NOUN - with - NOUN": 7,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 8,
+		"VERB - NOUN - from - NOUN - around - NOUN": 1,
+		"VERB - NOUN - for - VERB - on - NOUN - with - NOUN": 1,
+		"VERB - NOUN - as - NOUN - from - NOUN": 2,
+		"VERB - NOUN - for - VERB - to - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 5,
+		"VERB - NOUN - in - NOUN - with - NOUN": 1,
+		"VERB - NOUN - at - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN": 4,
+		"VERB - NOUN - over - NOUN - in - NOUN": 7,
+		"VERB - NOUN - by - NOUN": 2,
+		"VERB - NOUN - from": 1,
+		"VERB - NOUN - for - NOUN - to - NOUN": 1,
+		"VERB - NOUN - within - NOUN": 4,
+		"VERB - from - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN - to - NOUN": 3,
+		"VERB - NOUN - in - NOUN - as - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN": 2,
+		"VERB - NOUN - on - NOUN - at - NOUN": 1,
+		"VERB": 21,
+		"VERB - NOUN - by - NOUN - to - NOUN - VERB": 2,
+		"VERB - NOUN - with - NOUN - PREP - NOUN": 1,
+		"VERB - along - NOUN": 1,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - VERB - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - to - NOUN - at - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN - for - NOUN": 1,
+		"VERB - NOUN - for - NOUN - with - NOUN - for - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN - VERB - on - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - by - NOUN": 1,
+		"VERB - NOUN - for - VERB": 1,
+		"VERB - NOUN - on - NOUN": 2,
+		"VERB - NOUN - through - NOUN": 1,
+		"VERB - NOUN - down - NOUN": 1,
+		"VERB - NOUN - from - NOUN - in - NOUN": 1,
+		"VERB - for - NOUN": 3,
+		"VERB - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - between - NOUN": 1,
+		"VERB - NOUN - at - NOUN - on - NOUN": 1,
+		"VERB - NOUN - onto - NOUN": 1
+	}
+}, {
+	"category": 25,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 23,
+		"VERB - with - NOUN": 8,
+		"VERB - NOUN - to - NOUN": 18,
+		"VERB": 18,
+		"VERB - NOUN - from - NOUN - to - NOUN": 4,
+		"VERB - NOUN - in - NOUN": 3,
+		"VERB - NOUN - for - NOUN - from - NOUN - to - NOUN": 1,
+		"VERB - to - NOUN - from - NOUN": 6,
+		"VERB - to - NOUN - in - NOUN": 3,
+		"VERB - NOUN - VERB - NOUN": 3,
+		"VERB - from - NOUN - to - NOUN": 6,
+		"VERB - NOUN - in - NOUN - to - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - for - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN - from - NOUN": 1,
+		"VERB - NOUN - from - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - from - NOUN - to - NOUN - in - NOUN": 3,
+		"VERB - NOUN - to - NOUN - at - NOUN": 1,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN - from - NOUN - to - NOUN": 1,
+		"VERB - NOUN - to - NOUN - from - NOUN": 1,
+		"VERB - with - NOUN - as - NOUN": 1
+	}
+}, {
+	"category": 35,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN": 21,
+		"VERB - NOUN": 10,
+		"VERB - NOUN - for - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 3,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - to - NOUN - with - NOUN": 1,
+		"VERB - to - NOUN": 6,
+		"VERB": 4,
+		"VERB - NOUN - to - NOUN - on - NOUN": 2,
+		"VERB - NOUN - with - NOUN - in - NOUN": 7,
+		"VERB - with - NOUN": 3,
+		"VERB - NOUN - in - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 131,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2,
+		"VERB": 7
+	}
+}, {
+	"category": 9,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 160,
+		"VERB - NOUN - to - NOUN": 13,
+		"VERB - in - NOUN": 7,
+		"VERB - by - NOUN": 1,
+		"VERB - NOUN - through - NOUN": 1,
+		"VERB - NOUN - at - NOUN": 2,
+		"VERB - NOUN - on - NOUN": 2,
+		"VERB - NOUN - between - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - at - NOUN - in - NOUN": 1,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 2,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB": 5,
+		"VERB - NOUN - for - NOUN - with - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - behind - NOUN": 1,
+		"VERB - NOUN - within - NOUN": 3
+	}
+}, {
+	"category": 14,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - VERB": 3,
+		"VERB - NOUN": 148,
+		"VERB - NOUN - for - NOUN": 23,
+		"VERB - NOUN - on - NOUN": 129,
+		"VERB - NOUN - by - VERB - NOUN - from - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 12,
+		"VERB - NOUN - in - NOUN": 6,
+		"VERB - NOUN - by - VERB - NOUN - by - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN": 2,
+		"VERB - for - NOUN": 2,
+		"VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - as - VERB - on - NOUN": 1,
+		"VERB": 47,
+		"VERB - NOUN - around - NOUN": 1,
+		"VERB - NOUN - on - NOUN - for - NOUN": 2,
+		"VERB - NOUN - over - NOUN": 1,
+		"VERB - to - NOUN - to - NOUN": 1,
+		"VERB - on - NOUN": 8,
+		"VERB - in - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN": 4,
+		"VERB - on - NOUN - on - NOUN": 1,
+		"VERB - for - NOUN - in - NOUN": 1,
+		"VERB - with - NOUN": 1,
+		"VERB - NOUN - on - NOUN - with - NOUN - as - NOUN": 1,
+		"VERB - during - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN - on - NOUN - in - NOUN - for - NOUN": 1,
+		"VERB - NOUN - before - VERB - NOUN": 1,
+		"VERB - NOUN - VERB - VERB - on - NOUN - in - NOUN - for - NOUN": 1,
+		"VERB - NOUN - from - VERB - NOUN": 3,
+		"VERB - to - NOUN": 1,
+		"VERB - from - NOUN": 1
+	}
+}, {
+	"category": 130,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - as - NOUN": 3,
+		"VERB - NOUN": 6,
+		"VERB - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 8,
+		"VERB - NOUN - as - VERB - NOUN": 1
+	}
+}, {
+	"category": 11,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - by - VERB - NOUN - on - NOUN": 17,
+		"VERB - NOUN - in - NOUN - to - NOUN": 2,
+		"VERB - NOUN": 48,
+		"VERB - NOUN - for - VERB - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - by - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 13,
+		"VERB - NOUN - as - NOUN": 3,
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - in - NOUN": 1,
+		"VERB": 2,
+		"VERB - on - NOUN": 1
+	}
+}, {
+	"category": 153,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - for - VERB": 1,
+		"VERB": 4,
+		"VERB - from - NOUN - to - NOUN": 1,
+		"VERB - from - NOUN": 4,
+		"VERB - NOUN": 6,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - until - NOUN": 1,
+		"VERB - to - NOUN": 1
+	}
+}, {
+	"category": 61,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 61,
+		"VERB - NOUN - as - NOUN": 2,
+		"VERB": 20,
+		"VERB - NOUN - from - NOUN": 4,
+		"VERB - as - NOUN - as - NOUN - from - NOUN": 2,
+		"VERB - NOUN - to - NOUN": 230,
+		"VERB - NOUN - to - NOUN - in - NOUN": 12,
+		"VERB - NOUN - in - NOUN - at - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - to - NOUN - by - VERB - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 10,
+		"VERB - NOUN - to - NOUN - by - NOUN": 3,
+		"VERB - to - NOUN": 16,
+		"VERB - NOUN - in - NOUN - to - NOUN": 2,
+		"VERB - NOUN - along - NOUN": 2,
+		"VERB - in - NOUN - to - NOUN - by - NOUN": 1,
+		"VERB - NOUN - to - NOUN - for - NOUN": 2,
+		"VERB - NOUN - to - ADV - NOUN - in - NOUN": 2,
+		"VERB - NOUN - to - NOUN - from - NOUN": 1,
+		"VERB - NOUN - by - NOUN - as - NOUN": 1,
+		"VERB - NOUN - from - VERB - to - NOUN": 1,
+		"VERB - NOUN - from - NOUN - to - NOUN - over - NOUN": 1,
+		"VERB - NOUN - from - NOUN - to - NOUN": 2,
+		"VERB - NOUN - in - NOUN - as - NOUN": 1,
+		"VERB - NOUN - as - NOUN - to - NOUN": 1,
+		"VERB - NOUN - to - NOUN - before - NOUN - VERB": 2,
+		"VERB - NOUN - down - NOUN": 1,
+		"VERB - NOUN - VERB - as - NOUN": 2,
+		"VERB - NOUN - VERB - with - NOUN": 1,
+		"VERB - NOUN - by - VERB": 2,
+		"VERB - as - NOUN": 2,
+		"VERB - NOUN - from - NOUN - to - NOUN - in - NOUN": 2,
+		"VERB - NOUN - by - NOUN": 1
+	}
+}, {
+	"category": 34,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 70,
+		"VERB - NOUN - to - NOUN": 3,
+		"VERB - NOUN - within - NOUN": 5,
+		"VERB": 1,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 10,
+		"VERB - NOUN - as - NOUN - at - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 3,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 3,
+		"VERB - NOUN - by - NOUN": 1,
+		"VERB - NOUN - without - VERB - NOUN": 1,
+		"VERB - NOUN - until - NOUN - in - NOUN": 6,
+		"VERB - NOUN - between - NOUN": 3,
+		"VERB - NOUN - along - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 3
+	}
+}, {
+	"category": 80,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 104,
+		"VERB": 527,
+		"VERB - NOUN - for - NOUN": 6,
+		"VERB - NOUN - to - NOUN": 5,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN - before - VERB - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 2,
+		"VERB - before - VERB - NOUN - to - NOUN": 1,
+		"VERB - with - NOUN": 2,
+		"VERB - for - NOUN": 6,
+		"VERB - at - NOUN - with - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 4,
+		"VERB - for - NOUN - after - NOUN - in - NOUN": 1,
+		"VERB - from - NOUN - VERB - NOUN - on - NOUN": 1,
+		"VERB - upon - NOUN": 4,
+		"VERB - for - NOUN - before": 1,
+		"VERB - for - NOUN - in - NOUN": 1,
+		"VERB - as - NOUN - to - NOUN - on - NOUN": 1,
+		"VERB - after - VERB": 1,
+		"VERB - NOUN - from - NOUN - before - VERB": 2,
+		"VERB - on - NOUN": 37,
+		"VERB - from - NOUN": 14,
+		"VERB - VERB - NOUN": 4,
+		"VERB - as - NOUN": 3,
+		"VERB - during - NOUN": 8,
+		"VERB - in - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - across - NOUN": 1,
+		"NOUN - VERB - at - NOUN - in - NOUN": 1,
+		"VERB - NOUN - as - NOUN - to - NOUN": 1,
+		"VERB - NOUN - in - NOUN - as - VERB - NOUN": 1,
+		"VERB - in - NOUN - to - NOUN": 2,
+		"VERB - NOUN - after - NOUN": 1,
+		"VERB - NOUN - about - NOUN": 1,
+		"VERB - NOUN - under - NOUN": 1,
+		"VERB - before - VERB - NOUN": 1,
+		"VERB - to - NOUN": 4,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - since - VERB - to - NOUN - after - NOUN": 1,
+		"VERB - in - NOUN": 1,
+		"VERB - after - NOUN": 2,
+		"VERB - on - NOUN - VERB - NOUN - in - NOUN": 1,
+		"VERB - after - VERB - PREP - NOUN": 1,
+		"VERB - on - NOUN - VERB": 1
+	}
+}, {
+	"category": 15,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 48,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB - for - NOUN": 2,
+		"VERB - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 3,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - NOUN - for - VERB - without - VERB - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 4,
+		"VERB - from - NOUN": 3,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - under - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB": 2
+	}
+}, {
+	"category": 30,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 44,
+		"VERB - NOUN - to - NOUN": 25,
+		"VERB - NOUN - for - NOUN": 3,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB - NOUN - through - NOUN": 1,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - to - NOUN - under - NOUN": 1,
+		"VERB - NOUN - to - NOUN - on - NOUN": 6,
+		"VERB - NOUN - for - NOUN - down - NOUN": 1,
+		"VERB - to - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - to - NOUN - to - NOUN - for - VERB - NOUN - to - NOUN": 1,
+		"VERB - down - NOUN": 3,
+		"VERB - NOUN - down - NOUN": 1,
+		"VERB - to - NOUN - by - VERB - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - along - NOUN - after - VERB - NOUN": 2,
+		"VERB - NOUN - from - NOUN - after - VERB - NOUN": 1,
+		"VERB": 8,
+		"VERB - NOUN - by - VERB - NOUN": 4,
+		"VERB - NOUN - by - VERB - NOUN - with - NOUN": 1,
+		"VERB - on - NOUN": 1,
+		"VERB - NOUN - to - NOUN - over - NOUN": 1
+	}
+}, {
+	"category": 16,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - as - NOUN": 8,
+		"VERB - NOUN": 17,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 3,
+		"VERB - NOUN - out - VERB - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 12,
+		"VERB": 5,
+		"VERB - NOUN - to - NOUN - during - VERB": 2,
+		"VERB - NOUN - out - NOUN": 1,
+		"VERB - NOUN - as - NOUN - in - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN": 3,
+		"VERB - NOUN - against - NOUN": 2,
+		"VERB - NOUN - from - NOUN - as - NOUN": 2
+	}
+}, {
+	"category": 111,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 5,
+		"VERB - NOUN - with - NOUN": 2,
+		"VERB - NOUN - up - NOUN": 1
+	}
+}, {
+	"category": 17,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 25,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN": 1,
+		"VERB - for - NOUN - by - VERB": 1,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - in - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 22,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 63,
+		"VERB - for - VERB - NOUN": 1,
+		"VERB - NOUN - by - NOUN": 22,
+		"VERB": 12,
+		"VERB - for - NOUN - about - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 5,
+		"VERB - NOUN - about - VERB - on - NOUN": 1,
+		"VERB - NOUN - about - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 8,
+		"VERB - NOUN - with - NOUN": 4,
+		"VERB - NOUN - after - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 3,
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN": 1,
+		"VERB - for - NOUN": 2,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - after - VERB - NOUN": 1,
+		"VERB - NOUN - for - NOUN - with - NOUN": 1,
+		"VERB - NOUN - for - NOUN - for - NOUN": 1,
+		"VERB - in - NOUN": 3,
+		"VERB - for - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 168,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2
+	}
+}, {
+	"category": 20,
+	"sentence_pattern_dict": {
+		"VERB": 29,
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 19,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN": 3,
+		"VERB - NOUN": 31,
+		"VERB - NOUN - for - NOUN": 7,
+		"VERB - NOUN - to - NOUN - under - NOUN": 2,
+		"VERB - NOUN - for - VERB - NOUN": 1,
+		"VERB - NOUN - for - VERB": 1,
+		"VERB - NOUN - on - NOUN": 2,
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - without - VERB - on - NOUN": 1
+	}
+}, {
+	"category": 45,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 81,
+		"VERB - with - NOUN": 2,
+		"VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 5,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 5,
+		"VERB - NOUN - under - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 4,
+		"VERB - NOUN - from - NOUN": 4,
+		"VERB - NOUN - for - NOUN - in - NOUN": 1,
+		"VERB": 13,
+		"VERB - NOUN - for - NOUN - with - NOUN": 1,
+		"VERB - NOUN - without - NOUN": 1,
+		"VERB - NOUN - to - NOUN - from - NOUN": 6,
+		"VERB - for - NOUN": 1
+	}
+}, {
+	"category": 41,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - at - NOUN - inside - NOUN": 1,
+		"VERB - NOUN - from - VERB": 4,
+		"VERB - NOUN": 91,
+		"VERB - NOUN - in - NOUN": 3,
+		"VERB - NOUN - to - NOUN": 95,
+		"VERB": 14,
+		"VERB - to - NOUN": 6,
+		"VERB - NOUN - about - NOUN - to - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB - NOUN - VERB": 4,
+		"VERB - NOUN - from - NOUN": 18,
+		"VERB - NOUN - to - NOUN - for - NOUN": 3,
+		"VERB - NOUN - on - NOUN": 7,
+		"VERB - NOUN - to - NOUN - at - NOUN": 8,
+		"VERB - NOUN - to - NOUN - as - NOUN": 6,
+		"VERB - NOUN - from - NOUN - for - NOUN - to - NOUN": 6,
+		"VERB - NOUN - to - NOUN - as - NOUN - in - NOUN": 2,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - NOUN - to - NOUN - via - NOUN": 1,
+		"VERB - NOUN - in - NOUN - to - NOUN": 3,
+		"VERB - NOUN - with - NOUN": 5,
+		"VERB - NOUN - onto - NOUN": 1,
+		"VERB - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 5,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - as - NOUN": 3,
+		"VERB - out - NOUN": 1
+	}
+}, {
+	"category": 74,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 22,
+		"VERB - on - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 3,
+		"VERB": 5,
+		"VERB - NOUN - near - NOUN": 1,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 8,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - for - VERB - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - in - NOUN - in - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 1
+	}
+}, {
+	"category": 159,
+	"sentence_pattern_dict": {
+		"VERB": 1,
+		"VERB - NOUN": 9
+	}
+}, {
+	"category": 68,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - from - NOUN": 3,
+		"VERB - NOUN - at - NOUN - from - NOUN": 1,
+		"VERB - for - NOUN": 1,
+		"VERB - NOUN - VERB - for - NOUN": 1,
+		"VERB - NOUN - for - NOUN - for - NOUN": 1,
+		"VERB - NOUN": 22,
+		"VERB": 36,
+		"VERB - NOUN - VERB - with - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 7,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - after - NOUN - to - NOUN": 1,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB - for - NOUN - after - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 72,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN": 5,
+		"VERB": 1
+	}
+}, {
+	"category": 26,
+	"sentence_pattern_dict": {
+		"VERB": 31,
+		"VERB - NOUN - like - NOUN": 1,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - by - VERB - NOUN - to - NOUN": 2,
+		"VERB - NOUN - for - NOUN": 1,
+		"VERB - NOUN - VERB": 3,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN": 9,
+		"VERB - NOUN - from - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 103,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 54,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - within - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 35,
+		"VERB - NOUN": 16,
+		"VERB - NOUN - under - NOUN": 1,
+		"VERB - NOUN - down - NOUN": 2,
+		"VERB - to - NOUN - in - NOUN": 2,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB - NOUN - by - NOUN - in - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB": 2,
+		"VERB - NOUN - by - NOUN": 5,
+		"VERB - NOUN - to - NOUN - by - VERB": 1,
+		"VERB - NOUN - within - NOUN - by - NOUN": 1,
+		"VERB - by - NOUN - over - NOUN": 1,
+		"VERB - to - NOUN": 3,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - to - VERB - in - NOUN": 1
+	}
+}, {
+	"category": 27,
+	"sentence_pattern_dict": {
+		"VERB": 5,
+		"VERB - NOUN - with - NOUN": 27,
+		"VERB - NOUN": 47,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 16,
+		"VERB - NOUN - with - NOUN - about - NOUN": 2,
+		"VERB - NOUN - for - NOUN - with - NOUN": 1,
+		"VERB - NOUN - with - NOUN - about - NOUN - in - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - to - NOUN": 18,
+		"VERB - with - NOUN": 1,
+		"VERB - NOUN - VERB": 1,
+		"VERB - NOUN - to - NOUN - from - NOUN": 5,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - by - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - for - VERB - on - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN": 1,
+		"VERB - for - NOUN": 2,
+		"VERB - NOUN - to - NOUN - at - NOUN": 3,
+		"VERB - on - NOUN": 1
+	}
+}, {
+	"category": 28,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 8,
+		"VERB - NOUN": 27,
+		"VERB - NOUN - per - NOUN": 1,
+		"VERB": 4,
+		"VERB - NOUN - in - NOUN - for - NOUN - on - NOUN": 1,
+		"VERB - NOUN - with - NOUN": 1,
+		"VERB - NOUN - in - VERB - like - NOUN": 1,
+		"VERB - to - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - as - NOUN": 3
+	}
+}, {
+	"category": 65,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN": 4,
+		"VERB - NOUN": 45,
+		"VERB - NOUN - from - NOUN": 56,
+		"VERB - NOUN - for - NOUN": 5,
+		"VERB - from - NOUN": 6,
+		"VERB - NOUN - to - NOUN": 6,
+		"VERB - to - NOUN": 4,
+		"VERB - in - NOUN": 2,
+		"VERB - from - NOUN - to - NOUN": 1,
+		"VERB - NOUN - out - NOUN - in - NOUN": 4,
+		"VERB - NOUN - in - NOUN": 10,
+		"VERB - NOUN - from - NOUN - to - NOUN": 9,
+		"VERB - NOUN - from - NOUN - for - NOUN - to - NOUN": 3,
+		"VERB - to - NOUN - to - NOUN": 6,
+		"VERB": 4,
+		"VERB - in - NOUN - from - NOUN": 2,
+		"VERB - NOUN - from - NOUN - at - NOUN": 3,
+		"VERB - to - NOUN - from - NOUN": 2,
+		"VERB - to - NOUN - from - NOUN - to - NOUN": 2,
+		"VERB - NOUN - out - NOUN": 1,
+		"VERB - VERB - NOUN": 2,
+		"VERB - NOUN - on - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 1,
+		"VERB - at - NOUN": 2,
+		"VERB - NOUN - from - NOUN - for - NOUN - from - NOUN": 6
+	}
+}, {
+	"category": 33,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - as - NOUN - in - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 4,
+		"VERB - NOUN": 9,
+		"VERB - NOUN - at - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 2,
+		"VERB - NOUN - from - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 51,
+	"sentence_pattern_dict": {
+		"VERB": 1,
+		"VERB - NOUN": 12,
+		"VERB - NOUN - to - NOUN": 10,
+		"VERB - NOUN - in - NOUN": 3,
+		"NOUN - in - NOUN - with - NOUN": 1,
+		"VERB - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 2,
+		"VERB - NOUN - around - NOUN": 1
+	}
+}, {
+	"category": 128,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 52,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 21,
+		"VERB - NOUN - for - NOUN": 3,
+		"VERB - for - NOUN": 3,
+		"VERB - NOUN - to - NOUN": 6,
+		"VERB - NOUN - from - NOUN": 10,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - as - NOUN": 2,
+		"VERB - NOUN - to - NOUN - on - VERB": 1,
+		"VERB - NOUN - with - NOUN": 2,
+		"VERB - NOUN - as - VERB - NOUN": 1,
+		"VERB - NOUN - about - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN": 3,
+		"NOUN - VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - like - NOUN": 1,
+		"VERB": 1
+	}
+}, {
+	"category": 139,
+	"sentence_pattern_dict": {
+		"VERB": 1,
+		"VERB - NOUN - until - NOUN": 1
+	}
+}, {
+	"category": 36,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - in - NOUN": 7,
+		"VERB - NOUN - by - VERB - NOUN": 10,
+		"VERB - NOUN": 19,
+		"VERB - NOUN - by - VERB": 2,
+		"VERB - NOUN - as - NOUN - VERB - NOUN": 1,
+		"VERB - NOUN - by - VERB - NOUN - to - NOUN": 1,
+		"VERB - over - NOUN": 1,
+		"VERB - through - NOUN - in - NOUN": 2,
+		"VERB - NOUN - as - NOUN": 8,
+		"VERB - to - NOUN": 2
+	}
+}, {
+	"category": 38,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - NOUN": 41,
+		"VERB - NOUN": 8,
+		"VERB - NOUN - around - NOUN": 1,
+		"VERB - to - NOUN": 2,
+		"VERB - NOUN - on - NOUN": 2,
+		"VERB - NOUN - over - NOUN": 1,
+		"VERB": 1,
+		"VERB - NOUN - VERB - NOUN": 1
+	}
+}, {
+	"category": 40,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN - for - NOUN": 24,
+		"VERB - NOUN - to - NOUN": 31,
+		"VERB - NOUN": 21,
+		"VERB - NOUN - for - NOUN": 14,
+		"VERB - NOUN - for - NOUN - with - NOUN": 5,
+		"VERB - NOUN - against - NOUN": 7,
+		"VERB - NOUN - with - NOUN": 7,
+		"VERB - NOUN - to - NOUN - VERB - NOUN": 1,
+		"VERB - with - NOUN": 1,
+		"VERB - to - NOUN": 2,
+		"VERB - NOUN - to - NOUN - for - NOUN": 1,
+		"VERB - NOUN - to - NOUN - in - NOUN": 1,
+		"VERB": 1
+	}
+}, {
+	"category": 46,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN": 11,
+		"VERB - NOUN - with - NOUN - to - NOUN": 3,
+		"VERB - NOUN": 7,
+		"VERB": 2,
+		"VERB - NOUN - at - NOUN - in - NOUN - with - NOUN": 3,
+		"VERB - NOUN - with - NOUN - on - NOUN": 5,
+		"VERB - NOUN - for - NOUN - in - NOUN - with - NOUN": 1,
+		"VERB - NOUN - for - NOUN": 11,
+		"VERB - NOUN - in - NOUN - with - NOUN - in - NOUN": 2,
+		"VERB - NOUN - in - NOUN - with - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 1,
+		"VERB - NOUN - with - NOUN - in - NOUN": 1,
+		"VERB - NOUN - between - NOUN": 1
+	}
+}, {
+	"category": 96,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 6,
+		"VERB - NOUN - for - NOUN": 1,
+		"VERB - NOUN - with - NOUN - for - NOUN": 1
+	}
+}, {
+	"category": 99,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 3,
+		"VERB - NOUN - from - NOUN": 10
+	}
+}, {
+	"category": 115,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 10,
+		"VERB - down - NOUN - for - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 60,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 9,
+		"VERB - NOUN - without - VERB - NOUN": 2,
+		"VERB": 1,
+		"VERB - NOUN - by - VERB - NOUN - as - NOUN": 1,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 114,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 166,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2,
+		"VERB - NOUN - VERB - NOUN": 1
+	}
+}, {
+	"category": 124,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 3,
+		"VERB - until - NOUN": 1,
+		"VERB": 1,
+		"VERB - NOUN - from - NOUN": 1
+	}
+}, {
+	"category": 63,
+	"sentence_pattern_dict": {
+		"VERB - for - NOUN": 1,
+		"VERB": 2,
+		"VERB - NOUN": 3,
+		"VERB - at - NOUN": 1
+	}
+}, {
+	"category": 64,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - against - NOUN": 1,
+		"VERB - against - NOUN - in - NOUN": 1,
+		"VERB - NOUN - at - NOUN - against - NOUN": 1
+	}
+}, {
+	"category": 126,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - for - NOUN": 1,
+		"VERB - NOUN - to - NOUN - with - NOUN": 1
+	}
+}, {
+	"category": 77,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - from - NOUN": 1,
+		"VERB - NOUN": 1,
+		"VERB - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 82,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 6,
+		"VERB - NOUN - from - NOUN": 2,
+		"VERB - NOUN - by - VERB - NOUN": 1
+	}
+}, {
+	"category": 172,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 3
+	}
+}, {
+	"category": 87,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 1,
+		"VERB": 1
+	}
+}, {
+	"category": 113,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - in - NOUN - to - NOUN": 1,
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 102,
+	"sentence_pattern_dict": {
+		"NOUN - VERB - NOUN": 1,
+		"VERB": 1,
+		"VERB - NOUN": 3
+	}
+}, {
+	"category": 93,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - at - NOUN": 1
+	}
+}, {
+	"category": 92,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - to - VERB - NOUN": 15,
+		"VERB - NOUN": 2,
+		"VERB - NOUN - by - NOUN": 1
+	}
+}, {
+	"category": 116,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2,
+		"VERB": 1,
+		"VERB - to - NOUN": 2,
+		"VERB - NOUN - at - NOUN - in - NOUN": 1
+	}
+}, {
+	"category": 145,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2
+	}
+}, {
+	"category": 107,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - during - NOUN": 1
+	}
+}, {
+	"category": 98,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN - in - NOUN": 1,
+		"VERB - NOUN": 2,
+		"VERB - NOUN - at - NOUN": 1
+	}
+}, {
+	"category": 141,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - on - NOUN": 2,
+		"VERB - NOUN - around - NOUN": 3,
+		"VERB - NOUN - to - NOUN - at - NOUN": 1,
+		"VERB - NOUN - to - NOUN": 1,
+		"VERB - NOUN - on - NOUN - at - NOUN": 2
+	}
+}, {
+	"category": 154,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 3,
+		"VERB - NOUN - on - NOUN": 1
+	}
+}, {
+	"category": 109,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - with - NOUN": 3
+	}
+}, {
+	"category": 152,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - between - NOUN - to - NOUN": 1
+	}
+}, {
+	"category": 100,
+	"sentence_pattern_dict": {
+		"VERB - to - NOUN - for - NOUN": 1,
+		"VERB - to - NOUN": 2
+	}
+}, {
+	"category": 101,
+	"sentence_pattern_dict": {
+		"VERB - NOUN - between - NOUN": 1,
+		"VERB - NOUN - on - NOUN": 1
+	}
+}, {
+	"category": 97,
+	"sentence_pattern_dict": {
+		"VERB - in - NOUN": 2
+	}
+}, {
+	"category": 133,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2
+	}
+}, {
+	"category": 132,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 169,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 146,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 142,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 1
+	}
+}, {
+	"category": 175,
+	"sentence_pattern_dict": {
+		"VERB - to - NOUN": 1,
+		"VERB - to - NOUN - for - NOUN": 1
+	}
+}, {
+	"category": 88,
+	"sentence_pattern_dict": {
+		"VERB - NOUN": 2
+	}
+}]

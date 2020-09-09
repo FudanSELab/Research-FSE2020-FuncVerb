@@ -1,0 +1,696 @@
+cancel/deregister/undo/deny/unset/unschedule/unregister/unbind/uninitialize/unload/deselect/unlock/unblock
+V {patient}
+V {patient} from {source}
+V {patient} in/on {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} from {source} to {goal}
+V {patient} as {goal} for {beneficiary}
+
+test/tell/determine/check/retrieve/ascertain/return/control/indicate/query/report/validate/get/invalidate/verify/find/identify/track/detect/decide
+V S
+V {patient}
+V for {theme}
+V {patient} if/whether S
+V {patient} for {theme}
+V {patient} in {location}
+V whether/if/that/when S
+V for {theme} between/on {patient}
+
+update/modify/fill/edit/change/rename/populate/adjust/flush/trim/adapt/reconcile/resize
+V {patient}
+V whether S
+V to {goal}
+V {patient} by S_ING
+V {patient} to {goal}
+V {patient} as {theme}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} in/within {location}
+V {patient} with {instrument} in {location}
+V {patient} with {instrument} from {source}
+V {patient} for {beneficiary} in {location}
+V {patient} with {instrument} for {beneficiary}
+V {patient} with {instrument} from {source} to {goal}
+
+set/control/describe/define/specify/tell/give/assign/determine/indicate/configure/schedule/declare/reassign/clamp/put/designate
+V S
+V {patient}
+V {patient} S_INF
+V {patient} when S
+V to {goal}
+V {patient} by S_ING
+V {patient} if/whether S
+V {patient} for S_ING
+V {patient} about {topic}
+V for {beneficiary}
+V on/in/at {location}
+V {patient} for {beneficiary}
+V {patient} as/to/into {goal}
+V {patient} between {attribute}
+V if/whether/that/when/where S
+V {patient} with/from {instrument}
+V {patient} on/in/at/within {location}
+V {patient} as/to {goal} for {beneficiary}
+V {patient} for {beneficiary} as/to {goal}
+V {patient} with {instrument} about {topic}
+V {patient} with/from {instrument} as/to {goal}
+V {patient} for {beneficiary} on/in/at {location}
+V {patient} as/to/into {goal} on/in/at {location}
+V {patient} for {beneficiary} with/from {instrument}
+V {patient} on/in/at {location} with/from {instrument}
+
+create/build/produce/construct/generate/establish/make/obtain/reconstitute/compose/instantiate/implement/get/retrieve/return/install/set up
+V {patient}
+V {patient} by S_ING
+V {patient} for S_ING
+V from {material}
+V {patient} for {beneficiary}
+V {patient} in/on/within/at {location}
+V {patient} from/with/by/over/out of {material}
+V {patient} from {source} with {instrument}
+V {material} into/to/as/onto {product}
+V {patient} for {beneficiary} with {material}
+V {patient} for {beneficiary} from/with/by/over/out of {material}
+V {patient} from/with/by/over/out of {material} in/on/within {location}
+
+draw/render/paint/redraw/repaint
+V {patient}
+V {patient} if S
+V to {goal}
+V {patient} by S_ING
+V in {location}
+V {patient} within {time}
+V {patient} with {instrument}
+V {patient} into/to/as {goal}
+V {patient} for {beneficiary}
+V {patient} at/on/in {location}
+V {patient} for {beneficiary} with {instrument}
+
+handle/process
+V {patient}
+V {patient} by S_ING
+V {patient} for S_ING
+V {patient} from {source}
+V {patient} by {instrument}
+V {patient} on/in {location}
+V {source} as/into {goal}
+
+return/get/obtain/fetch/acquire/determine/take/capture/retrieve/describe/provide/represent/reclaim/receive/claim/extract
+V S
+V {patient}
+V {patient} if S
+V to {goal}
+V {patient} for S_ING
+V in {location}
+V {patient} as/to {goal}
+V why/where/whether S
+V {patient} about {theme}
+V {patient} for {beneficiary}
+V {patient} from/over {source}
+V {patient} with/via/by {instrument}
+V {patient} at/in/on/within {location}
+V {patient} as/to {goal} from {source}
+V {patient} for {beneficiary} at {time}
+V {patient} as/to {goal} for {beneficiary}
+V {patient} from/over {source} to/as {goal}
+V {patient} for {beneficiary} with {instrument}
+V {patient} from/over {source} for {beneficiary}
+V {patient} from/over {source} with {instrument}
+V {patient} as/to {goal} at/in/on/within {location}
+V {patient} for {beneficiary} at/in/on/within {location}
+V {patient} from/over {source} at/in/on/within {location}
+
+perform/execute/run/call/invoke/enforce/fire/trigger/indicate/occur
+V {patient}
+V when/that S
+V {patient} when/that S
+V {patient} by S_ING
+V {patient} over {theme}
+V {patient} from {source}
+V {patient} around {topic}
+V {patient} to {co-patient}
+V {patient} on/in {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} as/to {goal} on/in {location}
+V {patient} on/in {location} with {instrument}
+V {patient} on/in {location} for {beneficiary}
+
+stop/quit/terminate/interrupt/end/crash/intercept/abort/disconnect/shutdown/pause/finalize/freeze/block
+V {patient}
+V S_ING
+V {patient} if/when S
+V {patient} by S_ING
+V {patient} for S_ING
+V from {source}
+V {patient} from {source}
+V {patient} for {beneficiary}
+V {patient} in/on/at {location}
+
+parse/resolve/unwrap/analyze/uncompress/decode/flatten/unmarshal
+V {patient}
+V {patient} by S_ING
+V {patient} at/on {location}
+V {patient} as/to/into {goal}
+V {patient} from/against/out of {source}
+V {patient} for {beneficiary} as {goal}
+V {patient} from/against/out of {source} as/to/into {goal}
+
+bind/attach/rebind/reattach
+V {patient}
+V {patient} for S_ING
+V {patient} in {location}
+V {patient} to {co-patient}
+V {patient} in {instrument}
+V {patient} to {co-patient} for {beneficiary}
+
+open/turn on
+V {patient}
+V {patient} for S_ING
+V {patient} on {location}
+V {patient} with {instrument}
+V {patient} for/to {beneficiary}
+
+assert
+V {patient}
+V that S
+
+query/find/locate/determine/retrieve/visit/look/search/discover/seek/look up
+V {patient}
+V if/whether S
+V to) {patient}
+V out) if S
+V for {theme}
+V {patient} for {theme}
+V {patient} from {source}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} on/in/at {location}
+V {patient} by/with {instrument}
+V for {theme} in {location}
+V {patient} as {goal} from {source}
+V {patient} as {goal} in {location}
+V {patient} in {location} for {theme}
+V {patient} on/in/at {location} by/with {instrument}
+
+copy/clone
+V {patient}
+V {patient} to/into {goal}
+V to/into {goal} in {location}
+V from/at {source} to/into {goal}
+V to/into {goal} in/at {location}
+V {patient} in/at {location} into/to {goal}
+V {patient} to/into {goal} from/at {source}
+V {patient} for {beneficiary} to/into {goal}
+V {patient} for {beneficiary} from/at {source}
+
+make/cause/instruct
+V {patient}
+V {patient} ADJ
+V {patient} ADJ by S_ING
+V {patient} for {beneficiary}
+V {patient} at {location} ADJ
+V {patient} in/at/on {location}
+V {patient} with/by {instrument}
+V {patient} ADJ for {beneficiary}
+V {patient} from {source} to {goal}
+
+initialize/reinitialize/prepare/refresh/reset/initiate/reposition
+V {patient}
+V {patient} by S_ING
+V {patient} as/to/for {goal}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} in/on/at {location}
+V {patient} by/with {instrument}
+V {patient} as/to/for {goal} from {source}
+V {patient} with {instrument} about {theme}
+V {patient} as/to/for {goal} in/on/at {location}
+
+format/return
+V {patient}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} to/into/in {goal}
+
+send/pass/give/dispatch/post/issue/propagate/forward/broadcast/transmit/emit/notify/signal
+V {patient}
+V that S
+V {patient} that S
+V {patient} by S_ING
+V {patient} to {goal}
+V {patient} from {source}
+V {patient} for {beneficiary}
+V {patient} down/on {location}
+V {patient} through {instrument}
+V {patient} to {goal} by S_ING
+V {patient} from {source} to {goal}
+V {patient} to {goal} in/on {location}
+
+close/end/release/free/finish/dismiss/deactivate/disable/turn off
+V {patient}
+V S_ING
+V {patient} if S
+V in {location}
+V {patient} about {topic}
+V {patient} to {co-patient}
+V {patient} with {attribute}
+V {patient} for {beneficiary}
+V {patient} on/in/within {location}
+
+choose/select
+V {patient}
+V {patient} from {source}
+V {patient} at/in {location}
+V {patient} for {beneficiary}
+V {patient} as {goal} at/in {location}
+
+compute/calculate/determine/evaluate/solve/scale/measure/recalculate/multiply/count/figure/subtract/increase/estimate/return/increment/cumulate/sum
+V {patient}
+V whether S
+V by {instrument}
+V {patient} in {location}
+V {patient} into/to {goal}
+V {patient} for {beneficiary}
+V {patient} for {beneficiary} by S_ING
+V {patient} from/within/on/between/with {source}
+V {patient} for {beneficiary} as/into/to {goal}
+
+connect/associate/join/combine/concatenate/merge/concat/add/group
+V {patient}
+V to {theme}
+V {patient} to/into {goal}
+V {patient} with {instrument}
+V {patient} within {location}
+V {patient} in {location} into {goal}
+V {patient} to/into {goal} on/in {location}
+V {patient} to/into {goal} for {beneficiary}
+V {patient} to/into {goal} with {instrument}
+V {patient} with {instrument} on/in {location}
+
+visit/rescan/scan/walk/iterate/access
+V {patient}
+V to {theme}
+V {patient} by S_ING
+V {patient} as {goal}
+V over {patient}
+V {patient} in {location}
+V through {instrument} in {location}
+V {patient} through {instrument} in {location}
+
+apply/reapply/accept/re-apply
+V {patient}
+V {patient} to/on/over {goal}
+
+report/notify/tell/indicate/prompt
+V {patient}
+V that S
+V {patient} S_INF
+V {patient} to {goal}
+V from {source}
+V {patient} to {co-theme}
+V {patient} about {topic}
+V {patient} in {location}
+V {patient} that/when/whether S
+V {patient} for {beneficiary}
+V to {co-theme} that S
+V {patient} for {beneficiary} in {location}
+
+compare/return
+V {patient}
+V {patient} if S
+V {patient} for {theme}
+V {patient} against/with/to {co-patient}
+V {patient} for {theme} against/with/to {co-patient}
+V {patient} against/with/to {co-patient} in {location}
+
+write/record/log/print/output
+V {patient}
+V that S
+V to {goal}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} at/on/in {location}
+V {patient} as/to/into/onto {goal}
+V {patient} from {source} for {beneficiary}
+V {patient} as/into/to {goal} via {instrument}
+V {patient} from {source} as/to/into/onto {goal}
+V {patient} as/into/to {goal} at/in/on {location}
+V {patient} as/to/into/onto {goal} for {beneficiary}
+V {patient} from {source} for {beneficiary} to {goal}
+
+append/put/add/insert/push/interpolate/place/install/register/queue/register/enqueue
+V {patient}
+V S_INF
+V {patient} S_INF
+V {patient} from {source}
+V for {beneficiary}
+V {patient} for {beneficiary}
+V {patient} by S_ING
+V {patient} in/on/at {location}
+V {patient} with/by {instrument}
+V {patient} between {co-patient}
+V {patient} in/to/into/onto/as {goal}
+V {patient} to {co-theme} into {goal}
+V {patient} from {source} on {location}
+V {patient} in {location} to/into {goal}
+V {patient} for {beneficiary} in {location}
+V {patient} in/to/into/onto/as {goal} by S_ING
+V {patient} from {source} in/to/into/onto {goal}
+V {patient} for {beneficiary} by/with {instrument}
+V {patient} in/on/at {location} into/as/onto/to {goal}
+V {patient} in/to/into/onto/as {goal} for {beneficiary}
+V {patient} with/by {instrument} into/as/onto/to {goal}
+V {patient} for {beneficiary} in/to/into/onto/as {goal}
+V {patient} in/to/into/onto/as {goal} at/in/on {location}
+V {patient} in/to/into/onto/as {goal} by/with {instrument}
+
+start/wake/launch/happen/begin/enable/re-enable
+V {patient}
+V S_ING
+V {patient} to {goal}
+V {patient} about {topic}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} within {co-patient}
+V {patient} in/on/into {co-patient}
+V {patient} to {goal} from {source}
+V {patient} for {beneficiary} with {instrument}
+
+replace
+V {patient}
+V {patient} if S
+V {patient} in {location}
+V {patient} with {instrument}
+V {patient} for {beneficiary} with {instrument}
+V {patient} with {instrument} at/in/on {location}
+
+clear/clean/remove/empty
+V {patient}
+V {patient} by S_ING
+V {patient} from {source}
+V {patient} in {location}
+V {patient} for {beneficiary}
+V {patient} about {topic} from {source}
+V {patient} by {instrument} from {source}
+
+store/save/dump/retain/cache/stash/serialize/deserialize/persist
+V {patient}
+V {patient} if S
+V {patient} from {source}
+V {patient} into/to {goal}
+V {patient} for {beneficiary}
+V {patient} around/in {location}
+V {patient} for {beneficiary} into/to {goal}
+
+provide/give/supply
+V {patient}
+V {patient} that S
+V {patient} to/as {goal}
+V {patient} about {theme}
+V {patient} from {source}
+V for {beneficiary}
+V {patient} for {beneficiary}
+
+move/scroll/offset/advance
+V {patient}
+V to {goal}
+V {patient} by S_ING
+V {patient} from {source}
+V up/down {patient}
+V {patient} to/down {goal}
+V {patient} by {instrument}
+V {patient} over {duration}
+V {patient} in/within {location}
+V {patient} to {goal} by S_ING
+V {patient} from {source} to/down {goal}
+
+remove/exclude/reduce/delete/pop/uninstall/detach/decrement/revoke/dequeue/abandon/discard/peek
+V {patient}
+V {patient} if S
+V at {location}
+V from {source}
+V {patient} as/to {goal}
+V {patient} from {source}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V {patient} at/in/on {location}
+V {patient} from {source} at {location}
+V {patient} with {instrument} from {source}
+V {patient} for {beneficiary} at {location}
+V {patient} from {source} for {beneficiary}
+V {patient} at/in/on {location} from {source}
+
+finish/complete/finalize/complement
+V {patient}
+V S_ING
+V {patient} by S_ING
+V {patient} in/at/on {location}
+
+convert/change/transfer/map/turn/transform/reconvert/move/adapt/translate/force/cast/return/parse
+V {patient}
+V to {goal}
+V {goal} from {source}
+V {patient} by {instrument}
+V {patient} in/at {location}
+V {source} to/as/into {goal}
+V {source} to/as/into {goal} by S_ING
+V {patient} as/into/to {goal} from {source}
+V {source} to/as/into {goal} by/with {instrument}
+V {source} to/as/into {goal} in/at {location}
+V {source} to/as/into {goal} for {beneficiary}
+V {patient} from {source} to/as/into {goal} in/at {location}
+
+wait/await/sleep
+V {patient}
+V for {patient}
+
+match
+V against {co-patient}
+V {patient} against/with {co-patient}
+V {patient} at/in {location} against/with {co-patient}
+
+read/load/reload
+V {patient}
+V in {theme}
+V into {goal}
+V from {source}
+V {patient} from {source}
+V {patient} to/into/as {goal}
+V {patient} with {instrument}
+V {patient} for {beneficiary}
+V in {theme} from {source}
+V from {source} into {goal}
+V {patient} in/on/at/out of {location}
+V {patient} from {source} for S_ING
+V {patient} from {source} at {location}
+V {patient} from {source} for {beneficiary}
+V {patient} for {beneficiary} with {instrument}
+
+request/ask/give/allow
+V {patient}
+V S_INF
+V {patient} if S
+V {patient} S_INF
+V that/whether/if S
+V {patient} from {source}
+V {patient} for {beneficiary}
+V for {beneficiary} S_INF
+V {patient} at {location} from {source}
+
+relayout/layout/lay out
+V {patient}
+
+display/show/present/bring
+V {patient}
+V {source} to/as {goal}
+V {patient} from {source}
+V {patient} with {co-theme}
+V {patient} for {beneficiary}
+V {patient} at/on/in {location}
+
+hide/collapse
+V {patient}
+V {patient} in/from {location}
+
+restore/recover/resume
+V {patient}
+V S_ING
+V {patient} by S_ING
+V {patient} from {source}
+
+import
+V {patient}
+
+synchronize 
+V {patient}
+
+commit/submit
+V {patient}
+V {patient} to {theme}
+V {patient} for {co-patient}
+
+sort
+V {patient}
+V {patient} into {product}
+
+pin
+V {patient} at/on {location}
+
+allocate/reallocate
+V {patient}
+V {patient} for {beneficiary}
+V {patient} with {theme} for {beneficiary}
+
+call/invoke/tell/indicate/occur/perform/prompt/notify
+V {patient}
+V by {agent}
+V after S
+V when S
+V from {source} when S
+
+play
+V {patient}
+V {patient} in/at {location}
+V {patient} with {instrument} in/at {location}
+
+inflate/extend
+V {patient}
+V {patient} from {source}
+
+tune
+V to {theme}
+V to {theme} for {co-patient}
+
+enter
+V {patient} on {co-patient}
+V {patient} between {attribute}
+
+toggle
+V {patient}
+
+export
+V {patient}
+V {patient} to {location}
+
+flash
+V {patient}
+
+intersect
+V {patient} with {patient}
+
+validate/authenticate/revalidate
+V {patient}
+V {patient} with {instrument}
+
+publish
+V {patient}
+V {patient} to {goal}
+
+redo
+V {patient}
+V {patient} from {source}
+
+destroy/tear
+V {patient}
+V down {patient}
+V {patient} in/at {location}
+V down {patient} for {beneficiary}
+
+flip/rotate/permute/swap/transpose/reverse/shuffle
+V {patient}
+V to {goal}
+V {patient} by {instrument}
+V {patient} at/in {location}
+
+compile
+V {patient} for {beneficiary}
+V {patient} in/into {product} with {material}
+
+collect/recycle/sample
+V {patient}
+
+mark
+V {patient}
+V {patient} as S_ING
+V in {patient}
+V {patient} as {goal}
+V {patient} in {location}
+
+confirm/ensure/determine
+V {patient}
+V that S
+V {patient} for {beneficiary}
+
+touch/press
+V {patient}
+
+delay/defer/postpone
+V {patient}
+V {patient} on {theme}
+
+split/break/divide
+V {patient}
+V {patient} on {co-patient}
+V {material} into/to {product}
+V {patient} on {co-patient} at {location}
+
+negate
+V {patient}
+
+normalize
+V {patient}
+
+span
+V {patient}
+
+cut
+V {patient} into {goal}
+
+redirect/jump/skip/fling/go/navigate
+V {patient}
+V {patient} to {goal}
+V {patient} from {source}
+V {patient} in {location}
+V over/to {patient}
+V from {source} to {goal}
+V {patient} to {goal} in {location}
+V over {patient} from {source}
+
+list/enumerate
+V {patient}
+V {patient} on/in {location}
+
+delegate
+V {patient} to {co-theme}
+
+filter
+V {patient}
+V {patient} by {instrument}
+
+simulate
+V S_ING
+
+speak
+V {patient}
+
+lock
+V {patient}
+
+respond
+V to {goal}
+V to {co-theme} for {goal}
+
+package/encode/marshal/synthesize/wrap/compress/pack/compact/encrypt/escape
+V {patient}
+V S_INF
+V {material}
+V {material} in {location}
+V {material} into/as/to {product}
+V {material} in {location} into/as/to {product}
+V {patient} from {material} to/as/into {product}
