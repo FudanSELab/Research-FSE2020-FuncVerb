@@ -1,1 +1,1140 @@
-1
+id,api_entity_with_single_des_id,qualified_name,single_description,final_annotation_type,core_verb
+1,28100,"javax.swing.plaf.synth.SynthStyleFactory.getStyle(javax.swing.JComponent,javax.swing.plaf.synth.Region)",Returns the style for the specified Component.,54,return
+2,26391,javax.swing.plaf.basic.BasicGraphicsUtils.getEtchedInsets(),Returns the amount of space taken up by a border drawn by drawEtchedRect(),54,return
+3,42496,android.icu.util.ULocale.getDisplayCountry(),Returns this locale's country localized for display in the default DISPLAY locale.,54,return
+4,5096,java.awt.geom.Arc2D.Double.getAngleExtent(),Returns the angular extent of the arc.,54,return
+5,55908,android.widget.TableLayout.isColumnShrinkable(int),Returns whether the specified column is shrinkable or not.,54,return
+6,24203,javax.swing.JLayeredPane.lowestLayer(),Returns the lowest layer value from all current children.,54,return
+7,10939,java.security.cert.PolicyNode.getValidPolicy(),Returns the valid policy represented by this node.,54,return
+8,42549,android.icu.util.ULocale.getName(java.lang.String),[icu] Returns the (normalized) full name for the specified locale.,54,\N
+9,23956,javax.swing.JFileChooser.paramString(),Returns a string representation of this JFileChooser.,54,return
+10,51808,android.view.MotionEvent.actionToString(int),"Returns a string that represents the symbolic name of the specified unmasked action such as \ACTION_DOWN\""",54,return
+11,47801,android.renderscript.ScriptIntrinsicConvolve5x5.setCoefficients(float[]),Set the coefficients for the convolve.,77,set
+12,45462,android.net.wifi.hotspot2.pps.Credential.UserCredential.setEapType(int),Set the EAP (Extensible Authentication Protocol) method type associated with this user credential.,77,set
+13,52465,android.view.View.setScrollY(int),Set the vertical scrolled position of your view.,77,set
+14,41702,android.icu.text.NumberFormat.setRoundingMode(int),Set the rounding mode used in this NumberFormat.,77,set
+15,33726,"org.xml.sax.helpers.ParserAdapter.setFeature(java.lang.String,boolean)",Set a feature flag for the parser.,77,set
+16,3049,java.awt.Component.isFontSet(),Returns whether the font has been explicitly set for this Component.,54,return
+17,55804,android.widget.Spinner.setDropDownWidth(int),Set the width of the spinner's popup window of choices in pixels.,77,set
+18,35839,"android.app.WallpaperManager.setWallpaperOffsets(android.os.IBinder,float,float)","Set the display position of the current wallpaper within any larger space, when that wallpaper is visible behind the given window.",77,set
+19,55020,android.widget.GridView.setColumnWidth(int),Set the width of columns in the grid.,77,set
+20,40068,android.graphics.drawable.LayerDrawable.setAutoMirrored(boolean),Set whether this Drawable is automatically mirrored when its layout direction is RTL (right-to left).,77,set
+21,9593,java.nio.DoubleBuffer.get(),Relative get method.,53,\N
+22,17002,java.util.logging.Logger.getName(),Get the name for this logger.,54,get
+23,36067,android.app.admin.SystemUpdatePolicy.getInstallWindowEnd(),Get the end of the maintenance window.,54,get
+24,31413,javax.xml.transform.Transformer.getURIResolver(),Get an object that will be used to resolve URIs used in document().,54,get
+25,51151,android.util.SizeF.getHeight(),Get the height of the size (as an arbitrary unit).,54,get
+26,29654,javax.swing.text.html.parser.Element.getIndex(),Get index.,54,get
+27,45696,android.nfc.tech.Ndef.get(android.nfc.Tag),Get an instance of Ndef for the given tag.,54,get
+28,31175,javax.xml.stream.XMLStreamWriter.getProperty(java.lang.String),Get the value of a feature/property from the underlying implementation,54,get
+29,44325,android.media.session.MediaController.PlaybackInfo.getPlaybackType(),Get the type of playback which affects volume handling.,54,get
+30,36342,android.app.usage.UsageStats.getTotalTimeInForeground(),"Get the total time this package spent in the foreground, measured in milliseconds.",54,get
+31,54387,android.widget.AbsListView.requestLayout(),Call this when something has changed which has invalidated the layout of this view.,33,\N
+32,44513,android.media.tv.TvInputService.HardwareSession.onHardwareVideoAvailable(),Called when the underlying hardware TV input session calls notifyVideoAvailable().,11,\N
+33,50344,android.text.method.MetaKeyKeyListener.adjustMetaAfterKeypress(long),Call this method after you handle a keypress so that the meta state will be reset to unshifted (if it is not still down) or primed to be reset to unshifted (once it is released).,11,reset
+34,21528,"javax.rmi.CORBA.PortableRemoteObjectDelegate.narrow(java.lang.Object,java.lang.Class)","Delegation call for PortableRemoteObject.narrow(java.lang.Object, java.lang.Class).",11,\N
+35,52344,android.view.View.requestFocus(),Call this to try to give focus to a specific view or to one of its descendants.,11,\N
+36,48454,android.speech.RecognitionService.Callback.beginningOfSpeech(),The service should call this method when the user has started to speak.,11,\N
+37,55557,"android.widget.RemoteViews.setFloat(int,java.lang.String,float)",Call a method taking one float on a view in the layout for this RemoteViews.,11,\N
+38,48475,android.speech.tts.SynthesisCallback.error(),The service should call this method if the speech synthesis fails.,11,\N
+39,48473,android.speech.tts.SynthesisCallback.done(),"The service should call this method when all the synthesized audio for a request has been passed to audioAvailable(byte[], int, int).",11,call
+40,21557,"javax.rmi.CORBA.UtilDelegate.writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)","Delegation call for Util.writeRemoteObject(org.omg.CORBA.portable.OutputStream, java.lang.Object).",11,\N
+41,48747,android.telecom.CallScreeningService.onUnbind(android.content.Intent),Called when all clients have disconnected from a particular interface published by the service.,9,call
+42,8281,"java.lang.ThreadGroup.uncaughtException(java.lang.Thread,java.lang.Throwable)","Called by the Java Virtual Machine when a thread in this thread group stops because of an uncaught exception, and the thread does not have a specific Thread.UncaughtExceptionHandler installed.",11,call
+43,57977,"java.util.concurrent.ConcurrentMap.replaceAll(java.util.function.BiFunction<? super,? super,? extends V>)",Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.,73,replace
+44,53660,android.view.inputmethod.InputConnectionWrapper.finishComposingText(),Have the text editor finish whatever composing text is currently active.,85,\N
+45,6569,java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent),Fires a property change event to listeners that have been registered to track updates of all properties or a property with the specified name.,33,\N
+46,6534,java.beans.PropertyEditorSupport.firePropertyChange(),Report that we have been modified to any interested listeners.,66,report
+47,25974,javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent),"Sent after the indices in the index0,index1 interval have been removed from the data model.",21,\N
+48,51409,"android.view.SurfaceHolder.Callback.surfaceChanged(android.view.SurfaceHolder,int,int,int)",This is called immediately after any structural changes (format or size) have been made to the surface.,11,call
+49,29777,javax.swing.tree.DefaultMutableTreeNode.getAllowsChildren(),Returns true if this node is allowed to have children.,54,return
+50,4764,java.awt.event.MouseAdapter.mouseMoved(java.awt.event.MouseEvent),Invoked when the mouse cursor has been moved onto a component but no buttons have been pushed.,9,\N
+51,10439,java.rmi.server.RMIServerSocketFactory.createServerSocket(int),Create a server socket on the specified port (port 0 indicates an anonymous port).,54,create
+52,34102,android.animation.PropertyValuesHolder.clone(),Creates and returns a copy of this object.,15,create
+53,9751,java.nio.channels.AsynchronousChannelGroup.withThreadPool(java.util.concurrent.ExecutorService),Creates an asynchronous channel group with a given thread pool.,54,create
+54,56839,java.lang.invoke.MethodType.appendParameterTypes(java.lang.Class<?>),Finds or creates a method type with additional parameter types.,62,find
+55,7935,java.lang.SecurityManager.getSecurityContext(),Creates an object that encapsulates the current execution environment.,54,create
+56,28159,javax.swing.plaf.synth.SynthToolBarUI.createUI(javax.swing.JComponent),Creates a new UI object for the given component.,15,create
+57,22349,javax.sql.PooledConnection.getConnection(),Creates and returns a Connection object that is a handle for the physical connection that this PooledConnection object represents.,54,create
+58,47611,android.renderscript.ScriptGroup.Builder.create(),Creates the Script group.,54,create
+59,55673,android.widget.ScrollView.onSaveInstanceState(),Hook allowing a view to generate a representation of its internal state that can later be used to create a new instance with that same state.,53,\N
+60,37051,android.content.ContentProviderOperation.newUpdate(android.net.Uri),Create a ContentProviderOperation.Builder suitable for building an update ContentProviderOperation.,54,create
+61,51866,android.view.MotionEvent.getToolMinor(int),Returns the length of the minor axis of an ellipse that describes the size of the approaching tool for the given pointer index (use getPointerId(int) to find the pointer identifier for this index).,54,return
+62,56330,android.widget.Toolbar.setNavigationIcon(int),Set the icon to use for the toolbar's navigation button.,77,set
+63,23766,javax.swing.JComponent.isDoubleBuffered(),Returns whether this component should use a buffer to paint.,54,return
+64,41568,android.icu.text.MessageFormat.setFormats(java.text.Format),Sets the Format objects to use for the format elements in the previously set pattern string.,79,set
+65,39215,android.graphics.ImageFormat.getBitsPerPixel(int),Use this function to retrieve the number of bits per pixel of an ImageFormat.,64,retrieve
+66,40481,android.hardware.SensorManager.getDefaultSensor(int),Use this method to get the default sensor for a given type.,54,get
+67,40141,android.graphics.drawable.RippleDrawable.invalidateSelf(),Use the current Drawable.Callback implementation to have this Drawable redrawn.,53,\N
+68,49827,android.test.mock.MockPackageManager.getApplicationLabel(android.content.pm.ApplicationInfo),Return the label to use for this application.,54,return
+69,51863,android.view.MotionEvent.getToolMajor(int),Returns the length of the major axis of an ellipse that describes the size of the approaching tool for the given pointer index (use getPointerId(int) to find the pointer identifier for this index).,54,return
+70,29324,javax.swing.text.View.getAttributes(),Fetches the attributes to use when rendering.,54,fetch
+71,37439,"android.content.Intent.putExtra(java.lang.String,int)",Add extended data to the intent.,61,add
+72,36639,android.bluetooth.le.AdvertiseData.Builder.addServiceUuid(android.os.ParcelUuid),Add a service UUID to advertise data.,61,add
+73,52602,android.view.ViewGroup.addTouchables(java.util.ArrayList<android.view.View>),Add any touchable views that are descendants of this view (possibly including this view if it is touchable itself) to views.,61,add
+74,50728,"android.transition.Transition.excludeTarget(android.view.View,boolean)",Whether to add the given target to the list of targets to exclude from this transition.,53,\N
+75,37679,"android.content.UriMatcher.addURI(java.lang.String,java.lang.String,int)","Add a URI to match, and the code to return when this URI is matched.",61,add
+76,30782,javax.xml.datatype.XMLGregorianCalendar.add(javax.xml.datatype.Duration),Add duration to this instance.,61,add
+77,39425,"android.graphics.Path.addRect(float,float,float,float,android.graphics.Path.Direction)",Add a closed rectangle contour to the path,61,add
+78,6501,java.beans.PropertyChangeSupport.addPropertyChangeListener(java.beans.PropertyChangeListener),Add a PropertyChangeListener to the listener list.,61,add
+79,37373,android.content.Intent.addFlags(int),Add additional flags to the intent (or with existing flags value).,61,add
+80,35343,android.app.Notification.Builder.setLargeIcon(android.graphics.Bitmap),Add a large icon to the notification content view.,61,add
+81,14117,java.util.NavigableSet.pollLast(),"Retrieves and removes the last (highest) element, or returns null if this set is empty.",29,remove
+82,28316,javax.swing.table.DefaultTableModel.removeRow(int),Removes the row at row from the model.,29,remove
+83,51322,android.view.Menu.removeGroup(int),Remove all items in the given group.,29,remove
+84,45890,android.os.BaseBundle.clear(),Removes all elements from the mapping of this Bundle.,29,remove
+85,14001,java.util.Deque.remove(),"Retrieves and removes the head of the queue represented by this deque (in other words, the first element of this deque).",29,remove
+86,14207,java.util.AbstractCollection.remove(java.lang.Object),"Removes a single instance of the specified element from this collection, if it is present (optional operation).",29,remove
+87,14301,java.util.ArrayDeque.removeLastOccurrence(java.lang.Object),Removes the last occurrence of the specified element in this deque (when traversing the deque from head to tail).,29,remove
+88,42667,android.inputmethodservice.InputMethodService.onDestroy(),Called by the system to notify a Service that it is no longer used and is being removed.,69,call
+89,35891,"android.app.admin.DevicePolicyManager.clearPackagePersistentPreferredActivities(android.content.ComponentName,java.lang.String)","Called by a profile owner or device owner to remove all persistent intent handler preferences associated with the given package that were set by addPersistentPreferredActivity(ComponentName, IntentFilter, ComponentName).",9,\N
+90,15452,java.util.Vector.remove(int),Removes the element at the specified position in this Vector.,29,remove
+91,27544,"javax.swing.plaf.multi.MultiTextUI.paint(java.awt.Graphics,javax.swing.JComponent)",Invokes the paint method on each UI handled by this object.,33,\N
+92,28328,javax.swing.table.JTableHeader.columnMarginChanged(javax.swing.event.ChangeEvent),Invoked when a column is moved due to a margin change.,9,invoke
+93,47815,"android.renderscript.ScriptIntrinsicLUT.forEach(android.renderscript.Allocation,android.renderscript.Allocation,android.renderscript.Script.LaunchOptions)",Invoke the kernel and apply the lookup to each cell of ain and copy to aout.,9,apply
+94,27330,javax.swing.plaf.multi.MultiMenuBarUI.installUI(javax.swing.JComponent),Invokes the installUI method on each UI handled by this object.,33,\N
+95,27340,javax.swing.plaf.multi.MultiMenuItemUI.getPreferredSize(javax.swing.JComponent),Invokes the getPreferredSize method on each UI handled by this object.,53,\N
+96,25981,javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent),Invoked when a key has been released.,9,invoke
+97,4681,java.awt.event.WindowStateListener.windowStateChanged(java.awt.event.WindowEvent),Invoked when window state is changed.,9,invoke
+98,9849,java.nio.channels.FileLock.close(),This method invokes the release() method.,9,\N
+99,27444,javax.swing.plaf.multi.MultiSeparatorUI.uninstallUI(javax.swing.JComponent),Invokes the uninstallUI method on each UI handled by this object.,33,\N
+100,27533,javax.swing.plaf.multi.MultiTextUI.getEditorKit(javax.swing.text.JTextComponent),Invokes the getEditorKit method on each UI handled by this object.,9,\N
+101,45688,android.nfc.tech.MifareUltralight.isConnected(),Helper to indicate if I/O operations should be possible.,65,indicate
+102,43064,"android.media.MediaPlayer.OnVideoSizeChangedListener.onVideoSizeChanged(android.media.MediaPlayer,int,int)","Called to indicate the video size The video size (width and height) could be 0 if there was no video, no display surface was set, or the value was not determined yet.",9,call
+103,36805,android.companion.WifiDeviceFilter.equals(java.lang.Object),"Indicates whether some other object is \equal to\"" this one.""",65,indicate
+104,47883,android.security.KeyPairGeneratorSpec.Builder.setEncryptionRequired(),Indicates that this key pair must be encrypted at rest.,65,indicate
+105,29029,javax.swing.text.JTextComponent.setEditable(boolean),Sets the specified boolean to indicate whether or not this TextComponent should be editable.,77,set
+106,36855,android.content.AbstractThreadedSyncAdapter.onSyncCanceled(),Indicates that a sync operation has been canceled.,69,indicate
+107,9079,java.net.HttpCookie.setHttpOnly(boolean),Indicates whether the cookie should be considered HTTP Only.,65,indicate
+108,42823,android.location.Criteria.setPowerRequirement(int),Indicates the desired maximum power level.,65,indicate
+109,23832,javax.swing.JComponent.setVerifyInputWhenFocusTarget(boolean),Sets the value to indicate whether input verifier for the current focus owner will be called before this component requests focus.,77,set
+110,22573,javax.sql.rowset.JoinRowSet.supportsCrossJoin(),Indicates if CROSS_JOIN is supported by a JoinRowSet implementation,65,indicate
+111,36294,android.app.usage.NetworkStats.finalize(),Called by the garbage collector on an object when garbage collection determines that there are no more references to the object.,9,\N
+112,40903,android.icu.lang.UCharacter.isSupplementary(int),[icu] Determines if the code point is a supplementary character.,77,\N
+113,4111,"java.awt.TextArea.getMinimumSize(int,int)",Determines the minimum size of a text area with the specified number of rows and columns.,77,determine
+114,6403,java.beans.PropertyEditor.supportsCustomEditor(),Determines whether this property editor supports a custom editor.,77,determine
+115,39626,android.graphics.SurfaceTexture.finalize(),Called by the garbage collector on an object when garbage collection determines that there are no more references to the object.,9,call
+116,35222,android.app.MediaRouteActionProvider.overridesItemVisibility(),The result of this method determines whether or not isVisible() will be used by the MenuItem this ActionProvider is bound to help determine its visibility.,53,determine
+117,45085,android.net.http.SslError.hasError(int),Determines whether this object includes the supplied error.,77,determine
+118,37932,"android.content.pm.PackageManager.resolveService(android.content.Intent,int)",Determine the best service to handle for a given Intent.,71,determine
+119,44746,android.net.ConnectivityManager.getRestrictBackgroundStatus(),Determines if the calling application is subject to metered network restrictions while running on background.,77,determine
+120,28604,javax.swing.text.AsyncBoxView.getMaximumSpan(int),Determines the maximum span for this view along an axis.,54,determine
+121,6889,java.io.DataOutputStream.writeLong(long),"Writes a long to the underlying output stream as eight bytes, high byte first.",1,write
+122,31196,"javax.xml.stream.XMLStreamWriter.writeProcessingInstruction(java.lang.String,java.lang.String)",Writes a processing instruction,1,write
+123,6809,java.io.BufferedWriter.newLine(),Writes a line separator.,1,write
+124,30361,"javax.xml.bind.JAXB.marshal(java.lang.Object,javax.xml.transform.Result)",Writes a Java object tree to XML and store it to the specified location.,1,write
+125,56999,"java.nio.channels.SocketChannel.write(java.nio.ByteBuffer,int,int)",Writes a sequence of bytes to this channel from a subsequence of the given buffers.,1,write
+126,6989,"java.io.FilterWriter.write(char[],int,int)",Writes a portion of an array of characters.,1,write
+127,39539,"android.graphics.Rect.writeToParcel(android.os.Parcel,int)",Write this rectangle to the specified parcel.,1,write
+128,57071,"java.nio.file.Files.newOutputStream(java.nio.file.Path,java.nio.file.OpenOption)","Opens or creates a file, returning an output stream that may be used to write bytes to the file.",46,create
+129,36183,"android.app.backup.FileBackupHelper.performBackup(android.os.ParcelFileDescriptor,android.app.backup.BackupDataOutput,android.os.ParcelFileDescriptor)","Based on oldState, determine which of the files from the application's data directory need to be backed up, write them to the data stream, and fill in newState with the state as it exists now.",77,\N
+130,7321,java.io.StringWriter.write(java.lang.String),Write a string.,1,write
+131,43836,android.media.MediaRouter.RouteInfo.requestSetVolume(int),Request a volume change for this route.,6,request
+132,56191,android.widget.TextView.setSelected(boolean),Changes the selection state of this view.,57,change
+133,54194,"android.webkit.WebViewClient.onScaleChanged(android.webkit.WebView,float,float)",Notify the host application that the scale applied to the WebView has changed.,69,notify
+134,34902,"android.app.Fragment.onPictureInPictureModeChanged(boolean,android.content.res.Configuration)",Called by the system when the activity changes to and from picture-in-picture mode.,9,\N
+135,33066,org.omg.DynamicAny._DynValueStub.set_to_null(),Changes the representation of a DynValueCommon to a null value type.,31,change
+136,6546,java.beans.PropertyEditorSupport.setValue(java.lang.Object),Set (or change) the object that is to be edited.,77,set
+137,52432,android.view.View.setOnFocusChangeListener(android.view.View.OnFocusChangeListener),Register a callback to be invoked when focus of this view changed.,61,register
+138,44637,"android.media.tv.TvView.onVisibilityChanged(android.view.View,int)",Called when the visibility of the view or an ancestor of the view has changed.,9,call
+139,27748,javax.swing.plaf.synth.SynthInternalFrameUI.propertyChange(java.beans.PropertyChangeEvent),This method gets called when a bound property is changed.,9,\N
+140,46779,android.preference.Preference.notifyChanged(),Should be called when the data of this Preference has changed.,9,call
+141,12791,java.time.LocalDateTime.now(java.time.Clock),Obtains the current date-time from the specified clock.,54,obtain
+142,22100,javax.sound.midi.SoundbankResource.getSoundbank(),Obtains the sound bank that contains this SoundbankResource.,54,obtain
+143,30197,javax.transaction.xa.XAResource.getTransactionTimeout(),Obtains the current transaction timeout value set for this XAResource instance.,54,obtain
+144,13023,java.time.OffsetTime.parse(java.lang.CharSequence),Obtains an instance of OffsetTime from a text string such as 10:15:30+01:00.,54,\N
+145,22283,javax.sound.sampled.LineEvent.getType(),Obtains the event's type.,54,obtain
+146,22028,javax.sound.midi.MetaMessage.getData(),Obtains a copy of the data for the meta message.,54,obtain
+147,46189,android.os.Message.getData(),"Obtains a Bundle of arbitrary data associated with this event, lazily creating it if necessary.",54,obtain
+148,30375,javax.xml.bind.JAXBContext.newInstance(java.lang.String),Obtain a new instance of a JAXBContext class.,15,obtain
+149,22125,javax.sound.midi.spi.SoundbankReader.getSoundbank(java.net.URL),Obtains a soundbank object from the URL provided.,54,obtain
+150,30477,javax.xml.bind.helpers.AbstractUnmarshallerImpl.getXMLReader(),Obtains a configured XMLReader.,54,obtain
+151,32340,org.omg.CORBA.portable.InputStream.read_long(),"Reads a CORBA long (that is, Java int) value from this input stream.",43,read
+152,38044,android.content.res.AssetFileDescriptor.getFileDescriptor(),Returns the FileDescriptor that can be used to read the data in the file.,54,return
+153,18731,javax.imageio.stream.ImageInputStream.readUnsignedByte(),"Reads a byte from the stream, and (conceptually) converts it to an int, masks it with 0xff in order to strip off any sign-extension bits, and returns it as a byte value.",43,read
+154,32265,org.omg.CORBA.ValueBaseHolder._read(org.omg.CORBA.portable.InputStream),Reads from input and initalizes the value in the Holder with the unmarshalled data.,43,read
+155,22587,javax.sql.rowset.WebRowSet.readXml(java.io.Reader),Reads a WebRowSet object in its XML format from the given Reader object.,43,read
+156,7003,"java.io.InputStreamReader.read(char[],int,int)",Reads characters into a portion of an array.,43,read
+157,22366,javax.sql.RowSet.isReadOnly(),Retrieves whether this RowSet object is read-only.,54,retrieve
+158,6818,"java.io.ByteArrayInputStream.read(byte[],int,int)",Reads up to len bytes of data into an array of bytes from this input stream.,43,read
+159,6747,java.io.DataInput.readLong(),Reads eight input bytes and returns a long value.,43,read
+160,22856,javax.sql.rowset.serial.SQLInputImpl.wasNull(),Ascertains whether the last value read from this SQLInputImpl object was null.,85,ascertain
+161,16943,java.util.logging.Filter.isLoggable(java.util.logging.LogRecord),Check if a given log record should be published.,65,check
+162,13547,java.time.chrono.JapaneseDate.isSupported(java.time.temporal.TemporalField),Checks if the specified field is supported.,65,check
+163,6417,"java.beans.Beans.isInstanceOf(java.lang.Object,java.lang.Class<?>)",Check if a bean can be viewed as a given target type.,65,check
+164,23572,javax.swing.InputVerifier.verify(javax.swing.JComponent),Checks whether the JComponent's input is valid.,65,check
+165,3400,java.awt.FontMetrics.hasUniformLineMetrics(),Checks to see if the Font has uniform line metrics.,65,check
+166,36830,android.content.SharedPreferences.contains(java.lang.String),Checks whether the preferences contains a preference.,65,check
+167,40442,android.hardware.ConsumerIrManager.hasIrEmitter(),Check whether the device has an infrared emitter.,65,check
+168,37748,"android.content.pm.LauncherApps.isPackageEnabled(java.lang.String,android.os.UserHandle)",Checks if the package is installed and enabled for a profile.,65,check
+169,17082,java.util.logging.StreamHandler.isLoggable(java.util.logging.LogRecord),Check if this Handler would actually log a given LogRecord.,65,check
+170,48506,android.speech.tts.TextToSpeech.isSpeaking(),Checks whether the TTS engine is busy speaking.,65,check
+171,15844,java.util.concurrent.ConcurrentLinkedDeque.offerFirst(java.util.concurrent.ConcurrentLinkedDeque),Inserts the specified element at the front of this deque.,61,insert
+172,8130,"java.lang.StringBuffer.insert(int,java.lang.CharSequence,int,int)",Inserts a subsequence of the specified CharSequence into this sequence.,61,insert
+173,32660,org.omg.DynamicAny._DynAnyStub.insert_string(java.lang.String),Inserts a string value into the DynAny.,61,insert
+174,32825,org.omg.DynamicAny._DynFixedStub.insert_ulonglong(long),Inserts a long value into the DynAny.,61,insert
+175,32709,org.omg.DynamicAny._DynArrayStub.insert_longlong(long),Inserts a long value into the DynAny.,61,insert
+176,32989,org.omg.DynamicAny._DynUnionStub.insert_reference(org.omg.CORBA.Object),Inserts a reference to a CORBA object into the DynAny.,61,insert
+177,15527,java.util.concurrent.BlockingDeque.offerFirst(java.util.concurrent.BlockingDeque),"Inserts the specified element at the front of this deque if it is possible to do so immediately without violating capacity restrictions, returning true upon success and false if no space is currently available.",61,insert
+178,32007,org.omg.CORBA.Any.insert_ulonglong(long),Inserts the given long into this Any object's value field.,61,insert
+179,32828,org.omg.DynamicAny._DynFixedStub.insert_wchar(char),Inserts a char value into the DynAny.,61,insert
+180,32713,org.omg.DynamicAny._DynArrayStub.insert_string(java.lang.String),Inserts a string value into the DynAny.,61,insert
+181,16797,java.util.concurrent.locks.StampedLock.tryConvertToReadLock(long),"If the lock state matches the given stamp, performs one of the following actions.",33,\N
+182,15764,"java.util.concurrent.ConcurrentHashMap.forEachValue(long,java.util.function.Consumer<? super java.util.concurrent.ConcurrentHashMap>)",Performs the given action for each value.,33,perform
+183,54592,android.widget.AlphabetIndexer.getPositionForSection(int),Performs a binary search or cache lookup to find the first row that matches a given section's starting letter.,33,\N
+184,47633,"android.renderscript.ScriptIntrinsicBLAS.CHBMV(int,int,android.renderscript.Float2,android.renderscript.Allocation,android.renderscript.Allocation,int,android.renderscript.Float2,android.renderscript.Allocation,int)","CHBMV performs the matrix-vector operation y := alpha*A*x + beta*y Details: http://www.netlib.org/lapack/explore-html/db/dc2/chbmv_8f.html Note: For a N*N matrix, the input Allocation should also be of size N*N (dimY = N, dimX = N), but only the region N*(K+1) will be referenced.",33,\N
+185,50296,"android.text.method.ArrowKeyMovementMethod.right(android.widget.TextView,android.text.Spannable)",Performs a right movement action.,33,perform
+186,58370,java.util.function.Consumer.accept(T),Performs this operation on the given argument.,33,perform
+187,35092,android.app.Instrumentation.callActivityOnUserLeaving(android.app.Activity),Perform calling of an activity's onUserLeaveHint() method.,33,perform
+188,50315,"android.text.method.BaseMovementMethod.pageUp(android.widget.TextView,android.text.Spannable)",Performs a page-up movement action.,33,perform
+189,17639,javax.accessibility.AccessibleAction.doAccessibleAction(int),Performs the specified Action on the object,33,perform
+190,35109,"android.app.Instrumentation.newApplication(java.lang.ClassLoader,java.lang.String,android.content.Context)",Perform instantiation of the process's Application object.,33,perform
+191,44519,android.media.tv.TvInputService.RecordingSession.notifyTuned(android.net.Uri),Informs the application that this recording session has been tuned to the given channel and is ready to start recording.,9,\N
+192,6053,java.awt.image.PixelGrabber.grabPixels(),Request the Image or ImageProducer to start delivering pixels and wait for all of the pixels in the rectangle of interest to be delivered.,6,request
+193,54309,android.widget.SlidingDrawer.OnDrawerScrollListener.onScrollStarted(),Invoked when the user starts dragging/flinging the drawer's handle.,53,\N
+194,50147,"android.text.SpannableStringBuilder.replace(int,int,java.lang.CharSequence,int,int)",Replaces the specified range (st…en) of text in this Editable with a copy of the slice start…end from source.,73,replace
+195,59001,org.xmlpull.v1.XmlPullParser.getAttributeNamespace(int),Returns the namespace URI of the attribute with the given index (starts from 0).,54,return
+196,2639,java.applet.Applet.start(),Called by the browser or applet viewer to inform this applet that it should start its execution.,9,call
+197,36470,android.bluetooth.BluetoothDevice.createInsecureRfcommSocketToServiceRecord(java.util.UUID),Create an RFCOMM BluetoothSocket socket ready to start an insecure outgoing connection to this remote device using SDP lookup of uuid.,9,create
+198,37755,"android.content.pm.LauncherApps.startShortcut(java.lang.String,java.lang.String,android.graphics.Rect,android.os.Bundle,android.os.UserHandle)",Starts a shortcut.,78,start
+199,5562,java.awt.im.spi.InputMethod.reconvert(),Starts the reconversion operation.,78,start
+200,37355,"android.content.ContextWrapper.startIntentSender(android.content.IntentSender,android.content.Intent,int,int,int,android.os.Bundle)","Like startActivity(Intent, Bundle), but taking a IntentSender to start.",53,\N
+201,58195,"java.util.concurrent.LinkedTransferQueue.tryTransfer(E,long,java.util.concurrent.TimeUnit)",Transfers the element to a consumer if it is possible to do so before the timeout elapses.,31,transfer
+202,57951,java.util.concurrent.BlockingQueue.add(E),"Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.",61,insert
+203,51978,android.view.TextureView.draw(android.graphics.Canvas),Subclasses of TextureView cannot do their own rendering with the Canvas object.,53,\N
+204,55316,android.widget.NumberPicker.onDraw(android.graphics.Canvas),Implement this to do your drawing.,53,\N
+205,35147,android.app.IntentService.onBind(android.content.Intent),"Unless you provide binding for your service, you don't need to implement this method, because the default implementation returns null.",85,\N
+206,56237,android.widget.TextView.onDraw(android.graphics.Canvas),Implement this to do your drawing.,53,\N
+207,25616,"javax.swing.SwingUtilities.computeDifference(java.awt.Rectangle,java.awt.Rectangle)",Convenience returning an array of rect representing the regions within rectA that do not overlap with rectB.,54,return
+208,58179,java.util.concurrent.LinkedBlockingQueue.offer(E),"Inserts the specified element at the tail of this queue if it is possible to do so immediately without exceeding the queue's capacity, returning true upon success and false if this queue is full.",61,insert
+209,57634,java.util.AbstractQueue.add(E),"Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.",61,insert
+210,46887,android.preference.PreferenceManager.setPreferenceDataStore(android.preference.PreferenceDataStore),Sets a PreferenceDataStore to be used by all Preferences associated with this manager that don't have a custom PreferenceDataStore assigned via setPreferenceDataStore(PreferenceDataStore).,77,set
+211,9925,java.nio.channels.SocketChannel.socket(),Retrieves a socket associated with this channel.,64,retrieve
+212,11652,java.sql.DatabaseMetaData.supportsANSI92FullSQL(),Retrieves whether this database supports the ANSI92 full SQL grammar supported.,64,retrieve
+213,22826,javax.sql.rowset.serial.SerialStruct.getAttributes(),Retrieves an array of Object values containing the attributes of the SQL structured type that this SerialStruct object represents.,64,retrieve
+214,37900,android.content.pm.PackageManager.getPreferredPackages(int),Retrieve the list of all currently configured preferred packages.,64,retrieve
+215,35816,android.app.WallpaperManager.getDrawable(),"Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.",64,retrieve
+216,22336,javax.sql.CommonDataSource.getLogWriter(),Retrieves the log writer for this DataSource object.,64,retrieve
+217,37734,android.content.pm.LauncherActivityInfo.getLabel(),Retrieves the label for the activity.,64,retrieve
+218,38782,android.drm.DrmEvent.getMessage(),Retrieves the message description associated with this object.,64,retrieve
+219,10492,java.security.KeyStore.Entry.getAttributes(),Retrieves the attributes associated with an entry.,64,retrieve
+220,12453,java.text.FieldPosition.getEndIndex(),Retrieves the index of the character following the last character in the requested field.,64,retrieve
+221,52574,"android.view.View.AccessibilityDelegate.onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)",Called when a child of the host View has requested sending an AccessibilityEvent and gives an opportunity to the parent (the host) to augment the event.,9,\N
+222,22661,javax.sql.rowset.BaseRowSet.setFetchDirection(int),Gives the driver a performance hint as to the direction in which the rows in this RowSet object will be processed.,77,give
+223,29136,"javax.swing.text.PlainView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)",Gives notification that something was removed from the document in a location that this view is responsible for.,48,give
+224,58307,"java.util.concurrent.atomic.AtomicReferenceArray.accumulateAndGet(int,E,java.util.function.BinaryOperator<E>)","Atomically updates the element at index i with the results of applying the given function to the current and given values, returning the updated value.",57,update
+225,16569,"java.util.concurrent.atomic.AtomicReference.accumulateAndGet(java.util.concurrent.atomic.AtomicReference,java.util.function.BinaryOperator<java.util.concurrent.atomic.AtomicReference>)","Atomically updates the current value with the results of applying the given function to the current and given values, returning the updated value.",57,update
+226,25028,javax.swing.JTextArea.createDefaultModel(),Creates the default implementation of the model to be used at construction if one isn't explicitly given.,15,create
+227,31600,javax.xml.ws.EndpointContext.getEndpoints(),This gives list of endpoints in an application.,85,\N
+228,51190,android.util.SparseBooleanArray.valueAt(int),"Given an index in the range 0...size()-1, returns the value from the indexth key-value mapping that this SparseBooleanArray stores.",54,return
+229,27613,"javax.swing.plaf.nimbus.AbstractRegionPainter.decodeRadialGradient(float,float,float,float[],java.awt.Color[])","Given parameters for creating a RadialGradientPaint, this method will create and return a radial gradient paint.",15,create
+230,15570,"java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends java.util.concurrent.CompletionStage>,java.util.function.Function<? super,U>,java.util.concurrent.Executor)","Returns a new CompletionStage that, when either this or the other given stage complete normally, is executed using the supplied executor, with the corresponding result as argument to the supplied function.",54,return
+231,29709,javax.swing.tree.TreeNode.getChildCount(),Returns the number of children TreeNodes the receiver contains.,54,return
+232,41988,"android.icu.text.UnicodeSet.applyPropertyAlias(java.lang.String,java.lang.String)",Modifies this set to contain those code points which have the given value for the given property.,57,modify
+233,27488,"javax.swing.plaf.multi.MultiTabbedPaneUI.contains(javax.swing.JComponent,int,int)",Invokes the contains method on each UI handled by this object.,33,\N
+234,15971,java.util.concurrent.CopyOnWriteArrayList.lastIndexOf(java.lang.Object),"Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.",54,return
+235,15996,java.util.concurrent.CopyOnWriteArraySet.isEmpty(),Returns true if this set contains no elements.,65,return
+236,49557,"android.test.MoreAsserts.assertEquals(java.lang.String,java.util.Set<? extends java.lang.Object>,java.util.Set<? extends java.lang.Object>)",Asserts that two sets contain the same elements.,10,assert
+237,28487,javax.swing.text.MutableAttributeSet.addAttributes(javax.swing.text.AttributeSet),Creates a new attribute set similar to this one except that it contains the given attributes and values.,15,create
+238,14179,java.util.Spliterator.hasCharacteristics(int),Returns true if this Spliterator's characteristics() contain all of the given characteristics.,54,return
+239,32578,org.omg.DynamicAny.DynArrayOperations.set_elements(org.omg.CORBA.Any[]),Sets the DynArray to contain the passed elements.,77,set
+240,21672,javax.script.SimpleBindings.containsKey(java.lang.Object),Returns true if this map contains a mapping for the specified key.,54,return
+241,11684,java.sql.DatabaseMetaData.supportsNamedParameters(),Retrieves whether this database supports named parameters to callable statements.,64,retrieve
+242,10184,java.nio.file.FileStore.supportsFileAttributeView(java.lang.Class<? extends java.nio.file.attribute.FileAttributeView>),Tells whether or not this file store supports the file attributes identified by the given file attribute view.,65,tell
+243,43466,android.media.MediaCodecInfo.CodecCapabilities.isFormatSupported(android.media.MediaFormat),Query whether codec supports a given MediaFormat.,62,query
+244,11669,java.sql.DatabaseMetaData.supportsExtendedSQLGrammar(),Retrieves whether this database supports the ODBC Extended SQL grammar.,64,retrieve
+245,53877,android.webkit.ServiceWorkerWebSettings.getAllowFileAccess(),Gets whether Service Workers support file access.,54,get
+246,11695,"java.sql.DatabaseMetaData.supportsResultSetConcurrency(int,int)",Retrieves whether this database supports the given concurrency type in combination with the given result set type.,64,retrieve
+247,46536,android.os.UserManager.supportsMultipleUsers(),Returns whether this device supports multiple users with their own login and customizable space.,54,return
+248,6967,java.io.FilterInputStream.markSupported(),Tests if this input stream supports the mark and reset methods.,65,test
+249,27207,javax.swing.plaf.multi.MultiColorChooserUI.createUI(javax.swing.JComponent),Returns a multiplexing UI instance if any of the auxiliary LookAndFeels supports this UI.,54,return
+250,11673,java.sql.DatabaseMetaData.supportsGroupByBeyondSelect(),Retrieves whether this database supports using columns not included in the SELECT statement in a GROUP BY clause provided that all of the columns in the SELECT statement are included in the GROUP BY clause.,64,retrieve
+251,36232,"android.app.job.JobInfo.Builder.setPeriodic(long,long)",Specify that this job should recur with the provided interval and flex.,77,specify
+252,35554,"android.app.PendingIntent.send(android.content.Context,int,android.content.Intent,android.app.PendingIntent.OnFinished,android.os.Handler,java.lang.String,android.os.Bundle)","Perform the operation associated with this PendingIntent, allowing the caller to specify information about the Intent to use and be notified when the send has completed.",33,perform
+253,55898,android.widget.TabHost.TabSpec.setIndicator(android.view.View),Specify a view as the tab indicator.,77,specify
+254,45267,android.net.wifi.WifiEnterpriseConfig.setCaCertificates(java.security.cert.X509Certificate),Specify a list of X.509 certificates that identifies the server.,77,specify
+255,40069,android.graphics.drawable.LayerDrawable.setColorFilter(android.graphics.ColorFilter),Specify an optional color filter for the drawable.,77,specify
+256,25615,"javax.swing.SwingUtilities.calculateInnerArea(javax.swing.JComponent,java.awt.Rectangle)","Stores the position and size of the inner painting area of the specified component in r and returns r. The position and size specify the bounds of the component, adjusted so as not to include the border area (the insets).",58,store
+257,33445,org.w3c.dom.events.Event.getTimeStamp(),Used to specify the time (in milliseconds relative to the epoch) at which the event was created.,77,specify
+258,45384,android.net.wifi.aware.SubscribeConfig.Builder.setServiceName(java.lang.String),Specify the service name of the subscribe session.,77,specify
+259,40067,android.graphics.drawable.LayerDrawable.setAlpha(int),Specify an alpha value for the drawable.,77,specify
+260,37255,"android.content.Context.sendOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)","Version of sendOrderedBroadcast(Intent, String, BroadcastReceiver, Handler, int, String, Bundle) that allows you to specify the user the broadcast will be sent to.",53,\N
+261,10189,"java.nio.file.FileSystem.getPath(java.lang.String,java.lang.String...)","Converts a path string, or a sequence of strings that when joined form a path string, to a Path.",31,\N
+262,50987,android.util.Half.toHalf(float),Converts the specified single-precision float value into a half-precision float value.,31,convert
+263,7463,"java.lang.Character.toCodePoint(char,char)",Converts the specified surrogate pair to its supplementary code point value.,31,convert
+264,18732,javax.imageio.stream.ImageInputStream.readUnsignedInt(),"Reads 4 bytes from the stream, and (conceptually) concatenates them according to the current byte order, converts the result to a long, masks it with 0xffffffffL in order to strip off any sign-extension bits, and returns the result as an unsigned long value.",43,read
+265,38680,android.databinding.DataBindingUtil.convertBrIdToString(int),Converts the given BR id to its string representation which might be useful for logging purposes.,31,convert
+266,34134,android.animation.TypeConverter.convert(T),Converts a value from one type to another.,31,convert
+267,30319,javax.xml.bind.DatatypeConverter.parseByte(java.lang.String),Converts the string argument into a byte value.,31,convert
+268,58579,javax.net.ssl.SSLSocket.toString(),Converts this socket to a String.,31,convert
+269,32427,org.omg.CosNaming.NamingContextExtOperations.to_name(java.lang.String),This operation converts a Stringified Name into an equivalent array of Name Components.,31,convert
+270,47671,"android.renderscript.ScriptIntrinsicBLAS.DTPSV(int,int,int,android.renderscript.Allocation,android.renderscript.Allocation,int)","DTPSV solves one of the systems of equations A*x = b or A**T*x = b Details: http://www.netlib.org/lapack/explore-html/d9/d84/dtpsv_8f.html Note: For a N*N matrix, the input Allocation should be a 1D allocation of size dimX = N*(N+1)/2, The following subroutine can is an example showing how to convert a UPPER trianglar matrix 'a' to packed matrix 'b'.",85,\N
+271,35693,android.app.TabActivity.onContentChanged(),Updates the screen state (current list and other views) when the content changes.,57,update
+272,16504,"java.util.concurrent.atomic.AtomicIntegerFieldUpdater.updateAndGet(java.util.concurrent.atomic.AtomicIntegerFieldUpdater,java.util.function.IntUnaryOperator)","Atomically updates the field of the given object managed by this updater with the results of applying the given function, returning the updated value.",57,update
+273,23640,"javax.swing.JComboBox.actionPropertyChanged(javax.swing.Action,java.lang.String)",Updates the combobox's state in response to property changes in associated action.,57,update
+274,28551,javax.swing.text.AbstractDocument.render(java.lang.Runnable),"This allows the model to be safely rendered in the presence of currency, if the model supports being updated asynchronously.",85,\N
+275,26895,javax.swing.plaf.basic.BasicTreeUI.updateCachedPreferredSize(),"Updates the preferredSize instance variable, which is returned from getPreferredSize().",57,update
+276,17515,java.util.zip.CRC32.update(int),Updates the CRC-32 checksum with the specified byte (the low eight bits of the argument b).,57,update
+277,17505,java.util.zip.Adler32.update(java.nio.ByteBuffer),Updates the checksum with the bytes from the specified buffer.,57,update
+278,55406,android.widget.PopupWindow.update(),"Updates the state of the popup window, if it is currently being displayed, from the currently set state.",57,update
+279,4890,"java.awt.font.LineBreakMeasurer.insertChar(java.text.AttributedCharacterIterator,int)","Updates this LineBreakMeasurer after a single character is inserted into the text, and sets the current position to the beginning of the paragraph.",57,update
+280,11970,"java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object,java.sql.SQLType)",Updates the designated column with an Object value.,57,update
+281,48868,android.telecom.ConnectionRequest.getVideoState(),Describes the video states supported by the client requesting the connection.,54,describe
+282,54922,android.widget.FrameLayout.setForegroundGravity(int),Describes how the foreground is positioned.,54,describe
+283,45364,android.net.wifi.aware.PublishConfig.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+284,36338,android.app.usage.UsageStats.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+285,42764,android.location.Address.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+286,33883,android.accounts.Account.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+287,33526,org.w3c.dom.ls.LSSerializer.writeToString(org.w3c.dom.Node),Serialize the specified node as described above in the general description of the LSSerializer interface.,60,serialize
+288,49439,android.telephony.VisualVoicemailSms.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+289,50471,android.text.style.RelativeSizeSpan.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+290,35761,android.app.VoiceInteractor.Prompt.describeContents(),Describe the kinds of special objects contained in this Parcelable instance's marshaled representation.,54,describe
+291,35670,android.app.Service.onDestroy(),Called by the system to notify a Service that it is no longer used and is being removed.,69,call
+292,49958,"android.text.TextWatcher.beforeTextChanged(java.lang.CharSequence,int,int,int)","This method is called to notify you that, within s, the count characters beginning at start are about to be replaced by new text with length after.",9,call
+293,36418,"android.bluetooth.BluetoothProfile.ServiceListener.onServiceConnected(int,android.bluetooth.BluetoothProfile)",Called to notify the client when the proxy object has been connected to the service.,9,call
+294,6716,java.beans.beancontext.BeanContextSupport.okToUseGui(),Notify this instance that it may now render a GUI,33,notify
+295,52539,android.view.View.onAnimationEnd(),Invoked by a parent ViewGroup to notify the end of the animation currently associated with this view.,9,invoke
+296,21505,javax.print.event.PrintJobListener.printJobNoMoreEvents(javax.print.event.PrintJobEvent),Called to notify the client that no more events will be delivered.,69,call
+297,49953,"android.text.SpanWatcher.onSpanRemoved(android.text.Spannable,java.lang.Object,int,int)",This method is called to notify you that the specified object has been detached from the specified range of the text.,9,call
+298,53900,android.webkit.WebChromeClient.onGeolocationPermissionsHidePrompt(),"Notify the host application that a request for Geolocation permissions, made with a previous call to onGeolocationPermissionsShowPrompt() has been canceled.",33,notify
+299,50365,"android.text.method.MultiTapKeyListener.onSpanRemoved(android.text.Spannable,java.lang.Object,int,int)",This method is called to notify you that the specified object has been detached from the specified range of the text.,9,call
+300,6696,java.beans.beancontext.BeanContextSupport.dontUseGui(),notify this instance that it may no longer render a GUI.,33,notify
+301,24305,javax.swing.JMenu.getComponent(),Returns the java.awt.Component used to paint this MenuElement.,54,return
+302,28000,"javax.swing.plaf.synth.SynthRootPaneUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)",Paints the border.,4,paint
+303,27887,"javax.swing.plaf.synth.SynthPainter.paintScrollPaneBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)",Paints the border of a scroll pane.,4,paint
+304,28128,"javax.swing.plaf.synth.SynthTableUI.paint(java.awt.Graphics,javax.swing.JComponent)",Paints the specified component according to the Look and Feel.,4,paint
+305,26871,"javax.swing.plaf.basic.BasicTreeUI.paintRow(java.awt.Graphics,java.awt.Rectangle,java.awt.Insets,java.awt.Rectangle,javax.swing.tree.TreePath,int,boolean,boolean,boolean)",Paints the renderer part of a row.,4,paint
+306,26293,"javax.swing.plaf.basic.BasicComboBoxUI.paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)",Paints the background of the currently selected item.,4,paint
+307,3115,java.awt.Component.setIgnoreRepaint(boolean),Sets whether or not paint messages received from the operating system should be ignored.,77,set
+308,23015,javax.swing.MenuElement.getComponent(),This method should return the java.awt.Component used to paint the receiving element.,54,return
+309,3177,java.awt.Container.paint(java.awt.Graphics),Paints the container.,4,paint
+310,27706,"javax.swing.plaf.synth.SynthDesktopIconUI.paint(java.awt.Graphics,javax.swing.JComponent)",Paints the specified component according to the Look and Feel.,4,paint
+311,51649,"android.view.Gravity.apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)",Apply a gravity constant to an object and take care if layout direction is RTL or not.,70,apply
+312,54845,android.widget.DatePicker.onRestoreInstanceState(android.os.Parcelable),Hook allowing a view to re-apply a representation of its internal state that had previously been generated by onSaveInstanceState().,53,\N
+313,30046,javax.swing.undo.StateEdit.redo(),Tells the edited object to apply the state after the edit,69,tell
+314,51651,"android.view.Gravity.apply(int,int,int,android.graphics.Rect,android.graphics.Rect)",Apply a gravity constant to an object.,70,apply
+315,41852,android.icu.text.SimpleDateFormat.applyPattern(java.lang.String),Apply the given unlocalized pattern string to this date format.,70,apply
+316,54465,android.widget.AbsSeekBar.getThumbTintMode(),"Returns the blending mode used to apply the tint to the thumb drawable, if specified.",54,return
+317,55462,android.widget.ProgressBar.setSecondaryProgressTintMode(android.graphics.PorterDuff.Mode),Specifies the blending mode used to apply the tint specified by setSecondaryProgressTintList(ColorStateList)} to the secondary progress indicator.,77,specify
+318,54467,android.widget.AbsSeekBar.getTickMarkTintMode(),"Returns the blending mode used to apply the tint to the tick mark drawable, if specified.",54,return
+319,51652,"android.view.Gravity.applyDisplay(int,android.graphics.Rect,android.graphics.Rect)","Apply additional gravity behavior based on the overall \display\"" that an object exists in.""",70,apply
+320,54482,android.widget.AbsSeekBar.setTickMarkTintMode(android.graphics.PorterDuff.Mode),Specifies the blending mode used to apply the tint specified by setTickMarkTintList(ColorStateList)} to the tick mark drawable.,77,specify
+321,3773,java.awt.List.removeActionListener(java.awt.event.ActionListener),Removes the specified action listener so that it no longer receives action events from this list.,68,remove
+322,23709,javax.swing.JComponent.addAncestorListener(javax.swing.event.AncestorListener),Registers listener so that it will receive AncestorEvents when it or any of its ancestors move or are made visible or invisible.,61,register
+323,44351,android.media.session.MediaSession.setActive(boolean),Set if this session is currently active and ready to receive commands.,77,set
+324,3742,java.awt.List.addActionListener(java.awt.event.ActionListener),Adds the specified action listener to receive action events from this list.,61,add
+325,23795,javax.swing.JComponent.removeAncestorListener(javax.swing.event.AncestorListener),Unregisters listener so that it will no longer receive AncestorEvents.,85,\N
+326,33558,org.xml.sax.ErrorHandler.fatalError(org.xml.sax.SAXParseException),Receive notification of a non-recoverable error.,54,\N
+327,19984,javax.management.relation.RelationServiceMBean.setPurgeFlag(boolean),"Sets the flag to indicate if when a notification is received for the unregistration of an MBean referenced in a relation, if an immediate \purge\"" of the relations (look for the relations no longer valid) has to be performed",77,set
+328,43206,android.media.AudioRecord.removeOnRoutingChangedListener(android.media.AudioRouting.OnRoutingChangedListener),Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.,68,remove
+329,53941,"android.webkit.WebMessagePort.setWebMessageCallback(android.webkit.WebMessagePort.WebMessageCallback,android.os.Handler)",Sets a callback to receive message events on the handler that is provided by the application.,77,set
+330,4321,java.awt.Window.removeWindowFocusListener(java.awt.event.WindowFocusListener),Removes the specified window focus listener so that it no longer receives window events from this window.,68,remove
+331,34418,android.app.Activity.setExitSharedElementCallback(android.app.SharedElementCallback),"When makeSceneTransitionAnimation(Activity, android.view.View, String) was used to start an Activity, callback will be called to handle shared elements on the launching Activity.",9,\N
+332,8471,java.lang.invoke.VolatileCallSite.dynamicInvoker(),Produces a method handle equivalent to an invokedynamic instruction which has been linked to this call site.,15,produce
+333,54114,android.webkit.WebView.onTrackballEvent(android.view.MotionEvent),Implement this method to handle trackball motion events.,53,\N
+334,26821,javax.swing.plaf.basic.BasicTreeUI.createCellEditorListener(),Creates a listener to handle events from the current editor.,15,create
+335,55065,android.widget.HorizontalScrollView.onTouchEvent(android.view.MotionEvent),Implement this method to handle touch screen motion events.,53,handle
+336,55732,"android.widget.SimpleAdapter.setViewText(android.widget.TextView,java.lang.String)",Called by bindView() to set the text for a TextView but only if there is no existing ViewBinder or if the existing ViewBinder cannot handle binding to a TextView.,9,\N
+337,34292,android.app.Activity.getChangingConfigurations(),"If this activity is being destroyed because it can not handle a configuration parameter being changed (and thus its onConfigurationChanged(Configuration) method is not being called), then you can use this method to discover the set of changes that have occurred while in the process of being destroyed.",9,\N
+338,56838,"java.lang.invoke.MethodHandles.insertArguments(java.lang.invoke.MethodHandle,int,java.lang.Object)",Provides a target method handle with one or more bound arguments in advance of the method handle's invocation.,9,\N
+339,42748,android.inputmethodservice.KeyboardView.onTouchEvent(android.view.MotionEvent),Implement this method to handle touch screen motion events.,53,handle
+340,29456,javax.swing.text.html.HTMLDocument.setPreservesUnknownTags(boolean),Determines how unknown tags are handled by the parser.,65,determine
+341,36876,android.content.AsyncTaskLoader.onForceLoad(),Subclasses must implement this to take care of requests to forceLoad().,53,\N
+342,12568,java.text.StringCharacterIterator.setIndex(int),Implements CharacterIterator.setIndex() for String.,53,\N
+343,55182,android.widget.ListPopupWindow.createDragToOpenListener(android.view.View),Returns an View.OnTouchListener that can be added to the source view to implement drag-to-open behavior.,54,return
+344,54943,android.widget.Gallery.onTouchEvent(android.view.MotionEvent),Implement this method to handle touch screen motion events.,53,handle
+345,54602,android.widget.AnalogClock.onDraw(android.graphics.Canvas),Implement this to do your drawing.,53,\N
+346,45340,android.net.wifi.WpsInfo.describeContents(),Implement the Parcelable interface,53,\N
+347,49211,android.telephony.CellSignalStrengthWcdma.describeContents(),Implement the Parcelable interface,53,\N
+348,46108,android.os.Handler.handleMessage(android.os.Message),Subclasses must implement this to receive messages.,53,\N
+349,37592,android.content.Loader.onReset(),"Subclasses must implement this to take care of resetting their loader, as per reset().",53,\N
+350,17106,"java.util.prefs.AbstractPreferences.get(java.lang.String,java.lang.String)","Implements the get method as per the specification in Preferences.get(String,String).",53,\N
+351,37047,android.content.ContentProviderOperation.isYieldAllowed(),Returns true if the operation allows yielding the database to other transactions if the database is contended.,54,return
+352,29707,javax.swing.tree.TreeNode.getAllowsChildren(),Returns true if the receiver allows children.,54,return
+353,43690,android.media.MediaPlayer.prepareDrm(java.util.UUID),"Prepares the DRM for the current source If OnDrmConfigHelper is registered, it will be called during preparation to allow configuration of the DRM properties before opening the DRM session.",56,prepare
+354,20356,javax.management.timer.Timer.postDeregister(),Allows the timer MBean to perform any operations needed after having been unregistered by the MBean server.,6,allow
+355,11582,java.sql.DatabaseMetaData.getMaxCharLiteralLength(),Retrieves the maximum number of characters this database allows for a character literal.,54,retrieve
+356,18507,"javax.imageio.metadata.IIOMetadataFormatImpl.addObjectValue(java.lang.String,java.lang.Class<T>,boolean,T,java.util.List<? extends T>)",Allows an Object reference of a given class type to be stored in nodes implementing the named element.,6,\N
+357,50095,android.text.LoginFilter.UsernameFilterGMail.isAllowed(char),Returns whether or not we allow character c.,54,return
+358,11594,java.sql.DatabaseMetaData.getMaxRowSize(),Retrieves the maximum number of bytes this database allows in a single row.,54,retrieve
+359,35867,"android.app.admin.DeviceAdminReceiver.onChoosePrivateKeyAlias(android.content.Context,android.content.Intent,int,android.net.Uri,java.lang.String)",Allows this receiver to select the alias for a private key and certificate pair for authentication.,6,allow
+360,19191,javax.management.MBeanRegistration.postRegister(java.lang.Boolean),Allows the MBean to perform any operations needed after having been registered in the MBean server or after the registration has failed.,53,allow
+361,9456,"java.net.URLStreamHandler.sameFile(java.net.URL,java.net.URL)","Compare two urls to see whether they refer to the same file, i.e., having the same protocol, host, port, and path.",74,compare
+362,19420,javax.management.ObjectInstance.equals(java.lang.Object),Compares the current object instance with another object instance.,74,compare
+363,9615,java.nio.FloatBuffer.compareTo(java.nio.FloatBuffer),Compares this buffer to another.,74,compare
+364,7698,java.lang.Long.compareTo(java.lang.Long),Compares two Long objects numerically.,74,compare
+365,4924,java.awt.font.ShapeGraphicAttribute.equals(java.awt.font.ShapeGraphicAttribute),Compares this ShapeGraphicAttribute to the specified ShapeGraphicAttribute.,74,compare
+366,7371,java.lang.Byte.compareTo(java.lang.Byte),Compares two Byte objects numerically.,74,compare
+367,32734,org.omg.DynamicAny._DynEnumStub.equal(org.omg.DynamicAny.DynAny),Compares two DynAny values for equality.,74,compare
+368,49807,"android.test.mock.MockPackageManager.checkSignatures(java.lang.String,java.lang.String)",Compare the signatures of two packages to determine if the same signature appears in both of them.,65,determine
+369,10275,java.nio.file.attribute.AclEntry.equals(java.lang.Object),Compares the specified object with this ACL entry for equality.,74,compare
+370,51115,android.util.Range.equals(java.lang.Object),Compare two ranges for equality.,74,compare
+371,8566,java.lang.management.ThreadMXBean.setThreadContentionMonitoringEnabled(boolean),Enables or disables thread contention monitoring.,78,enables
+372,23059,javax.swing.AbstractAction.isEnabled(),Returns true if the action is enabled.,54,return
+373,58577,javax.net.ssl.SSLSocket.setEnabledCipherSuites(java.lang.String),Sets the cipher suites enabled for use on this connection.,77,set
+374,3851,java.awt.MenuItem.isEnabled(),Checks whether this menu item is enabled.,65,check
+375,53997,android.webkit.WebSettings.setAllowFileAccess(boolean),Enables or disables file access within WebView.,78,enables
+376,56435,android.widget.ZoomButtonsController.setZoomInEnabled(boolean),Whether to enable the zoom in control.,78,enable
+377,56100,"android.widget.TextView.onKeyDown(int,android.view.KeyEvent)","Default implementation of KeyEvent.Callback.onKeyDown(): perform press of the view when KEYCODE_DPAD_CENTER or KEYCODE_ENTER is released, if the view is enabled and clickable.",33,\N
+378,25652,"javax.swing.SwingUtilities.notifyAction(javax.swing.Action,javax.swing.KeyStroke,java.awt.event.KeyEvent,java.lang.Object,int)",Invokes actionPerformed on action if action is enabled (and non-null).,9,\N
+379,45314,android.net.wifi.WifiManager.setWifiEnabled(boolean),Enable or disable Wi-Fi.,78,enable
+380,4124,java.awt.TextComponent.enableInputMethods(boolean),Enables or disables input method support for this text component.,78,enables
+381,7923,"java.lang.SecurityManager.checkPermission(java.security.Permission,java.lang.Object)",Throws a SecurityException if the specified security context is denied access to the resource specified by the given permission.,53,\N
+382,38311,android.database.AbstractWindowedCursor.checkPosition(),This function throws CursorIndexOutOfBoundsException if the cursor position is out of bounds.,53,\N
+383,58901,org.json.JSONObject.getJSONObject(java.lang.String),"Returns the value mapped by name if it exists and is a JSONObject, or throws otherwise.",54,return
+384,14133,java.util.PrimitiveIterator.OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>),Performs the given action for each remaining element until all elements have been processed or the action throws an exception.,33,perform
+385,49686,"android.test.mock.MockContext.enforceCallingOrSelfPermission(java.lang.String,java.lang.String)","If neither you nor the calling process of an IPC you are handling has been granted a particular permission, throw a SecurityException.",53,\N
+386,57742,"java.util.Hashtable.replaceAll(java.util.function.BiFunction<? super,? super,? extends V>)",Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.,73,replace
+387,14183,java.util.Spliterator.OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>),"Performs the given action for each remaining element, sequentially in the current thread, until all elements have been processed or the action throws an exception.",33,perform
+388,30166,javax.tools.SimpleJavaFileObject.getCharContent(boolean),This implementation always throws UnsupportedOperationException.,53,\N
+389,19522,javax.management.ReflectionException.getCause(),Returns the actual Exception thrown.,54,return
+390,14125,java.util.PrimitiveIterator.OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>),Performs the given action for each remaining element until all elements have been processed or the action throws an exception.,33,perform
+391,43726,android.media.MediaPlayer.setOnTimedTextListener(android.media.MediaPlayer.OnTimedTextListener),Register a callback to be invoked when a timed text is available for display.,61,register
+392,31016,javax.xml.soap.AttachmentPart.getRawContentBytes(),Gets the content of this AttachmentPart object as a byte[] array as if a call had been made to getContent and no DataContentHandler had been registered for the content-type of this AttachmentPart.,54,get
+393,52890,android.view.ViewTreeObserver.addOnTouchModeChangeListener(android.view.ViewTreeObserver.OnTouchModeChangeListener),Register a callback to be invoked when the invoked when the touch mode changes.,61,register
+394,43348,"android.media.ImageReader.setOnImageAvailableListener(android.media.ImageReader.OnImageAvailableListener,android.os.Handler)",Register a listener to be invoked when a new image becomes available from the ImageReader.,61,register
+395,49736,"android.test.mock.MockContext.registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler)","Register to receive intent broadcasts, to run in the context of scheduler.",61,register
+396,37790,android.content.pm.PackageInstaller.registerSessionCallback(android.content.pm.PackageInstaller.SessionCallback),Register to watch for session lifecycle events.,61,register
+397,54909,android.widget.ExpandableListView.setOnItemClickListener(android.widget.AdapterView.OnItemClickListener),Register a callback to be invoked when an item has been clicked and the caller prefers to receive a ListView-style position instead of a group and/or child position.,61,register
+398,49416,"android.telephony.TelephonyManager.listen(android.telephony.PhoneStateListener,int)",Registers a listener object to receive notification of changes in specified telephony states.,61,register
+399,21669,"javax.script.ScriptEngineManager.registerEngineName(java.lang.String,javax.script.ScriptEngineFactory)",Registers a ScriptEngineFactory to handle a language name.,61,register
+400,43717,android.media.MediaPlayer.setOnDrmInfoListener(android.media.MediaPlayer.OnDrmInfoListener),Register a callback to be invoked when the DRM info is known.,61,register
+401,35268,"android.app.Notification.writeToParcel(android.os.Parcel,int)",Flatten this notification into a parcel.,12,flatten
+402,44396,"android.media.session.MediaSession.Token.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+403,46302,android.os.Parcel.writeTypedList(java.util.List<T>),"Flatten a List containing a particular object type into the parcel, at the current dataPosition() and growing dataCapacity() if needed.",12,flatten
+404,47071,"android.print.PrintJobId.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+405,46292,android.os.Parcel.writePersistableBundle(android.os.PersistableBundle),"Flatten a PersistableBundle into the parcel at the current dataPosition(), growing dataCapacity() if needed.",12,flatten
+406,46303,"android.os.Parcel.writeTypedObject(T,int)",Flatten the Parcelable object into the parcel.,12,flatten
+407,50425,"android.text.style.BackgroundColorSpan.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+408,38090,"android.content.res.ColorStateList.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+409,50473,"android.text.style.RelativeSizeSpan.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+410,37828,"android.content.pm.PackageInstaller.SessionInfo.writeToParcel(android.os.Parcel,int)",Flatten this object in to a Parcel.,12,flatten
+411,3449,"java.awt.Graphics.drawImage(java.awt.Image,int,int,int,int,int,int,int,int,java.awt.image.ImageObserver)","Draws as much of the specified area of the specified image as is currently available, scaling it on the fly to fit inside the specified area of the destination drawable surface.",4,draw
+412,55253,android.widget.ListView.dispatchDraw(android.graphics.Canvas),Called by draw to draw the child views.,9,draw
+413,39832,android.graphics.drawable.Drawable.draw(android.graphics.Canvas),Draw in its bounds (set via setBounds) respecting optional effects such as alpha (set via setAlpha) and color filter (set via setColorFilter).,4,draw
+414,54392,android.widget.AbsListView.setDrawSelectorOnTop(boolean),Controls whether the selection highlight drawable should be drawn on top of the item or behind it.,77,control
+415,3453,"java.awt.Graphics.drawPolygon(int[],int[],int)",Draws a closed polygon defined by arrays of x and y coordinates.,4,draw
+416,26698,"javax.swing.plaf.basic.BasicTabbedPaneUI.paintTabBorder(java.awt.Graphics,int,int,int,int,int,int,boolean)",this function draws the border around each tab note that this function does now draw the background of the tab.,4,draw
+417,52537,android.view.View.isPaddingOffsetRequired(),"If the View draws content inside its padding and enables fading edges, it needs to support padding offsets.",4,\N
+418,52730,android.view.ViewGroup.dispatchDraw(android.graphics.Canvas),Called by draw to draw the child views.,9,draw
+419,3448,"java.awt.Graphics.drawImage(java.awt.Image,int,int,int,int,java.awt.Color,java.awt.image.ImageObserver)",Draws as much of the specified image as has already been scaled to fit inside the specified rectangle.,4,draw
+420,39036,"android.graphics.Canvas.drawVertices(android.graphics.Canvas.VertexMode,int,float[],int,float[],int,int[],int,short[],int,int,android.graphics.Paint)","Draw the array of vertices, interpreted as triangles (based on mode).",4,draw
+421,39672,android.graphics.drawable.AdaptiveIconDrawable.getExtraInsetFraction(),All four sides of the layers are padded with extra inset so as to provide extra content to reveal within the clip path when performing affine transformations on the layers.,4,\N
+422,45924,android.os.BatteryManager.getLongProperty(int),Return the value of a battery property of long type.,54,return
+423,43530,"android.media.MediaDrm.provideKeyResponse(byte[],byte[])","A key response is received from the license server by the app, then it is provided to the DRM engine plugin using provideKeyResponse.",53,\N
+424,41769,android.icu.text.RuleBasedCollator.cloneAsThawed(),Provides for the clone operation.,48,\N
+425,3932,java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform),Returns an iterator object that iterates along the boundary of this Polygon and provides access to the geometry of the outline of this Polygon.,54,return
+426,37639,android.content.SearchRecentSuggestionsProvider.getType(android.net.Uri),This method is provided for use by the ContentResolver.,53,\N
+427,41748,android.icu.text.PluralRules.forLocale(java.util.Locale),Provides access to the predefined cardinal-number PluralRules for a given Locale.,53,provide
+428,29348,"javax.swing.text.View.modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias)","Provides a mapping, for a given character, from the document model coordinate space to the view coordinate space.",53,provide
+429,22222,javax.sound.sampled.AudioSystem.getAudioInputStream(java.net.URL),Obtains an audio input stream from the URL provided.,54,obtain
+430,3933,"java.awt.Polygon.getPathIterator(java.awt.geom.AffineTransform,double)",Returns an iterator object that iterates along the boundary of the Shape and provides access to the geometry of the outline of the Shape.,54,return
+431,33409,org.w3c.dom.Node.isEqualNode(org.w3c.dom.Node),Tests whether two nodes are equal.,65,test
+432,9059,java.net.HttpCookie.equals(java.lang.Object),Test the equality of two HTTP cookies.,65,test
+433,4843,java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector),Tests if the specified GlyphVector exactly equals this GlyphVector.,65,test
+434,41636,android.icu.text.Normalizer2.isNormalized(java.lang.CharSequence),Tests if the string is normalized.,65,test
+435,19817,javax.management.openmbean.OpenMBeanParameterInfo.isValue(java.lang.Object),Tests whether obj is a valid value for the parameter described by this OpenMBeanParameterInfo instance.,65,test
+436,35094,"android.app.Instrumentation.checkMonitorHit(android.app.Instrumentation.ActivityMonitor,int)",Test whether an existing Instrumentation.ActivityMonitor has been hit.,65,test
+437,5136,java.awt.geom.Area.isRectangular(),Tests whether this Area is rectangular in shape.,65,test
+438,9163,java.net.InetAddress.isReachable(int),Test whether that address is reachable.,65,test
+439,9252,java.net.ServerSocket.getReuseAddress(),Tests if SO_REUSEADDR is enabled.,65,test
+440,55402,"android.widget.PopupWindow.showAtLocation(android.view.View,int,int,int)",Display the content view in a popup window at the specified location.,35,display
+441,54524,android.widget.AdapterView.getEmptyView(),"When the current adapter is empty, the AdapterView can display a special view called the empty view.",35,\N
+442,35894,android.app.admin.DevicePolicyManager.createAdminSupportIntent(java.lang.String),Called by any app to display a support dialog when a feature was disabled by an admin.,35,display
+443,53904,"android.webkit.WebChromeClient.onJsBeforeUnload(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult)",Tell the client to display a dialog to confirm navigation away from the current page.,77,tell
+444,55966,android.widget.TextClock.getFormat24Hour(),Returns the formatting pattern used to display the date and/or time in 24-hour mode.,54,return
+445,56186,android.widget.TextView.setPaintFlags(int),Sets flags on the Paint being used to display the text and reflows the text if they are different from the old flags.,77,set
+446,56260,android.widget.TimePicker.setIs24HourView(java.lang.Boolean),Sets whether this widget displays time in 24-hour mode or 12-hour mode with an AM/PM picker.,77,set
+447,34242,android.app.ActionBar.setLogo(android.graphics.drawable.Drawable),Set the logo to display in the 'home' section of the action bar.,77,set
+448,41395,android.icu.text.DecimalFormat.setCurrencyUsage(android.icu.util.Currency.CurrencyUsage),Sets the Currency Usage object used to display currency.,77,set
+449,34631,android.app.AlertDialog.Builder.show(),Creates an AlertDialog with the arguments supplied to this builder and immediately displays the dialog.,15,create
+450,39906,android.graphics.drawable.DrawableContainer.mutate(),Make this drawable mutable.,28,make
+451,43649,android.media.MediaMuxer.release(),Make sure you call this when you're done to free up any resources instead of relying on the garbage collector to do this for you at some point in the future.,53,\N
+452,11495,java.sql.Connection.commit(),Makes all changes made since the previous commit/rollback permanent and releases any database locks currently held by this Connection object.,28,make
+453,24046,javax.swing.JInternalFrame.dispose(),"Makes this internal frame invisible, unselected, and closed.",28,make
+454,50434,android.text.style.ClickableSpan.updateDrawState(android.text.TextPaint),Makes the text underlined and in the link color.,28,make
+455,20567,javax.naming.directory.Attribute.clone(),Makes a copy of the attribute.,28,\N
+456,42041,android.icu.text.UnicodeSet.set(android.icu.text.UnicodeSet),Make this object represent the same set as other.,28,make
+457,4122,java.awt.TextComponent.addNotify(),Makes this Component displayable by connecting it to a native screen resource.,53,make
+458,54806,"android.widget.CursorAdapter.newDropDownView(android.content.Context,android.database.Cursor,android.view.ViewGroup)",Makes a new drop down view to hold the data pointed to by cursor.,15,make
+459,40144,android.graphics.drawable.RippleDrawable.mutate(),Make this drawable mutable.,28,make
+460,46332,android.os.ParcelFileDescriptor.AutoCloseInputStream.close(),Closes this file input stream and releases any system resources associated with the stream.,17,close
+461,49782,android.test.mock.MockCursor.isClosed(),return true if the cursor is closed,54,return
+462,49503,android.test.AndroidTestCase.tearDown(),"Tears down the fixture, for example, close a network connection.",40,tear
+463,46081,android.os.DropBoxManager.Entry.close(),Close the input stream associated with this entry.,17,close
+464,21950,javax.sound.midi.MidiDevice.getTransmitter(),Obtains a MIDI OUT connection from which the MIDI device will transmit MIDI data The returned transmitter must be closed when the application has finished using it.,54,obtain
+465,9289,java.net.Socket.isOutputShutdown(),Returns whether the write-half of the socket connection is closed.,54,return
+466,9952,java.nio.channels.spi.AbstractSelector.implCloseSelector(),Closes this selector.,17,close
+467,38451,android.database.DatabaseUtils.InsertHelper.close(),Close this object and release any resources associated with it.,17,close
+468,9938,java.nio.channels.spi.AbstractSelectableChannel.implCloseSelectableChannel(),Closes this selectable channel.,17,close
+469,40289,android.graphics.pdf.PdfRenderer.close(),Closes this renderer.,17,close
+470,19512,javax.management.StandardMBean.setImplementation(java.lang.Object),Replace the implementation object wrapped in this object.,73,replace
+471,15461,"java.util.Vector.set(int,java.util.Vector)",Replaces the element at the specified position in this Vector with the specified element.,73,replace
+472,6280,"java.awt.image.renderable.ParameterBlock.set(long,int)",Replaces an Object in the list of parameters with a Long.,73,replace
+473,18371,javax.imageio.ImageWriter.canReplacePixels(int),Returns true if the writer allows pixels of the given image to be replaced using the replacePixels methods.,54,return
+474,36160,"android.app.backup.BackupAgent.onRestore(android.app.backup.BackupDataInput,int,android.os.ParcelFileDescriptor)",The application is being restored from backup and should replace any existing data with the contents of the backup.,45,restore
+475,10985,java.security.cert.CertPath.writeReplace(),Replaces the CertPath to be serialized with a CertPathRep object.,73,replace
+476,17192,java.util.regex.Matcher.appendTail(java.lang.StringBuffer),Implements a terminal append-and-replace step.,53,\N
+477,57902,"java.util.WeakHashMap.replaceAll(java.util.function.BiFunction<? super,? super,? extends V>)",Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.,73,replace
+478,51725,"android.view.KeyEvent.changeTimeRepeat(android.view.KeyEvent,long,int,int)","Create a new key event that is the same as the given one, but whose event time and repeat count are replaced with the given value.",15,create
+479,57750,"java.util.IdentityHashMap.replaceAll(java.util.function.BiFunction<? super,? super,? extends V>)",Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.,73,replace
+480,50974,android.util.Half.isInfinite(short),"Returns true if the specified half-precision float value represents infinity, false otherwise.",54,return
+481,18958,javax.lang.model.element.Name.equals(java.lang.Object),"Returns true if the argument represents the same name as this, and false otherwise.",54,return
+482,12444,java.text.DecimalFormatSymbols.setMinusSign(char),Sets the character used to represent minus sign.,77,set
+483,53155,android.view.accessibility.AccessibilityNodeInfo.isShowingHintText(),Returns whether the node's text represents a hint for the user to enter text.,54,return
+484,13809,java.time.temporal.TemporalUnit.isTimeBased(),Checks if this unit represents a component of a time.,65,check
+485,37041,android.content.ContentProviderOperation.isAssertQuery(),Returns true if the operation represents an assert query.,54,return
+486,54463,android.widget.AbsSeekBar.getThumb(),Return the drawable used to represent the scroll thumb - the component that the user can drag back and forth indicating the current value by its position.,54,return
+487,29861,javax.swing.tree.DefaultTreeCellRenderer.getDefaultOpenIcon(),"Returns the default icon, for the current laf, that is used to represent non-leaf nodes that are expanded.",54,return
+488,53894,android.webkit.WebChromeClient.getDefaultVideoPoster(),"When not playing, video elements are represented by a 'poster' image.",77,\N
+489,29881,javax.swing.tree.DefaultTreeCellRenderer.setLeafIcon(javax.swing.Icon),Sets the icon used to represent leaf nodes.,77,set
+490,44280,"android.media.midi.MidiReceiver.send(byte[],int,int,long)",Called to send MIDI data to the receiver with a specified timestamp.,19,send
+491,43136,android.media.AudioManager.dispatchMediaKeyEvent(android.view.KeyEvent),Sends a simulated key event for a media button.,19,send
+492,52360,android.view.View.sendAccessibilityEvent(int),Sends an accessibility event of the given type.,19,send
+493,33094,org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_profile(),Returns the profile that will be used to send the request.,54,return
+494,45691,android.nfc.tech.MifareUltralight.transceive(byte[]),Send raw NfcA data to a tag and receive the response.,19,send
+495,19414,javax.management.NotificationBroadcasterSupport.sendNotification(javax.management.Notification),Sends a notification.,19,send
+496,19983,"javax.management.relation.RelationServiceMBean.sendRoleUpdateNotification(java.lang.String,javax.management.relation.Role,java.util.List<javax.management.ObjectName>)",Sends a notification (RelationNotification) for a role update in the given relation.,19,send
+497,51037,"android.util.Log.d(java.lang.String,java.lang.String,java.lang.Throwable)",Send a DEBUG log message and log the exception.,19,send
+498,38832,android.drm.DrmManagerClient.setOnInfoListener(android.drm.DrmManagerClient.OnInfoListener),"Registers an DrmManagerClient.OnInfoListener callback, which is invoked when the DRM framework sends status or warning information during registration or rights acquisition.",61,register
+499,24814,javax.swing.JTabbedPane.fireStateChanged(),"Sends a ChangeEvent, with this JTabbedPane as the source, to each registered listener.",19,send
+500,32795,org.omg.DynamicAny._DynFixedStub.get_dyn_any(),Extracts the Any value contained in the Any represented by this DynAny and returns it wrapped into a new DynAny.,54,extract
+501,33027,org.omg.DynamicAny._DynValueStub.get_longlong(),Extracts the long value from this DynAny.,54,extract
+502,32915,org.omg.DynamicAny._DynStructStub.get_short(),Extracts the short value from this DynAny.,54,extract
+503,33024,org.omg.DynamicAny._DynValueStub.get_dyn_any(),Extracts the Any value contained in the Any represented by this DynAny and returns it wrapped into a new DynAny.,54,extract
+504,31980,org.omg.CORBA.Any.extract_short(),Extracts the short in this Any object's value field.,54,extract
+505,32804,org.omg.DynamicAny._DynFixedStub.get_ulong(),Extracts the integer value from this DynAny.,54,extract
+506,49241,android.telephony.PhoneNumberUtils.extractPostDialPortion(java.lang.String),"Extracts the post-dial sequence of DTMF control digits, pauses, and waits.",54,extract
+507,33037,org.omg.DynamicAny._DynValueStub.get_ushort(),Extracts the short value from this DynAny.,54,extract
+508,32856,org.omg.DynamicAny._DynSequenceStub.get_reference(),Extracts the reference to a CORBA Object from this DynAny.,54,extract
+509,18011,javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key),Extract the enclosed PKCS8EncodedKeySpec object from the encrypted data and return it.,54,extract
+510,44468,"android.media.tv.TvContract.requestChannelBrowsable(android.content.Context,long)",Requests to make a channel browsable.,6,request
+511,43491,"android.media.MediaDataSource.readAt(long,byte[],int,int)",Called to request data from the given position.,9,\N
+512,23765,javax.swing.JComponent.grabFocus(),"Requests that this Component get the input focus, and that this Component's top-level ancestor become the focused Window.",6,request
+513,8594,java.lang.management.MemoryUsage.getInit(),Returns the amount of memory in bytes that the Java virtual machine initially requests from the operating system for memory management.,54,return
+514,34408,android.app.Activity.requestShowKeyboardShortcuts(),Request the Keyboard Shortcuts screen to show up.,6,request
+515,26500,javax.swing.plaf.basic.BasicOptionPaneUI.selectInitialValue(javax.swing.JOptionPane),"If inputComponent is non-null, the focus is requested on that, otherwise request focus on the default value",6,\N
+516,44523,android.media.tv.TvInputService.RecordingSession.onStopRecording(),Called when the application requests to stop TV program recording.,9,call
+517,48357,android.service.voice.VoiceInteractionSession.onGetSupportedCommands(java.lang.String),Request to query for what extended commands the session supports.,62,query
+518,37114,"android.content.ContentResolver.refresh(android.net.Uri,android.os.Bundle,android.os.CancellationSignal)",This allows clients to request an explicit refresh of content identified by uri.,6,allow
+519,45531,"android.net.wifi.p2p.WifiP2pManager.clearServiceRequests(android.net.wifi.p2p.WifiP2pManager.Channel,android.net.wifi.p2p.WifiP2pManager.ActionListener)",Clear all registered service discovery requests.,29,\N
+520,35166,android.app.LauncherActivity.makeListItems(),Perform the query to determine which results to show and return a list of them.,54,determine
+521,34182,android.app.ActionBar.OnMenuVisibilityListener.onMenuVisibilityChanged(boolean),Called when an action bar menu is shown or hidden.,9,call
+522,46704,android.preference.MultiSelectListPreference.onPrepareDialogBuilder(android.app.AlertDialog.Builder),Prepares the dialog builder to be shown when the preference is clicked.,56,prepare
+523,52741,android.view.ViewGroup.drawableStateChanged(),This function is called whenever the state of the view changes in such a way that it impacts the state of drawables being shown.,53,\N
+524,46663,android.preference.DialogPreference.onPrepareDialogBuilder(android.app.AlertDialog.Builder),Prepares the dialog builder to be shown when the preference is clicked.,56,prepare
+525,35597,"android.app.ProgressDialog.show(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,boolean)",Creates and shows a ProgressDialog.,35,show
+526,51324,"android.view.Menu.setGroupCheckable(int,boolean,boolean)",Control whether a particular group of items can show a check mark.,,control
+527,35595,"android.app.ProgressDialog.show(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,boolean,boolean,android.content.DialogInterface.OnCancelListener)",Creates and shows a ProgressDialog.,35,show
+528,48361,android.service.voice.VoiceInteractionSession.onHide(),Called immediately after stopping to show the session UI.,9,\N
+529,26299,javax.swing.plaf.basic.BasicComboBoxUI.toggleOpenClose(),Hides the popup if it is showing and shows the popup if it is hidden.,30,hide
+530,26615,javax.swing.plaf.basic.BasicSpinnerUI.installListeners(),Initializes PropertyChangeListener with a shared object that delegates interesting PropertyChangeEvents to protected methods.,56,initialize
+531,10921,java.security.cert.CertPathChecker.init(boolean),Initializes the internal state of this CertPathChecker.,56,initialize
+532,17044,java.util.logging.LogManager.readConfiguration(java.io.InputStream),"Reinitialize the logging properties and reread the logging configuration from the given stream, which should be in java.util.Properties format.",56,reinitialize
+533,10837,"java.security.Signature.initSign(java.security.PrivateKey,java.security.SecureRandom)",Initialize this object for signing.,56,initialize
+534,35697,android.app.TabActivity.onRestoreInstanceState(android.os.Bundle),"This method is called after onStart() when the activity is being re-initialized from a previously saved state, given here in savedInstanceState.",9,call
+535,21074,javax.net.ssl.TrustManagerFactorySpi.engineInit(javax.net.ssl.ManagerFactoryParameters),Initializes this factory with a source of provider-specific key material.,56,initialize
+536,32947,org.omg.DynamicAny._DynStructStub.set_members(org.omg.DynamicAny.NameValuePair[]),Initializes the struct data value associated with a DynStruct object from a sequence of NameValuePairs.,56,initialize
+537,33447,"org.w3c.dom.events.Event.initEvent(java.lang.String,boolean,boolean)",The initEvent method is used to initialize the value of an Event created through the DocumentEvent interface.,56,initialize
+538,54835,"android.widget.DatePicker.init(int,int,int,android.widget.DatePicker.OnDateChangedListener)",Initialize the state.,56,initialize
+539,27722,javax.swing.plaf.synth.SynthEditorPaneUI.installDefaults(),"Initializes component properties, such as font, foreground, background, caret color, selection color, selected text color, disabled text color, and border color.",56,initialize
+540,34710,android.app.Dialog.dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent),Called to process population of AccessibilityEvents.,21,process
+541,25411,javax.swing.MenuSelectionManager.processKeyEvent(java.awt.event.KeyEvent),"When a MenuElement receives an event from a KeyListener, it should never process the event directly.",21,\N
+542,34274,android.app.Activity.dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent),Called to process population of AccessibilityEvents.,21,process
+543,25655,javax.swing.SwingUtilities.processKeyBindings(java.awt.event.KeyEvent),Process the key bindings for the Component associated with event.,21,process
+544,34273,android.app.Activity.dispatchKeyShortcutEvent(android.view.KeyEvent),Called to process a key shortcut event.,9,process
+545,23682,"javax.swing.JComboBox.processKeyBinding(javax.swing.KeyStroke,java.awt.event.KeyEvent,int,boolean)","Invoked to process the key bindings for ks as the result of the KeyEvent e. This obtains the appropriate InputMap, gets the binding, gets the action from the ActionMap, and then (if the action is found and the component is enabled) invokes notifyAction to notify the action.",21,process
+546,31787,"org.ietf.jgss.GSSContext.initSecContext(byte[],int,int)",Called by the context initiator to start the context creation phase and process any tokens generated by the peer's acceptSecContext method.,78,start
+547,23018,"javax.swing.MenuElement.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)",Process a key event.,21,process
+548,51491,android.view.Window.Callback.dispatchGenericMotionEvent(android.view.MotionEvent),Called to process generic motion events.,9,process
+549,33162,org.omg.PortableInterceptor.ServerRequestInterceptorOperations.receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo),Allows the interceptor to process service context information.,6,allow
+550,47426,android.renderscript.Allocation.copyFromUnchecked(int[]),Copy into this Allocation from an array.,80,copy
+551,33665,org.xml.sax.helpers.AttributesImpl.setAttributes(org.xml.sax.Attributes),Copy an entire Attributes object.,80,copy
+552,47387,"android.renderscript.Allocation.copy1DRangeFromUnchecked(int,int,short[])",Copy an array into a 1D region of this Allocation.,80,copy
+553,47814,"android.renderscript.ScriptIntrinsicLUT.forEach(android.renderscript.Allocation,android.renderscript.Allocation)",Invoke the kernel and apply the lookup to each cell of ain and copy to aout.,9,\N
+554,47423,android.renderscript.Allocation.copyFromUnchecked(float[]),Copy into this Allocation from an array.,80,copy
+555,47386,"android.renderscript.Allocation.copy1DRangeFromUnchecked(int,int,byte[])",Copy an array into a 1D region of this Allocation.,80,copy
+556,38892,android.graphics.Bitmap.copyPixelsFromBuffer(java.nio.Buffer),"Copy the pixels from the buffer, beginning at the current position, overwriting the bitmap's pixels.",80,copy
+557,47412,"android.renderscript.Allocation.copy2DRangeTo(int,int,int,int,int[])",Copy from a rectangular region in this Allocation into an array.,80,copy
+558,47393,"android.renderscript.Allocation.copy1DRangeTo(int,int,int[])",Copy a 1D region of this Allocation into an array.,80,copy
+559,45679,android.nfc.tech.MifareClassic.transfer(int),Copy from the temporary block to a value block.,80,copy
+560,44211,android.media.effect.Effect.release(),Release an effect.,17,release
+561,31953,org.omg.CORBA.Object._release(),"Signals that the caller is done using this object reference, so internal ORB resources associated with this object reference can be released.",19,\N
+562,45706,android.nfc.tech.NdefFormatable.close(),"Disable I/O operations to the tag from this TagTechnology object, and release resources.",17,\N
+563,54367,"android.widget.AbsListView.onKeyUp(int,android.view.KeyEvent)","Default implementation of KeyEvent.Callback.onKeyUp(): perform clicking of the view when KEYCODE_DPAD_CENTER, KEYCODE_ENTER or KEYCODE_SPACE is released.",33,\N
+564,50343,android.text.method.MetaKeyKeyListener.adjustMetaAfterKeypress(android.text.Spannable),Call this method after you handle a keypress so that the meta state will be reset to unshifted (if it is not still down) or primed to be reset to unshifted (once it is released).,9,\N
+565,55234,"android.widget.ListView.onKeyUp(int,android.view.KeyEvent)","Default implementation of KeyEvent.Callback.onKeyUp(): perform clicking of the view when KEYCODE_DPAD_CENTER, KEYCODE_ENTER or KEYCODE_SPACE is released.",33,perform
+566,38513,android.database.sqlite.SQLiteClosable.close(),"Releases a reference to the object, closing the object if the last reference was released.",17,release
+567,22780,javax.sql.rowset.serial.SerialBlob.free(),This method frees the SeriableBlob object and releases the resources that it holds.,17,free
+568,28557,javax.swing.text.AbstractDocument.writeUnlock(),Releases a write lock previously obtained via writeLock.,17,release
+569,7274,java.io.Reader.close(),Closes the stream and releases any system resources associated with it.,17,close
+570,54220,android.widget.Adapter.getItemId(int),Get the row id associated with the specified position in the list.,54,get
+571,36251,android.app.job.JobParameters.dequeueWork(),Dequeue the next pending JobWorkItem from these JobParameters associated with their currently running job.,68,dequeue
+572,17784,javax.accessibility.AccessibleHyperlink.isValid(),"Since the document a link is associated with may have changed, this method returns whether or not this Link is still valid (with respect to the document it references).",54,return
+573,25104,javax.swing.JTextPane.setStyledDocument(javax.swing.text.StyledDocument),Associates the editor with a text document.,34,associate
+574,54803,android.widget.CursorAdapter.getItemId(int),Get the row id associated with the specified position in the list.,54,get
+575,10584,java.security.DigestOutputStream.setMessageDigest(java.security.MessageDigest),Associates the specified message digest with this stream.,34,associate
+576,15608,"java.util.concurrent.ConcurrentMap.merge(java.util.concurrent.ConcurrentMap,java.util.concurrent.ConcurrentMap,java.util.function.BiFunction<? super,? super,? extends java.util.concurrent.ConcurrentMap>)","If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.",53,associate
+577,18253,"javax.imageio.ImageReader.getStreamMetadata(java.lang.String,java.util.Set<java.lang.String>)","Returns an IIOMetadata object representing the metadata associated with the input source as a whole (i.e., not associated with any particular image).",54,return
+578,57973,"java.util.concurrent.ConcurrentMap.merge(K,V,java.util.function.BiFunction<? super,? super,? extends V>)","If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.",53,associate
+579,10780,"java.security.Provider.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction<? super,? super,? extends java.lang.Object>)","If the specified key is not already associated with a value or is associated with null, associates it with the given value.",34,associate
+580,15628,"java.util.concurrent.ExecutorService.invokeAll(java.util.Collection<? extends java.util.concurrent.Callable<T>>,long,java.util.concurrent.TimeUnit)","Executes the given tasks, returning a list of Futures holding their status and results when all complete or the timeout expires, whichever happens first.",33,execute
+581,7890,"java.lang.Runtime.exec(java.lang.String,java.lang.String[])",Executes the specified string command in a separate process with the specified environment.,33,execute
+582,15589,"java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super,? extends U>,java.util.concurrent.Executor)","Returns a new CompletionStage that, when this stage completes normally, is executed using the supplied Executor, with this stage's result as the argument to the supplied function.",54,return
+583,16168,java.util.concurrent.FutureTask.runAndReset(),"Executes the computation without setting its result, and then resets this future to initial state, failing to do so if the computation encounters an exception or is cancelled.",33,execute
+584,58008,"java.util.concurrent.CompletableFuture.thenAcceptAsync(java.util.function.Consumer<? super T>,java.util.concurrent.Executor)","Returns a new CompletionStage that, when this stage completes normally, is executed using the supplied Executor, with this stage's result as the argument to the supplied action.",54,return
+585,57997,"java.util.concurrent.CompletableFuture.acceptEitherAsync(java.util.concurrent.CompletionStage<? extends T>,java.util.function.Consumer<? super T>)","Returns a new CompletionStage that, when either this or the other given stage complete normally, is executed using this stage's default asynchronous execution facility, with the corresponding result as argument to the supplied action.",54,return
+586,58007,java.util.concurrent.CompletableFuture.thenAccept(java.util.function.Consumer<? super T>),"Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied action.",54,return
+587,42700,android.inputmethodservice.InputMethodService.sendDefaultEditorAction(boolean),Ask the input target to execute its default action via InputConnection.performEditorAction().,6,ask
+588,7891,"java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File)",Executes the specified string command in a separate process with the specified environment and working directory.,33,execute
+589,15582,java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super java.util.concurrent.CompletionStage>),"Returns a new CompletionStage that, when this stage completes normally, is executed using this stage's default asynchronous execution facility, with this stage's result as the argument to the supplied action.",54,return
+590,58921,"org.json.JSONObject.optString(java.lang.String,java.lang.String)","Returns the value mapped by name if it exists, coercing it if necessary, or fallback if no such mapping exists.",54,return
+591,37423,android.content.Intent.hasCategory(java.lang.String),Check if a category exists in the intent.,65,check
+592,15855,java.util.concurrent.ConcurrentLinkedDeque.remove(java.lang.Object),"Removes the first element e such that o.equals(e), if such an element exists in this deque.",68,remove
+593,58911,"org.json.JSONObject.optBoolean(java.lang.String,boolean)","Returns the value mapped by name if it exists and is a boolean or can be coerced to a boolean, or fallback otherwise.",54,return
+594,45967,android.os.Bundle.getFloatArray(java.lang.String),"Returns the value associated with the given key, or null if no mapping of the desired type exists for the given key or a null value is explicitly associated with the key.",54,return
+595,14185,java.util.Spliterator.OfDouble.tryAdvance(java.util.function.Consumer<? super java.lang.Double>),"If a remaining element exists, performs the given action on it, returning true; else returns false.",33,\N
+596,50857,android.util.ArrayMap.containsKey(java.lang.Object),Check whether a key exists in the array.,65,check
+597,44305,android.media.session.MediaController.getSessionActivity(),Get an intent for launching UI associated with this session if one exists.,54,get
+598,6902,java.io.File.exists(),Tests whether the file or directory denoted by this abstract pathname exists.,65,test
+599,58897,org.json.JSONObject.getBoolean(java.lang.String),"Returns the value mapped by name if it exists and is a boolean or can be coerced to a boolean, or throws otherwise.",54,return
+600,49788,android.test.mock.MockCursor.moveToLast(),Move the cursor to the last row.,75,move
+601,38383,android.database.CursorWrapper.move(int),"Move the cursor by a relative amount, forward or backward, from the current position.",75,move
+602,3104,"java.awt.Component.setBounds(int,int,int,int)",Moves and resizes this component.,75,\N
+603,52961,android.view.Window.setExitTransition(android.transition.Transition),Sets the Transition that will be used to move Views out of the scene when starting a new Activity.,77,set
+604,24213,"javax.swing.JLayeredPane.setPosition(java.awt.Component,int)","Moves the component to position within its current layer, where 0 is the topmost position within the layer and -1 is the bottommost position.",75,move
+605,42616,android.inputmethodservice.KeyboardView.OnKeyboardActionListener.swipeDown(),Called when the user quickly moves the finger from up to down.,9,call
+606,28728,javax.swing.text.DefaultCaret.mouseDragged(java.awt.event.MouseEvent),Moves the caret position according to the mouse pointer's current location.,75,move
+607,55989,android.widget.TextView.bringPointIntoView(int),"Move the point, specified by the offset, into the view if it is needed.",75,move
+608,38384,android.database.CursorWrapper.moveToFirst(),Move the cursor to the first row.,75,move
+609,14017,java.util.List.addAll(java.util.Collection<? extends java.util.List>),"Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator (optional operation).",61,append
+610,8100,java.lang.StringBuffer.append(java.lang.Object),Appends the string representation of the Object argument.,61,append
+611,58111,java.util.concurrent.CopyOnWriteArrayList.add(E),Appends the specified element to the end of this list.,61,append
+612,41547,"android.icu.text.MessageFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)","Formats an array of objects and appends the MessageFormat's pattern, with arguments replaced by the formatted objects, to the provided StringBuffer.",24,format
+613,8113,java.lang.StringBuffer.appendCodePoint(int),Appends the string representation of the codePoint argument to this sequence.,61,append
+614,55987,"android.widget.TextView.append(java.lang.CharSequence,int,int)","Convenience method to append the specified text slice to the TextView's display buffer, upgrading it to EDITABLE if it was not already editable.",61,append
+615,13711,java.time.format.DateTimeFormatterBuilder.appendInstant(int),Appends an instant using ISO-8601 to the formatter with control over the number of fractional digits.,61,append
+616,50126,"android.text.SpannableStringBuilder.append(java.lang.CharSequence,java.lang.Object,int)",Appends the character sequence text and spans what over the appended part.,61,append
+617,14308,java.util.ArrayList.addAll(java.util.Collection<? extends java.util.ArrayList>),"Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's Iterator.",61,append
+618,8162,java.lang.StringBuilder.append(double),Appends the string representation of the double argument to this sequence.,61,append
+619,27027,javax.swing.plaf.metal.MetalLookAndFeel.getID(),Returns an identifier for this look and feel.,54,return
+620,27320,javax.swing.plaf.multi.MultiLookAndFeel.isSupportedLookAndFeel(),Returns true if every platform permits this look and feel.,54,return
+621,27745,"javax.swing.plaf.synth.SynthInternalFrameUI.paint(java.awt.Graphics,javax.swing.JComponent)",Paints the specified component according to the Look and Feel.,4,paint
+622,24667,javax.swing.JScrollPane.setUI(javax.swing.plaf.ScrollPaneUI),Sets the ScrollPaneUI object that provides the look and feel (L&F) for this component.,77,set
+623,28359,javax.swing.table.JTableHeader.setUI(javax.swing.plaf.TableHeaderUI),Sets the look and feel (L&F) object that renders this component.,77,set
+624,28174,"javax.swing.plaf.synth.SynthToolTipUI.paint(java.awt.Graphics,javax.swing.JComponent)",Paints the specified component according to the Look and Feel.,4,paint
+625,25380,javax.swing.LookAndFeel.getDescription(),"Return a one line description of this look and feel implementation, e.g.",54,return
+626,26455,javax.swing.plaf.basic.BasicLookAndFeel.getAudioActionMap(),Returns an ActionMap containing the audio actions for this look and feel.,54,return
+627,28169,javax.swing.plaf.synth.SynthToolBarUI.setBorderToRollover(java.awt.Component),"This implementation does nothing, because the rollover property of the JToolBar class is not used in the Synth Look and Feel.",53,\N
+628,24148,javax.swing.JLabel.setDisplayedMnemonicIndex(int),Provides a hint to the look and feel as to which character in the text should be decorated to represent the mnemonic.,48,\N
+629,4142,java.awt.TextComponent.selectAll(),Selects all the text in this text component.,42,select
+630,24112,javax.swing.JInternalFrame.setSelected(boolean),Selects or deselects the internal frame if it's showing.,42,select
+631,29019,"javax.swing.text.JTextComponent.select(int,int)",Selects the text between the specified start and end positions.,42,select
+632,44616,"android.media.tv.TvView.selectTrack(int,java.lang.String)",Selects a track.,42,select
+633,23358,javax.swing.DefaultButtonModel.setSelected(boolean),Selects or deselects the button.,42,select
+634,25276,javax.swing.JTree.setSelectionRows(int[]),Selects the nodes corresponding to each of the specified rows in the display.,42,select
+635,24276,"javax.swing.JList.setSelectedValue(java.lang.Object,boolean)",Selects the specified object from the list.,42,select
+636,26492,javax.swing.plaf.basic.BasicOptionPaneUI.getInitialValueIndex(),Returns the initial index into the buttons to select.,54,return
+637,41844,"android.icu.text.SelectFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)",Selects the phrase for the given keyword.,42,select
+638,4141,"java.awt.TextComponent.select(int,int)",Selects the text between the specified start and end positions.,42,select
+639,6369,java.awt.print.PrinterJob.setPrintable(java.awt.print.Printable),Calls painter to render the pages.,9,\N
+640,3489,"java.awt.Graphics2D.drawImage(java.awt.Image,java.awt.geom.AffineTransform,java.awt.image.ImageObserver)","Renders an image, applying a transform from image space into user space before drawing.",4,render
+641,28794,javax.swing.text.DefaultHighlighter.paint(java.awt.Graphics),Renders the highlights.,4,render
+642,27737,"javax.swing.plaf.synth.SynthGraphicsUtils.getMinimumSize(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.lang.String,javax.swing.Icon,int,int,int,int,int,int)",Returns the minimum size needed to properly render an icon and text.,54,return
+643,29125,"javax.swing.text.PlainView.drawLine(int,java.awt.Graphics,int,int)","Renders a line of text, suppressing whitespace at the end and expanding any tabs.",4,render
+644,29106,"javax.swing.text.ParagraphView.paint(java.awt.Graphics,java.awt.Shape)",Renders using the given rendering surface and area on that surface.,4,render
+645,50435,"android.text.style.DrawableMarginSpan.drawLeadingMargin(android.graphics.Canvas,android.graphics.Paint,int,int,int,int,int,java.lang.CharSequence,int,int,boolean,android.text.Layout)",Renders the leading margin.,4,render
+646,38867,android.gesture.GestureOverlayView.draw(android.graphics.Canvas),Manually render this view (and all of its children) to the given Canvas.,4,render
+647,27738,"javax.swing.plaf.synth.SynthGraphicsUtils.getPreferredSize(javax.swing.plaf.synth.SynthContext,java.awt.Font,java.lang.String,javax.swing.Icon,int,int,int,int,int,int)",Returns the preferred size needed to properly render an icon and text.,54,return
+648,26855,"javax.swing.plaf.basic.BasicTreeUI.getRowX(int,int)","Returns the location, along the x-axis, to render a particular row at.",54,return
+649,8806,java.lang.reflect.Modifier.isTransient(int),"Return true if the integer argument includes the transient modifier, false otherwise.",54,return
+650,31425,javax.xml.transform.TransformerFactory.getURIResolver(),"Get the object that is used by default during the transformation to resolve URIs used in document(), xsl:import, or xsl:include.",54,get
+651,34812,"android.app.DownloadManager.Request.addRequestHeader(java.lang.String,java.lang.String)",Add an HTTP header to be included with the download request.,61,add
+652,25478,"javax.swing.RowFilter.orFilter(java.lang.Iterable<? extends javax.swing.RowFilter<? super,? super I>>)",Returns a RowFilter that includes entries if any of the supplied filters includes the entry.,54,return
+653,11550,java.sql.DatabaseMetaData.doesMaxRowSizeIncludeBlobs(),Retrieves whether the return value for the method getMaxRowSize includes the SQL data types LONGVARCHAR and LONGVARBINARY.,65,retrieve
+654,42043,android.icu.text.UnicodeSet.size(),Returns the number of elements in this set (its cardinality) Note than the elements of a set may include both individual codepoints and strings.,54,return
+655,36712,android.bluetooth.le.PeriodicAdvertisingParameters.Builder.setIncludeTxPower(boolean),Whether the transmission power level should be included in the periodic packet.,54,\N
+656,50188,android.text.StaticLayout.Builder.setIncludePad(boolean),"Set whether to include extra space beyond font ascent and descent (which is needed to avoid clipping in some languages, such as Arabic and Kannada).",77,set
+657,34891,android.app.Fragment.onDestroyOptionsMenu(),Called when this fragment's option menu items are no longer being included in the overall options menu.,9,call
+658,55944,android.widget.TabWidget.childDrawableStateChanged(android.view.View),"If addStatesFromChildren() is true, refreshes this group's drawable state (to include the states from its children).",56,refresh
+659,46900,android.preference.PreferenceScreen.onSaveInstanceState(),Hook allowing a Preference to generate a representation of its internal state that can later be used to create a new instance with that same state.,53,\N
+660,51300,"android.view.KeyEvent.Callback.onKeyMultiple(int,int,android.view.KeyEvent)","Called when a user's interaction with an analog control, such as flinging a trackball, generates simulated down/up events for the same key multiple times in quick succession.",9,call
+661,46789,android.preference.Preference.onSaveInstanceState(),Hook allowing a Preference to generate a representation of its internal state that can later be used to create a new instance with that same state.,53,\N
+662,43371,"android.media.JetPlayer.setEventListener(android.media.JetPlayer.OnJetEventListener,android.os.Handler)",Sets the listener JetPlayer notifies when a JET event is generated by the rendering and playback engine.,77,\N
+663,8832,java.lang.reflect.Proxy.isProxyClass(java.lang.Class<?>),Returns true if and only if the specified class was dynamically generated to be a proxy class using the getProxyClass method or the newProxyInstance method.,54,return
+664,47580,"android.renderscript.Script.setVar(int,boolean)",Only intended for use by generated reflected code.,53,\N
+665,18097,javax.crypto.SecretKeyFactory.generateSecret(java.security.spec.KeySpec),Generates a SecretKey object from the provided key specification (key material).,15,generate
+666,48364,"android.service.voice.VoiceInteractionSession.onKeyMultiple(int,int,android.view.KeyEvent)","Called when a user's interaction with an analog control, such as flinging a trackball, generates simulated down/up events for the same key multiple times in quick succession.",9,\N
+667,20459,javax.naming.CompoundName.toString(),"Generates the string representation of this compound name, using the syntax rules of the compound name.",15,generate
+668,15216,java.util.SimpleTimeZone.hashCode(),Generates the hash code for the SimpleDateFormat object.,15,generate
+669,53104,android.view.accessibility.AccessibilityNodeInfo.findFocus(int),Find the view that has the specified focus type.,62,find
+670,29784,javax.swing.tree.DefaultMutableTreeNode.getFirstLeaf(),Finds and returns the first leaf that is a descendant of this node -- either this node or its first child's first leaf.,62,find
+671,52181,android.view.View.getRootView(),Finds the topmost view in the current view hierarchy.,62,find
+672,7558,java.lang.ClassLoader.getResource(java.lang.String),Finds the resource with the given name.,62,find
+673,7099,java.io.ObjectStreamClass.lookup(java.lang.Class<?>),Find the descriptor for a class that can be serialized.,62,find
+674,6450,java.beans.Expression.execute(),"The execute method finds a method whose name is the same as the methodName property, and invokes the method on the target.",62,\N
+675,54136,android.webkit.WebView.setFindListener(android.webkit.WebView.FindListener),Registers the listener to be notified as find-on-page operations progress.,61,register
+676,8431,java.lang.invoke.MethodType.genericMethodType(int),Finds or creates a method type whose components are all Object.,62,find
+677,51620,"android.view.FocusFinder.findNextFocusFromRect(android.view.ViewGroup,android.graphics.Rect,int)","Find the next view to take focus in root's descendants, searching from a particular rectangle in root's coordinates.",62,find
+678,56449,dalvik.system.BaseDexClassLoader.findResource(java.lang.String),Finds the resource with the given name.,62,find
+679,37238,android.content.Context.openFileInput(java.lang.String),Open a private file associated with this Context's application package for reading.,46,open
+680,44264,"android.media.midi.MidiManager.openDevice(android.media.midi.MidiDeviceInfo,android.media.midi.MidiManager.OnDeviceOpenedListener,android.os.Handler)",Opens a MIDI device for reading and writing.,46,open
+681,22172,"javax.sound.sampled.SourceDataLine.open(javax.sound.sampled.AudioFormat,int)","Opens the line with the specified format and suggested buffer size, causing the line to acquire any required system resources and become operational.",46,open
+682,57043,"java.nio.file.SecureDirectoryStream.newDirectoryStream(T,java.nio.file.LinkOption)","Opens the directory identified by the given path, returning a SecureDirectoryStream to iterate over the entries in the directory.",46,open
+683,38159,"android.content.res.Resources.openRawResource(int,android.util.TypedValue)",Open a data stream for reading a raw resource.,46,open
+684,49729,android.test.mock.MockContext.openFileInput(java.lang.String),Open a private file associated with this Context's application package for reading.,46,open
+685,10149,"java.nio.file.Files.newBufferedWriter(java.nio.file.Path,java.nio.file.OpenOption...)","Opens or creates a file for writing, returning a BufferedWriter to write text to the file in an efficient manner.",46,open
+686,9967,java.nio.channels.spi.SelectorProvider.openSocketChannel(),Opens a socket channel.,46,open
+687,10155,"java.nio.file.Files.newInputStream(java.nio.file.Path,java.nio.file.OpenOption...)","Opens a file, returning an input stream to read from the file.",46,open
+688,44224,android.media.midi.MidiDevice.openOutputPort(int),Called to open a MidiOutputPort for the specified port number.,46,open
+689,40882,android.icu.lang.UCharacter.getUnicodeNumericValue(int),[icu] Returns the numeric value for a Unicode code point as defined in the Unicode Character Database.,54,return
+690,53734,android.view.inputmethod.InputMethodSubtype.getExtraValueOf(java.lang.String),"The string of ExtraValue in subtype should be defined as follows: example: key0,key1=value1,key2,key3,key4=value4",53,\N
+691,38462,android.database.DefaultDatabaseErrorHandler.onCorruption(android.database.sqlite.SQLiteDatabase),defines the default method to be invoked when database corruption is detected.,77,define
+692,3860,java.awt.MenuShortcut.equals(java.awt.MenuShortcut),Returns whether this MenuShortcut is the same as another: equality is defined to mean that both MenuShortcuts use the same key and both either use or don't use the SHIFT key.,54,return
+693,55800,android.widget.Spinner.performClick(),"Call this view's OnClickListener, if it is defined.",33,call
+694,55444,android.widget.ProgressBar.setIndeterminateDrawable(android.graphics.drawable.Drawable),Define the drawable used to draw the progress bar in indeterminate mode.,77,define
+695,51264,android.view.ViewDebug.ExportedProperty.mapping(),A mapping can be defined to map int values to specific strings.,77,\N
+696,3861,java.awt.MenuShortcut.equals(java.lang.Object),Returns whether this MenuShortcut is the same as another: equality is defined to mean that both MenuShortcuts use the same key and both either use or don't use the SHIFT key.,54,return
+697,35228,android.app.MediaRouteButton.performClick(),"Call this view's OnClickListener, if it is defined.",33,call
+698,54899,"android.widget.ExpandableListView.performItemClick(android.view.View,int,long)","Call the OnItemClickListener, if it is defined.",33,call
+699,4582,java.awt.dnd.DropTarget.isActive(),Reports whether or not this DropTarget is currently active (ready to accept drops).,9,report
+700,42756,android.location.GpsStatus.Listener.onGpsStatusChanged(int),Called to report changes in the GPS status.,9,call
+701,33612,org.xml.sax.ext.LexicalHandler.endCDATA(),Report the end of a CDATA section.,9,report
+702,2983,"java.awt.Component.firePropertyChange(java.lang.String,double,double)",Reports a bound property change.,69,\N
+703,33605,"org.xml.sax.ext.DeclHandler.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",Report an attribute type declaration.,9,report
+704,48388,android.service.voice.VoiceInteractionSession.CommandRequest.sendIntermediateResult(android.os.Bundle),"Report an intermediate result of the request, without completing it (the request is still active and the app is waiting for the final result), resulting in a call to VoiceInteractor.CommandRequest.onCommandResult with false for isCompleted.",9,report
+705,6508,"java.beans.PropertyChangeSupport.firePropertyChange(java.lang.String,boolean,boolean)",Reports a boolean bound property update to listeners that have been registered to track updates of all properties or a property with the specified name.,9,\N
+706,48850,android.telecom.Connection.VideoProvider.handleCallSessionEvent(int),Used to inform listening InCallService implementations when the Connection.VideoProvider reports a call session event.,9,call
+707,42910,android.location.GnssStatus.hasCarrierFrequencyHz(int),Reports whether getCarrierFrequencyHz(int) is available (i.e.,9,report
+708,34558,android.app.ActivityOptions.requestUsageTimeReport(android.app.PendingIntent),"Ask the the system track that time the user spends in the app being launched, and report it back once done.",6,ask
+709,51553,android.view.Choreographer.postFrameCallback(android.view.Choreographer.FrameCallback),Posts a frame callback to run on the next frame.,19,post
+710,34824,android.app.DownloadManager.Request.setRequiresDeviceIdle(boolean),"Specify that to run, the download needs the device to be in idle mode.",77,specify
+711,36236,android.app.job.JobInfo.Builder.setRequiresCharging(boolean),"Specify that to run this job, the device needs to be plugged in.",77,specify
+712,3134,java.awt.ComponentOrientation.isLeftToRight(),HorizontalLines: Do items run left-to-right?,77,\N
+713,37243,"android.content.Context.registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)",Register a BroadcastReceiver to be run in the main activity thread.,61,register
+714,35732,android.app.UiAutomation.setRunAsMonkey(boolean),"Sets whether this UiAutomation to run in a \monkey\"" mode.""",77,set
+715,53435,"android.view.animation.LayoutAnimationController.setAnimation(android.content.Context,int)",Sets the animation to be run on each child of the view group on which this layout animation controller is .,77,set
+716,30135,"javax.tools.Tool.run(java.io.InputStream,java.io.OutputStream,java.io.OutputStream,java.lang.String...)",Run the tool with the given I/O channels and arguments.,33,run
+717,35677,"android.app.Service.startForeground(int,android.app.Notification)","If your service is started (running through startService(Intent)), then also make this service run in the foreground, supplying the ongoing notification to be shown to the user while in this state.",33,\N
+718,53434,android.view.animation.LayoutAnimationController.setAnimation(android.view.animation.Animation),Sets the animation to be run on each child of the view group on which this layout animation controller is .,33,set
+719,9888,java.nio.channels.SelectionKey.isValid(),Tells whether or not this key is valid.,69,tell
+720,23959,javax.swing.JFileChooser.rescanCurrentDirectory(),Tells the UI to rescan its files list from the current directory.,69,rescan
+721,22957,javax.swing.CellEditor.cancelCellEditing(),Tells the editor to cancel editing and not accept any partially edited value.,85,cancel
+722,18624,javax.imageio.plugins.jpeg.JPEGImageWriteParam.setOptimizeHuffmanTables(boolean),Tells the writer to generate optimized Huffman tables for the image as part of the writing process.,69,tell
+723,8413,java.lang.invoke.MethodHandles.Lookup.lookupModes(),Tells which access-protection classes of members this lookup object can produce.,69,tell
+724,7276,java.io.Reader.markSupported(),Tells whether this stream supports the mark() operation.,69,tell
+725,33638,"org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String)","Tells the parser that if no external subset has been declared in the document text, none should be used.",69,\N
+726,54018,android.webkit.WebSettings.setJavaScriptEnabled(boolean),Tells the WebView to enable JavaScript execution.,69,enable
+727,10001,java.nio.charset.CharsetDecoder.isAutoDetecting(),Tells whether or not this decoder implements an auto-detecting charset.,69,tell
+728,51440,android.view.ViewParent.canResolveTextAlignment(),Tells if this view parent can resolve the text alignment.,69,tell
+729,22995,javax.swing.ListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener),Add a listener to the list that's notified each time a change to the selection occurs.,61,add
+730,28238,javax.swing.table.AbstractTableModel.addTableModelListener(javax.swing.event.TableModelListener),Adds a listener to the list that's notified each time a change to the data model occurs.,61,add
+731,38297,android.database.AbstractCursor.SelfContentObserver.onChange(boolean),This method is called when a content change occurs.,9,call
+732,22994,javax.swing.ListModel.removeListDataListener(javax.swing.event.ListDataListener),Removes a listener from the list that's notified each time a change to the data model occurs.,68,remove
+733,46443,android.os.StrictMode.setThreadPolicy(android.os.StrictMode.ThreadPolicy),"Sets the policy for what actions on the current thread should be detected, as well as the penalty if such actions occur.",77,set
+734,23463,javax.swing.DefaultListSelectionModel.removeListSelectionListener(javax.swing.event.ListSelectionListener),Remove a listener from the list that's notified each time a change to the selection occurs.,68,remove
+735,43050,"android.media.MediaDrm.OnEventListener.onEvent(android.media.MediaDrm,byte[],int,int,byte[])",Called when an event occurs that requires the app to be notified,9,\N
+736,23137,javax.swing.AbstractButton.setRolloverEnabled(boolean),"Sets the rolloverEnabled property, which must be true for rollover effects to occur.",77,set
+737,20028,"javax.management.relation.RelationService.handleNotification(javax.management.Notification,java.lang.Object)",Invoked when a JMX notification occurs.,9,invoke
+738,51295,android.view.GestureDetector.OnGestureListener.onSingleTapUp(android.view.MotionEvent),Notified when a tap occurs with the up MotionEvent that triggered it.,9,notify
+739,28928,"javax.swing.text.GlyphView.getText(int,int)",Fetch a reference to the text that occupies the given range.,54,fetch
+740,28915,javax.swing.text.GlyphView.getBackground(),Fetch the background color to use to render the glyphs.,54,fetch
+741,29474,javax.swing.text.html.HTMLEditorKit.getParser(),Fetch the parser to use for reading HTML streams.,54,fetch
+742,28668,javax.swing.text.ComponentView.getComponent(),Fetch the component associated with the view.,54,fetch
+743,10402,java.rmi.activation.ActivationGroupDesc.CommandEnvironment.getCommandOptions(),Fetch the configured java command options.,54,fetch
+744,8968,java.net.SocketOptions.getOption(int),Fetch the value of an option.,54,fetch
+745,28874,javax.swing.text.FlowView.getFlowSpan(int),Fetch the constraining span to flow against for the given child index.,54,fetch
+746,28919,javax.swing.text.GlyphView.getForeground(),Fetch the foreground color to use to render the glyphs.,54,fetch
+747,29476,javax.swing.text.html.HTMLEditorKit.getViewFactory(),Fetch a factory that is suitable for producing views of any models that are produced by this kit.,54,fetch
+748,28927,javax.swing.text.GlyphView.getTabExpander(),Fetch the TabExpander to use if tabs are present in this view.,54,fetch
+749,40797,android.hardware.usb.UsbDeviceConnection.requestWait(),Waits for the result of a queue(ByteBuffer) operation Note that this may return requests queued on multiple UsbEndpoints.,32,wait
+750,7860,"java.lang.Process.waitFor(long,java.util.concurrent.TimeUnit)","Causes the current thread to wait, if necessary, until the subprocess represented by this Process object has terminated, or the specified waiting time elapses.",28,cause
+751,15554,"java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit)","Retrieves and removes the head of this queue, waiting up to the specified wait time if necessary for an element to become available.",68,remove
+752,49255,android.telephony.PhoneNumberUtils.isStartsPostDial(char),This any anything to the right of this char is part of the post-dial string (eg this is PAUSE or WAIT),68,\N
+753,45865,android.os.MessageQueue.IdleHandler.queueIdle(),Called when the message queue has run out of messages and will now wait for more.,9,call
+754,35126,android.app.Instrumentation.startActivitySync(android.content.Intent),Start a new activity and wait for it to begin running before returning.,78,start
+755,22694,javax.sql.rowset.BaseRowSet.setQueryTimeout(int),Sets to the given number the maximum number of seconds the driver will wait for a query to execute.,77,set
+756,46491,android.os.SystemClock.sleep(long),Waits a given number of milliseconds (of uptimeMillis) before returning.,32,wait
+757,58339,java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject.awaitNanos(long),Implements timed condition wait.,53,\N
+758,25666,javax.swing.SwingWorker.get(),"Waits if necessary for the computation to complete, and then retrieves its result.",32,\N
+759,17035,java.util.logging.Logger.warning(java.util.function.Supplier<java.lang.String>),"Log a WARNING message, which is only to be constructed if the logging level is such that the message will actually be logged.",1,log
+760,4389,java.awt.color.ICC_Profile.getInstance(byte[]),Constructs an ICC_Profile object corresponding to the data in a byte array.,15,construct
+761,34114,"android.animation.PropertyValuesHolder.ofObject(java.lang.String,,Â ?>,android.graphics.Path)",Constructs and returns a PropertyValuesHolder with a given property name and a Path along which the values should be animated.,15,construct
+762,11498,java.sql.Connection.createClob(),Constructs an object that implements the Clob interface.,15,construct
+763,48156,android.service.dreams.DreamService.onCreate(),Called when this Dream is constructed.,9,\N
+764,34081,"android.animation.ObjectAnimator.ofMultiInt(java.lang.Object,java.lang.String,int[][])",Constructs and returns an ObjectAnimator that animates over int values for a multiple parameters setter.,15,construct
+765,41302,"android.icu.text.DateIntervalFormat.getInstance(java.lang.String,java.util.Locale,android.icu.text.DateIntervalInfo)","Construct a DateIntervalFormat from skeleton a DateIntervalInfo, and the given locale.",15,construct
+766,34157,"android.animation.ValueAnimator.ofObject(android.animation.TypeEvaluator,java.lang.Object)",Constructs and returns a ValueAnimator that animates between Object values.,15,construct
+767,34078,"android.animation.ObjectAnimator.ofInt(java.lang.Object,java.lang.String,java.lang.String,android.graphics.Path)",Constructs and returns an ObjectAnimator that animates coordinates along a Path using two properties.,15,construct
+768,10203,"java.nio.file.FileSystems.newFileSystem(java.nio.file.Path,java.lang.ClassLoader)",Constructs a new FileSystem to access the contents of a file as a file system.,15,construct
+769,15701,java.util.concurrent.CompletableFuture.get(),"Waits if necessary for this future to complete, and then returns its result.",32,\N
+770,16022,java.util.concurrent.CountedCompleter.helpComplete(int),"If this task has not completed, attempts to process at most the given number of other unprocessed tasks for which this task is on the completion path, if any are known to exist.",32,process
+771,10695,java.security.MessageDigest.digest(byte[]),"Performs a final update on the digest using the specified array of bytes, then completes the digest computation.",33,perform
+772,36866,"android.content.AsyncQueryHandler.onQueryComplete(int,java.lang.Object,android.database.Cursor)",Called when an asynchronous query is completed.,9,call
+773,33867,android.accounts.AccountManagerFuture.isDone(),Returns true if this task completed.,54,return
+774,15696,java.util.concurrent.CompletableFuture.cancel(boolean),"If not already completed, completes this CompletableFuture with a CancellationException.",14,complete
+775,32377,org.omg.CORBA.portable.ObjectImpl._releaseReply(org.omg.CORBA.portable.InputStream),Releases the given reply stream back to the ORB when unmarshalling has completed after a call to the method _invoke.,17,release
+776,18427,javax.imageio.event.IIOReadProgressListener.sequenceComplete(javax.imageio.ImageReader),Reports that a sequence of read operations has completed.,69,\N
+777,43079,"android.media.SoundPool.OnLoadCompleteListener.onLoadComplete(android.media.SoundPool,int,int)",Called when a sound has completed loading.,9,call
+778,21327,javax.print.attribute.standard.JobMediaSheetsCompleted.equals(java.lang.Object),Returns whether this job media sheets completed attribute is equivalent to the passed in object.,54,\N
+779,18233,"javax.imageio.ImageReader.computeRegions(javax.imageio.ImageReadParam,int,int,java.awt.image.BufferedImage,java.awt.Rectangle,java.awt.Rectangle)","Computes the source region of interest and the destination region of interest, taking the width and height of the source image, an optional destination image, and an optional ImageReadParam into account.",37,compute
+780,40485,"android.hardware.SensorManager.getOrientation(float[],float[])",Computes the device's orientation based on the rotation matrix.,37,compute
+781,10765,"java.security.Provider.computeIfPresent(java.lang.Object,java.util.function.BiFunction<? super,? super,? extends java.lang.Object>)","If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.",37,compute
+782,42931,"android.location.Location.distanceBetween(double,double,double,double,float[])","Computes the approximate distance in meters between two locations, and optionally the initial and final bearings of the shortest path between them.",37,compute
+783,38977,android.graphics.Camera.getMatrix(android.graphics.Matrix),Computes the matrix corresponding to the current transformation and copies it to the supplied matrix object.,37,compute
+784,30776,javax.xml.datatype.Duration.multiply(int),Computes a new duration whose value is factor times longer than the value of this duration.,37,compute
+785,40251,android.graphics.drawable.shapes.RectShape.getOutline(android.graphics.Outline),Computes the Outline of the shape and return it in the supplied Outline parameter.,37,compute
+786,58012,"java.util.concurrent.ConcurrentHashMap.computeIfAbsent(K,java.util.function.Function<? super,? extends V>)","If the specified key is not already associated with a value, attempts to compute its value using the given mapping function and enters it into this map unless null.",37,compute
+787,20418,javax.naming.BinaryRefAddr.hashCode(),Computes the hash code of this address using its address type and contents.,37,compute
+788,56222,android.widget.TextView.computeVerticalScrollRange(),Compute the vertical range that the vertical scrollbar represents.,37,compute
+789,43973,"android.media.SoundPool.load(android.content.Context,int,int)",Load the sound from the specified APK resource.,43,load
+790,29441,"javax.swing.text.html.HTMLDocument.getReader(int,int,int,javax.swing.text.html.HTML.Tag)",Returns the reader for the parser to use to load the document with HTML.,54,return
+791,25290,javax.swing.JTree.DynamicUtilTreeNode.getChildAt(int),"Subclassed to load the children, if necessary.",53,load
+792,19552,"javax.management.loading.MLet.loadClass(java.lang.String,javax.management.loading.ClassLoaderRepository)","Load a class, using the given ClassLoaderRepository if the class is not found in this MLet's URLs.",43,load
+793,53882,android.webkit.ServiceWorkerWebSettings.setBlockNetworkLoads(boolean),"Sets whether Service Workers should not load resources from the network, see setBlockNetworkLoads(boolean).",77,\N
+794,48532,"android.speech.tts.TextToSpeechService.onLoadLanguage(java.lang.String,java.lang.String,java.lang.String)",Notifies the engine that it should load a speech synthesis language.,69,notify
+795,54098,android.webkit.WebView.loadUrl(java.lang.String),Loads the given URL.,43,load
+796,43974,"android.media.SoundPool.load(java.lang.String,int)",Load the sound from the specified path.,43,load
+797,7039,java.io.ObjectInputStream.resolveClass(java.io.ObjectStreamClass),Load the local class equivalent of the specified stream class description.,43,load
+798,31060,javax.xml.soap.SOAPFactory.newInstance(),"Creates a new SOAPFactory object that is an instance of the default implementation (SOAP 1.1), This method uses the following ordered lookup procedure to determine the SOAPFactory implementation class to load: Use the javax.xml.soap.SOAPFactory system property.",15,create
+799,33518,org.w3c.dom.ls.LSProgressEvent.getTotalSize(),"The total size of the document including all external resources, this number might change as a document is being parsed if references to more external resources are seen.",15,\N
+800,2788,java.awt.AWTKeyStroke.getAWTKeyStroke(java.lang.String),Parses a string and returns an AWTKeyStroke.,12,parse
+801,29497,"javax.swing.text.html.HTMLEditorKit.Parser.parse(java.io.Reader,javax.swing.text.html.HTMLEditorKit.ParserCallback,boolean)",Parse the given stream and drive the given callback with the results of the parse.,12,parse
+802,7738,"java.lang.Long.valueOf(java.lang.String,int)",Returns a Long object holding the value extracted from the specified String when parsed with the radix given by the second argument.,54,return
+803,13451,"java.time.chrono.AbstractChronology.resolveDate(,java.lang.Long>,java.time.format.ResolverStyle)",Resolves parsed ChronoField values into a date during parsing.,12,parse
+804,12341,"java.text.DateFormat.parse(java.lang.String,java.text.ParsePosition)",Parse a date/time string according to the given parse position.,12,parse
+805,9415,"java.net.URLConnection.getHeaderFieldLong(java.lang.String,long)",Returns the value of the named field parsed as a number.,54,return
+806,12515,java.text.NumberFormat.isParseIntegerOnly(),Returns true if this format will parse numbers as integers only.,54,return
+807,7673,"java.lang.Integer.parseUnsignedInt(java.lang.String,int)",Parses the string argument as an unsigned integer in the radix specified by the second argument.,12,parse
+808,30839,javax.xml.parsers.DocumentBuilder.parse(java.lang.String),Parse the content of the given URI as an XML document and return a new DOM Document object.,12,parse
+809,52230,android.view.View.hasTransientState(),"Indicates whether the view is currently tracking transient state that the app should not need to concern itself with saving and restoring, but that the framework should take special note to preserve when possible.",65,indicate
+810,56232,android.widget.TextView.isPaddingOffsetRequired(),"If the View draws content inside its padding and enables fading edges, it needs to support padding offsets.",4,\N
+811,39663,android.graphics.drawable.Drawable.Callback.invalidateDrawable(android.graphics.drawable.Drawable),Called when the drawable needs to be redrawn.,9,call
+812,25283,javax.swing.JTree.treeDidChange(),"Sent when the tree has changed enough that we need to resize the bounds, but not enough that we need to remove the expanded node set (e.g nodes were expanded or collapsed, or nodes were inserted into the tree).",19,\N
+813,54319,android.widget.ZoomButtonsController.OnZoomListener.onZoom(boolean),Called when the owner view needs to be zoomed.,9,call
+814,46934,"android.preference.TwoStatePreference.onGetDefaultValue(android.content.res.TypedArray,int)",Called when a Preference is being inflated and the default value attribute needs to be read.,9,\N
+815,36151,"android.app.backup.BackupHelper.performBackup(android.os.ParcelFileDescriptor,android.app.backup.BackupDataOutput,android.os.ParcelFileDescriptor)","Based on oldState, determine what application content needs to be backed up, write it to data, and fill in newState with the complete state as it exists now.",53,\N
+816,28588,javax.swing.text.AbstractWriter.write(),This abstract method needs to be implemented by subclasses.,53,\N
+817,55671,"android.widget.ScrollView.onRequestFocusInDescendants(int,android.graphics.Rect)","When looking for focus in children of a scroll view, need to be a little more careful not to give focus to something that is scrolled off screen.",53,\N
+818,51257,android.view.ViewDebug.CapturedViewProperty.retrieveReturn(),"When retrieveReturn is true, we need to retrieve second level methods e.g., we need myView.getFirstLevelMethod().getSecondLevelMethod() we will set retrieveReturn = true on the annotation of myView.getFirstLevelMethod()",53,\N
+819,25661,javax.swing.SwingWorker.cancel(boolean),Attempts to cancel execution of this task.,85,cancel
+820,22345,"javax.sql.DataSource.getConnection(java.lang.String,java.lang.String)",Attempts to establish a connection with the data source that this DataSource object represents.,15,establish
+821,22344,javax.sql.DataSource.getConnection(),Attempts to establish a connection with the data source that this DataSource object represents.,15,establish
+822,11721,"java.sql.Driver.connect(java.lang.String,java.util.Properties)",Attempts to make a database connection to the given URL.,15,make
+823,16786,java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock.unlock(),Attempts to release this lock.,17,release
+824,58564,"javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer,int,int,java.nio.ByteBuffer)",Attempts to encode plaintext bytes from a subsequence of data buffers into SSL/TLS network data.,59,encode
+825,58071,"java.util.concurrent.ConcurrentSkipListMap.computeIfPresent(K,java.util.function.BiFunction<? super,? super,? extends V>)","If the value for the specified key is present, attempts to compute a new mapping given the key and its current mapped value.",37,compute
+826,16751,java.util.concurrent.locks.ReentrantLock.unlock(),Attempts to release this lock.,17,release
+827,57732,"java.util.Hashtable.computeIfAbsent(K,java.util.function.Function<? super,? extends V>)","If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null.",37,compute
+828,12150,java.sql.DriverManager.getDriver(java.lang.String),Attempts to locate a driver that understands the given URL.,62,locate
+829,49590,android.test.RenamingDelegatingContext.getDatabasePath(java.lang.String),"Returns the absolute path on the filesystem where a database created with openOrCreateDatabase(String, int, SQLiteDatabase.CursorFactory) is stored.",54,return
+830,10648,java.security.KeyStore.store(java.security.KeyStore.LoadStoreParameter),Stores this keystore using the given LoadStoreParameter.,58,store
+831,11707,java.sql.DatabaseMetaData.supportsStoredProcedures(),Retrieves whether this database supports stored procedure calls that use the stored procedure escape syntax.,54,retrieve
+832,18725,"javax.imageio.stream.ImageInputStream.readFully(float[],int,int)","Reads len floats (32-bit IEEE single-precision floats) from the stream according to the current byte order, and stores them into f starting at index off.",43,read
+833,17074,java.util.logging.MemoryHandler.publish(java.util.logging.LogRecord),Store a LogRecord in an internal buffer.,58,store
+834,50744,android.transition.Transition.getTransitionProperties(),Returns the set of property names used stored in the TransitionValues object passed into captureStartValues(TransitionValues) that this transition cares about for the purposes of canceling overlapping animations.,54,return
+835,10857,"java.security.SignatureSpi.engineSign(byte[],int,int)","Finishes this signature operation and stores the resulting signature bytes in the provided buffer outbuf, starting at offset.",53,finish
+836,18818,"javax.imageio.stream.ImageInputStreamImpl.read(byte[],int,int)","Reads up to len bytes from the stream, and stores them into b starting at index off.",43,read
+837,11680,java.sql.DatabaseMetaData.supportsMixedCaseQuotedIdentifiers(),Retrieves whether this database treats mixed case quoted SQL identifiers as case sensitive and as a result stores them in mixed case.,54,retrieve
+838,52562,"android.view.View.setMeasuredDimension(int,int)","This method must be called by onMeasure(int, int) to store the measured width and measured height.",58,store
+839,30675,javax.xml.crypto.dsig.TransformException.printStackTrace(java.io.PrintStream),"Prints this TransformException, its backtrace and the cause's backtrace to the specified print stream.",1,print
+840,3069,java.awt.Component.print(java.awt.Graphics),Prints this component.,1,print
+841,7202,java.io.PrintWriter.println(float),Prints a floating-point number and then terminates the line.,1,print
+842,3180,java.awt.Container.print(java.awt.Graphics),Prints the container.,1,print
+843,8229,java.lang.Thread.dumpStack(),Prints a stack trace of the current thread to the standard error stream.,1,print
+844,34781,"android.app.DialogFragment.dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String)",Print the Fragments's state into the given stream.,1,print
+845,10585,java.security.DigestOutputStream.toString(),Prints a string representation of this digest output stream and its associated message digest object.,1,print
+846,3059,java.awt.Component.list(),Prints a listing of this component to the standard system output stream System.out.,1,print
+847,10581,java.security.DigestInputStream.toString(),Prints a string representation of this digest input stream and its associated message digest object.,1,print
+848,30565,javax.xml.crypto.NoSuchMechanismException.printStackTrace(),"Prints this NoSuchMechanismException, its backtrace and the cause's backtrace to the standard error stream.",1,print
+849,10106,java.nio.file.WatchKey.reset(),Resets this watch key.,56,reset
+850,36823,android.content.EntityIterator.reset(),Reset the iterator back to the beginning.,56,reset
+851,15713,java.util.concurrent.CompletableFuture.obtrudeValue(java.util.concurrent.CompletableFuture),"Forcibly sets or resets the value subsequently returned by method get() and related methods, whether or not already completed.",56,reset
+852,24404,javax.swing.JMenuItem.updateUI(),Resets the UI property with a value from the current look and feel.,56,reset
+853,26676,javax.swing.plaf.basic.BasicSplitPaneUI.startDragging(),"Should be messaged before the dragging session starts, resets lastDragLocation and dividerSize.",56,\N
+854,17216,java.util.regex.Matcher.reset(java.lang.CharSequence),Resets this matcher with a new input sequence.,56,reset
+855,18086,javax.crypto.MacSpi.engineDoFinal(),"Completes the MAC computation and resets the MAC for further use, maintaining the secret key that the MAC was initialized with.",14,complete
+856,30880,javax.xml.parsers.SAXParser.reset(),Reset this SAXParser to its original configuration.,56,reset
+857,36347,"android.app.usage.UsageStatsManager.queryEvents(long,long)",Query for events in the given time range.,53,query
+858,33165,org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_other(org.omg.PortableInterceptor.ServerRequestInfo),Allows an Interceptor to query the information available when a request results in something other than a normal reply or an exception.,6,\N
+859,31264,javax.xml.stream.XMLOutputFactory.isPropertySupported(java.lang.String),Query the set of properties that this factory supports.,62,query
+860,33166,org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_reply(org.omg.PortableInterceptor.ServerRequestInfo),Allows an Interceptor to query reply information and modify the reply service context after the target operation has been invoked and before the reply is returned to the client.,6,allow
+861,52936,android.view.Window.hasFeature(int),Query for the availability of a certain feature.,53,query
+862,34808,android.app.DownloadManager.query(android.app.DownloadManager.Query),Query the download manager about downloads that have been requested.,53,query
+863,13825,java.time.temporal.TemporalQueries.chronology(),A query for the Chronology.,53,\N
+864,47162,android.provider.CallLog.Calls.getLastOutgoingCall(android.content.Context),Query the call log database for the last dialed number.,53,query
+865,48504,android.speech.tts.TextToSpeech.getVoices(),Query the engine about the set of available voices.,53,query
+866,13694,java.time.format.DateTimeFormatter.parsedLeapSecond(),A query that provides access to whether a leap-second was parsed.,53,\N
+867,47313,"android.provider.MediaStore.Images.Thumbnails.cancelThumbnailRequest(android.content.ContentResolver,long,long)",This method cancels the thumbnail request so clients waiting for getThumbnail will be interrupted and return immediately.,85,cancel
+868,55990,android.widget.TextView.cancelLongPress(),Cancels a pending long press.,85,cancel
+869,46014,android.os.CancellationSignal.cancel(),Cancels the operation and signals the cancellation listener.,85,cancel
+870,34704,android.app.Dialog.cancel(),Cancel the dialog.,85,cancel
+871,35768,android.app.VoiceInteractor.Request.cancel(),Cancel this active request.,85,cancel
+872,35507,android.app.NotificationManager.cancelAll(),Cancel all previously shown notifications.,85,cancel
+873,35506,"android.app.NotificationManager.cancel(java.lang.String,int)",Cancel a previously shown notification.,85,cancel
+874,47319,"android.provider.MediaStore.Video.Thumbnails.cancelThumbnailRequest(android.content.ContentResolver,long,long)",This method cancels the thumbnail request so clients waiting for getThumbnail will be interrupted and return immediately.,85,cancel
+875,36490,android.bluetooth.BluetoothGatt.disconnect(),"Disconnects an established connection, or cancels a connection attempt currently in progress.",0,disconnect
+876,39454,android.graphics.Path.reset(),"Clear any lines and curves from the path, making it empty.",29,clear
+877,44991,android.net.Uri.Builder.clearQuery(),Clears the the previously set query.,29,clear
+878,42954,android.location.Location.reset(),Clears the contents of the location.,29,clear
+879,41581,android.icu.text.MessagePattern.clearPatternAndSetApostropheMode(android.icu.text.MessagePattern.ApostropheMode),Clears this MessagePattern and sets the ApostropheMode.,29,clear
+880,35662,android.app.SearchManager.setOnDismissListener(android.app.SearchManager.OnDismissListener),Set or clear the callback that will be invoked whenever the search UI is dismissed.,77,set
+881,6274,java.awt.image.renderable.ParameterBlock.removeSources(),Clears the list of source images.,29,clear
+882,22954,javax.swing.ButtonModel.setRollover(boolean),Sets or clears the button's rollover state,77,set
+883,54058,android.webkit.WebView.clearMatches(),Clears the highlighting surrounding text matches created by findAllAsync(String).,29,clear
+884,51074,android.util.LruCache.evictAll(),"Clear the cache, calling entryRemoved(boolean, K, V, V) on each removed entry.",29,clear
+885,24272,javax.swing.JList.setModel(javax.swing.ListModel<javax.swing.JList>),"Sets the model that represents the contents or \value\"" of the list",77,set
+886,57509,"java.text.MessageFormat.format(java.lang.String,java.lang.Object)",Creates a MessageFormat with the given pattern and uses it to format the given arguments.,15,format
+887,50236,"android.text.format.DateUtils.formatDateTime(android.content.Context,long,int)",Formats a date or a time according to the local conventions.,24,format
+888,51261,android.view.ViewDebug.ExportedProperty.formatToHexString(),Indicates whether or not to format an int or byte value as a hex string.,65,indicate
+889,41198,"android.icu.text.DateFormat.getDateInstance(android.icu.util.Calendar,int,android.icu.util.ULocale)",Creates a DateFormat object that can be used to format dates in the calendar system specified by cal.,15,create
+890,41721,android.icu.text.PluralFormat.format(double),Formats a plural message for a given number.,24,format
+891,41205,"android.icu.text.DateFormat.getDateTimeInstance(android.icu.util.Calendar,int,int,android.icu.util.ULocale)",Creates a DateFormat object that can be used to format dates and times in the calendar system specified by cal.,15,create
+892,50211,"android.text.TextUtils.listEllipsize(android.content.Context,java.util.List<java.lang.CharSequence>,java.lang.String,android.text.TextPaint,float,int)","Formats a list of CharSequences by repeatedly inserting the separator between them, but stopping when the resulting sequence is too wide for the specified width.",24,format
+893,41548,"android.icu.text.MessageFormat.format(java.lang.String,,Â java.lang.Object>)",Creates a MessageFormat with the given pattern and uses it to format the given arguments.,15,create
+894,41197,"android.icu.text.DateFormat.getDateInstance(android.icu.util.Calendar,int)",Creates a DateFormat object for the default locale that can be used to format dates in the calendar system specified by cal.,15,create
+895,13675,java.time.format.DateTimeFormatter.format(java.time.temporal.TemporalAccessor),Formats a date-time object using this formatter.,24,format
+896,51216,android.util.SparseLongArray.indexOfValue(long),"Returns an index for which valueAt(int) would return the specified key, or a negative number if no keys map to the specified value.",54,return
+897,46564,android.os.health.HealthStats.getStatsKeyCount(),Get the number of HealthStat map values in this object.,54,get
+898,30584,"javax.xml.crypto.dom.DOMCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)",This implementation uses an internal HashMap to map the URI to the specified prefix.,31,\N
+899,30589,"javax.xml.crypto.dom.DOMCryptoContext.setProperty(java.lang.String,java.lang.Object)",This implementation uses an internal HashMap to map the name to the specified object.,31,\N
+900,29880,javax.swing.tree.DefaultTreeCellRenderer.setFont(java.awt.Font),Subclassed to map FontUIResources to null.,31,\N
+901,49810,android.test.mock.MockPackageManager.currentToCanonicalPackageNames(java.lang.String),Map from the current package names in use on the device to whatever the current canonical name of that package is.,31,map
+902,51062,android.util.LongSparseArray.indexOfValue(E),"Returns an index for which valueAt(int) would return the specified key, or a negative number if no keys map to the specified value.",54,return
+903,45587,android.nfc.NdefRecord.toMimeType(),"Map this record to a MIME type, or return null if it cannot be mapped.",31,map
+904,37856,android.content.pm.PackageManager.currentToCanonicalPackageNames(java.lang.String),Map from the current package names in use on the device to whatever the current canonical name of that package is.,31,map
+905,30583,"javax.xml.crypto.dom.DOMCryptoContext.put(java.lang.Object,java.lang.Object)",This implementation uses an internal HashMap to map the key to the specified object.,31,\N
+906,19146,"javax.lang.model.util.SimpleTypeVisitor6.visitDeclared(javax.lang.model.type.DeclaredType,javax.lang.model.util.SimpleTypeVisitor6)",Visits a declared type.,7,visit
+907,19117,"javax.lang.model.util.ElementScanner6.visitExecutable(javax.lang.model.element.ExecutableElement,javax.lang.model.util.ElementScanner6)",Visits an executable element.,7,visit
+908,19154,"javax.lang.model.util.SimpleTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,javax.lang.model.util.SimpleTypeVisitor7)",This implementation visits a UnionType by calling defaultAction.,53,visit
+909,18928,"javax.lang.model.element.AnnotationValueVisitor.visitUnknown(javax.lang.model.element.AnnotationValue,javax.lang.model.element.AnnotationValueVisitor)",Visits an unknown kind of annotation value.,7,visit
+910,18944,"javax.lang.model.element.ElementVisitor.visitType(javax.lang.model.element.TypeElement,javax.lang.model.element.ElementVisitor)",Visits a type element.,7,visit
+911,19074,"javax.lang.model.util.AbstractElementVisitor6.visit(javax.lang.model.element.Element,javax.lang.model.util.AbstractElementVisitor6)",Visits any program element as if by passing itself to that element's accept method.,7,visit
+912,18923,"javax.lang.model.element.AnnotationValueVisitor.visitInt(int,javax.lang.model.element.AnnotationValueVisitor)",Visits an int value in an annotation.,7,visit
+913,19079,"javax.lang.model.util.AbstractTypeVisitor6.visitIntersection(javax.lang.model.type.IntersectionType,javax.lang.model.util.AbstractTypeVisitor6)",Visits an IntersectionType element by calling visitUnknown.,7,visit
+914,19016,"javax.lang.model.type.TypeVisitor.visitArray(javax.lang.model.type.ArrayType,javax.lang.model.type.TypeVisitor)",Visits an array type.,7,visit
+915,19145,"javax.lang.model.util.SimpleTypeVisitor6.visitArray(javax.lang.model.type.ArrayType,javax.lang.model.util.SimpleTypeVisitor6)",Visits an array type.,7,visit
+916,30418,javax.xml.bind.annotation.XmlAccessOrder.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+917,4355,java.awt.Dialog.ModalityType.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+918,25833,javax.swing.GroupLayout.Alignment.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+919,8320,java.lang.annotation.ElementType.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+920,11222,java.security.cert.PKIXRevocationChecker.Option.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+921,27648,javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+922,33433,org.w3c.dom.TypeInfo.getTypeNamespace(),The namespace of the type declared for the associated element or attribute or null if the element does not have declaration or if no namespace information is available.,54,\N
+923,12188,java.sql.JDBCType.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+924,13769,java.time.format.TextStyle.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+925,18895,javax.jws.soap.SOAPBinding.Style.values(),"Returns an array containing the constants of this enum type, in the order they are declared.",31,return
+926,54763,android.widget.Chronometer.stop(),Stop counting up.,0,stop
+927,29844,javax.swing.tree.DefaultTreeCellEditor.stopCellEditing(),"If the realEditor will allow editing to stop, the realEditor is removed and true is returned, otherwise false is returned.",54,\N
+928,54151,android.webkit.WebView.stopLoading(),Stops the current load.,0,stop
+929,53546,android.view.inputmethod.InputMethod.bindInput(android.view.inputmethod.InputBinding),"Bind a new application environment in to the input method, so that it can later start and stop input processing.",79,bind
+930,36590,android.bluetooth.BluetoothHeadset.stopVoiceRecognition(android.bluetooth.BluetoothDevice),"Stop Bluetooth Voice Recognition mode, and shut down the Bluetooth audio path.",0,stop
+931,25698,javax.swing.Timer.stop(),"Stops the Timer, causing it to stop sending action events to its listeners.",0,stop
+932,43169,android.media.AudioManager.stopBluetoothSco(),Stop bluetooth SCO audio connection.,0,stop
+933,43986,android.media.SoundPool.stop(int),Stop a playback stream.,0,stop
+934,26891,javax.swing.plaf.basic.BasicTreeUI.stopEditing(javax.swing.JTree),Stops the current editing session.,0,stop
+935,22956,javax.swing.CellEditor.addCellEditorListener(javax.swing.event.CellEditorListener),"Adds a listener to the list that's notified when the editor stops, or cancels editing.",61,add
+936,3276,java.awt.EventQueue.dispatchEvent(java.awt.AWTEvent),Dispatches an event.,19,dispatch
+937,52621,android.view.ViewGroup.dispatchKeyEventPreIme(android.view.KeyEvent),Dispatch a key event before it is processed by any input method associated with the view hierarchy.,19,dispatch
+938,53663,android.view.inputmethod.InputConnectionWrapper.getHandler(),Called by the InputMethodManager to enable application developers to specify a dedicated Handler on which incoming IPC method calls from input methods will be dispatched.,9,\N
+939,51428,"android.view.View.OnHoverListener.onHover(android.view.View,android.view.MotionEvent)",Called when a hover event is dispatched to a view.,9,call
+940,52626,android.view.ViewGroup.dispatchSetSelected(boolean),Dispatch setSelected to all of this View's children.,19,dispatch
+941,56250,"android.widget.TimePicker.dispatchProvideAutofillStructure(android.view.ViewStructure,int)","Dispatches creation of a ViewStructures for autofill purposes down the hierarchy, when an Assist structure is being created as part of an autofill request.",19,dispatch
+942,55635,android.widget.ScrollView.executeKeyEvent(android.view.KeyEvent),"You can call this function yourself to have the scroll view perform scrolling from a key event, just as if the event had been dispatched to it by the view hierarchy.",9,\N
+943,54828,"android.widget.DatePicker.dispatchProvideAutofillStructure(android.view.ViewStructure,int)","Dispatches creation of a ViewStructures for autofill purposes down the hierarchy, when an Assist structure is being created as part of an autofill request.",19,dispatch
+944,54328,"android.widget.AbsListView.dispatchDrawableHotspotChanged(float,float)",Dispatches drawable hotspot changes to child views that meet at least one of the following criteria: Returns false from both isClickable() and isLongClickable() Requests duplication of parent state via setDuplicateParentStateEnabled(boolean),19,dispatch
+945,55311,android.widget.NumberPicker.dispatchHoverEvent(android.view.MotionEvent),Dispatch a hover event.,19,dispatch
+946,55748,android.widget.SimpleCursorTreeAdapter.setViewBinder(android.widget.SimpleCursorTreeAdapter.ViewBinder),Sets the binder used to bind data to views.,77,set
+947,9040,"java.net.DatagramSocketImpl.bind(int,java.net.InetAddress)",Binds a datagram socket to a local port and address.,79,bind
+948,46919,android.preference.SwitchPreference.onBindView(android.view.View),Binds the created View to the data for this Preference.,79,bind
+949,9263,java.net.Socket.bind(java.net.SocketAddress),Binds the socket to a local address.,79,bind
+950,31121,javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String),Binds a URI to the default namespace This URI is bound in the scope of the current START_ELEMENT / END_ELEMENT pair.,79,bind
+951,46892,android.preference.PreferenceScreen.bind(android.widget.ListView),Binds a ListView to the preferences contained in this PreferenceScreen via getRootAdapter().,79,bind
+952,46641,android.preference.CheckBoxPreference.onBindView(android.view.View),Binds the created View to the data for this Preference.,79,bind
+953,9244,java.net.ServerSocket.bind(java.net.SocketAddress),Binds the ServerSocket to a specific address (IP address and port number).,79,bind
+954,20392,"javax.naming.Context.rename(javax.naming.Name,javax.naming.Name)","Binds a new name to the object bound to an old name, and unbinds the old name.",79,bind
+955,55742,android.widget.SimpleCursorAdapter.setViewBinder(android.widget.SimpleCursorAdapter.ViewBinder),Sets the binder used to bind data to views.,77,set
+956,45713,android.nfc.tech.NfcA.close(),"Disable I/O operations to the tag from this TagTechnology object, and release resources.",17,\N
+957,45694,android.nfc.tech.Ndef.close(),"Disable I/O operations to the tag from this TagTechnology object, and release resources.",17,\N
+958,35989,"android.app.admin.DevicePolicyManager.setCameraDisabled(android.content.ComponentName,boolean)","Called by an application that is administering the device to disable all cameras on the device, for this user.",9,\N
+959,46725,android.preference.Preference.getShouldDisableView(),Checks whether this Preference should disable its view when it's action is disabled.,65,check
+960,36031,"android.app.admin.DevicePolicyManager.setStatusBarDisabled(android.content.ComponentName,boolean)",Called by device owner to disable the status bar.,9,disable
+961,52384,android.view.View.setDrawingCacheEnabled(boolean),Enables or disables the drawing cache.,78,\N
+962,38617,android.database.sqlite.SQLiteOpenHelper.setWriteAheadLoggingEnabled(boolean),Enables or disables the use of write-ahead logging for the database.,78,enables
+963,35868,"android.app.admin.DeviceAdminReceiver.onDisableRequested(android.content.Context,android.content.Intent)","Called when the user has asked to disable the administrator, as a result of receiving ACTION_DEVICE_ADMIN_DISABLE_REQUESTED, giving you a chance to present a warning message to them.",9,\N
+964,55283,android.widget.NumberPicker.dispatchTouchEvent(android.view.MotionEvent),"Pass the touch screen motion event down to the target view, or this view if it is the target.",19,pass
+965,52075,android.view.View.dispatchTrackballEvent(android.view.MotionEvent),Pass a trackball motion event down to the focused view.,19,pass
+966,38866,android.gesture.GestureOverlayView.dispatchTouchEvent(android.view.MotionEvent),"Pass the touch screen motion event down to the target view, or this view if it is the target.",19,pass
+967,43773,android.media.MediaRecorder.setOutputFile(java.io.File),Pass in the file object to be written.,19,\N
+968,52998,android.view.Window.superDispatchTouchEvent(android.view.MotionEvent),"Used by custom windows, such as Dialog, to pass the touch screen event further down the view hierarchy.",19,pass
+969,52629,android.view.ViewGroup.dispatchTrackballEvent(android.view.MotionEvent),Pass a trackball motion event down to the focused view.,19,pass
+970,6114,"java.awt.image.ReplicateScaleFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)","Choose which rows and columns of the delivered byte pixels are needed for the destination scaled image and pass through just those rows and columns that are needed, replicated as necessary.",42,choose
+971,52999,android.view.Window.superDispatchTrackballEvent(android.view.MotionEvent),"Used by custom windows, such as Dialog, to pass the trackball event further down the view hierarchy.",19,pass
+972,44606,android.media.tv.TvView.dispatchTouchEvent(android.view.MotionEvent),"Pass the touch screen motion event down to the target view, or this view if it is the target.",19,pass
+973,52996,android.view.Window.superDispatchKeyEvent(android.view.KeyEvent),"Used by custom windows, such as Dialog, to pass the key press event further down the view hierarchy.",19,pass
+974,16890,"java.util.jar.Pack200.Packer.pack(java.util.jar.JarFile,java.io.OutputStream)",Takes a JarFile and converts it into a Pack200 archive.,31,convert
+975,49808,"android.test.mock.MockPackageManager.checkSignatures(int,int)","Like checkSignatures(String, String), but takes UIDs of the two packages to be checked.",65,\N
+976,36875,android.content.AsyncTaskLoader.onCancelLoad(),Subclasses must implement this to take care of requests to cancelLoad().,53,\N
+977,42632,"android.inputmethodservice.AbstractInputMethodService.AbstractInputMethodSessionImpl.dispatchTrackballEvent(int,android.view.MotionEvent,android.view.inputmethod.InputMethodSession.EventCallback)","Take care of dispatching incoming trackball events to the appropriate callbacks on the service, and tell the client when this is done.",19,dispatch
+978,29301,"javax.swing.text.TextAction.augmentList(javax.swing.Action[],javax.swing.Action[])",Takes one list of commands and augments it with another list of commands.,53,take
+979,50533,"android.text.style.TtsSpan.DecimalBuilder.setArgumentsFromDouble(double,int,int)","Convenience method takes a double and a maximum number of fractional digits, it sets the ARG_INTEGER_PART and ARG_FRACTIONAL_PART arguments.",77,set
+980,37591,android.content.Loader.onForceLoad(),Subclasses must implement this to take care of requests to forceLoad().,53,\N
+981,44075,android.media.audiofx.AudioEffect.setControlStatusListener(android.media.audiofx.AudioEffect.OnControlStatusChangeListener),Sets the listener AudioEffect notifies when the effect engine control is taken or returned.,77,set
+982,15539,java.util.concurrent.BlockingDeque.putLast(java.util.concurrent.BlockingDeque),"Inserts the specified element at the end of this deque, waiting if necessary for space to become available.",61,insert
+983,15650,"java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable<V>,long,java.util.concurrent.TimeUnit)",Creates and executes a ScheduledFuture that becomes enabled after the given delay.,15,\N
+984,22175,"javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat,int)","Opens the line with the specified format and requested buffer size, causing the line to acquire any required system resources and become operational.",46,open
+985,56404,android.widget.ViewFlipper.isAutoStart(),Returns true if this view automatically calls startFlipping() when it becomes attached to a window.,54,return
+986,24492,javax.swing.JPopupMenu.firePopupMenuWillBecomeInvisible(),Notifies PopupMenuListeners that this popup menu will become invisible.,33,notify
+987,21953,javax.sound.midi.MidiDevice.open(),"Opens the device, indicating that it should now acquire any system resources it requires and become operational.",46,open
+988,16223,"java.util.concurrent.LinkedBlockingQueue.offer(java.util.concurrent.LinkedBlockingQueue,long,java.util.concurrent.TimeUnit)","Inserts the specified element at the tail of this queue, waiting if necessary up to the specified wait time for space to become available.",61,insert
+989,54583,android.widget.AdapterViewFlipper.setAutoStart(boolean),Set if this view automatically calls startFlipping() when it becomes attached to a window.,77,set
+990,15526,"java.util.concurrent.BlockingDeque.offer(java.util.concurrent.BlockingDeque,long,java.util.concurrent.TimeUnit)","Inserts the specified element into the queue represented by this deque (in other words, at the tail of this deque), waiting up to the specified wait time if necessary for space to become available.",61,insert
+991,23654,javax.swing.JComboBox.firePopupMenuWillBecomeVisible(),Notifies PopupMenuListeners that the popup portion of the combo box will become visible.,33,notify
+992,51852,"android.view.MotionEvent.getPointerCoords(int,android.view.MotionEvent.PointerCoords)",Populates a MotionEvent.PointerCoords object with pointer coordinate data for the specified pointer index.,57,populate
+993,11844,java.sql.ResultSet.getMetaData(),"Retrieves the number, types and properties of this ResultSet object's columns.",54,retrieve
+994,33298,org.w3c.dom.Document.getImplementation(),The DOMImplementation object that handles this document.,54,\N
+995,33399,org.w3c.dom.Node.getOwnerDocument(),The Document object associated with this node.,54,\N
+996,45824,"android.opengl.GLU.gluUnProject(float,float,float,float[],int,float[],int,int[],int,float[],int)",Map window coordinates to object coordinates.,31,map
+997,31069,javax.xml.soap.SOAPMessage.getAttachments(javax.xml.soap.MimeHeaders),Retrieves all the AttachmentPart objects that have header entries that match the specified headers.,54,retrieve
+998,41294,android.icu.text.DateIntervalFormat.clone(),Clone this Format object polymorphically.,80,clone
+999,22230,"javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer.Info)","Obtains a source data line that can be used for playing back audio data in the format specified by the AudioFormat object, provided by the mixer specified by the Mixer.Info object.",54,obtain
+1000,53843,android.webkit.CookieSyncManager.run(),"When an object implementing interface Runnable is used to create a thread, starting the thread causes the object's run method to be called in that separately executing thread.",53,\N
+1001,21821,javax.security.auth.kerberos.ServicePermission.equals(java.lang.Object),Checks two ServicePermission objects for equality.,65,check
+1002,49945,"android.text.Spannable.setSpan(java.lang.Object,int,int,int)","Attach the specified markup object to the range start…end of the text, or move the object to that range if it was already attached elsewhere.",79,attach
+1003,35049,android.app.FragmentTransaction.attach(android.app.Fragment),Re-attach a fragment after it had previously been detached from the UI with detach(Fragment).,79,reattach
+1004,35194,"android.app.ListFragment.onViewCreated(android.view.View,android.os.Bundle)",Attach to list view once the view hierarchy has been created.,79,attach
+1005,55379,android.widget.PopupWindow.setAttachedInDecor(boolean),This will attach the popup window to the decor frame of the parent window to avoid overlaping with screen decorations like the navigation bar.,79,attach
+1006,45344,android.net.wifi.aware.AttachCallback.onAttachFailed(),"Called when Aware attach operation attach(AttachCallback, android.os.Handler) failed.",9,call
+1007,45391,"android.net.wifi.aware.WifiAwareManager.attach(android.net.wifi.aware.AttachCallback,android.net.wifi.aware.IdentityChangedListener,android.os.Handler)",Attach to the Wi-Fi Aware service - enabling the application to create discovery sessions or create connections to peers.,79,attach
+1008,49947,android.text.Spanned.getSpanFlags(java.lang.Object),"Return the flags that were specified when setSpan(Object, int, int, int) was used to attach the specified markup object, or 0 if the specified object has not been attached.",54,return
+1009,50117,android.text.SpannableString.getSpanFlags(java.lang.Object),"Return the flags that were specified when setSpan(Object, int, int, int) was used to attach the specified markup object, or 0 if the specified object has not been attached.",54,return
+1010,45390,"android.net.wifi.aware.WifiAwareManager.attach(android.net.wifi.aware.AttachCallback,android.os.Handler)",Attach to the Wi-Fi Aware service - enabling the application to create discovery sessions or create connections to peers.,79,attach
+1011,35393,android.app.Notification.MediaStyle.setMediaSession(android.media.session.MediaSession.Token),Attach a MediaSession.Token to this Notification to provide additional playback information and control to the SystemUI.,79,attach
+1012,10685,"java.security.KeyStoreSpi.engineSetCertificateEntry(java.lang.String,java.security.cert.Certificate)",Assigns the given certificate to the given alias.,77,assign
+1013,53749,"android.view.textclassifier.TextClassification.Builder.setEntityType(java.lang.String,float)",Sets an entity type for the classification result and assigns a confidence score.,77,set
+1014,51437,"android.view.ViewManager.addView(android.view.View,android.view.ViewGroup.LayoutParams)",Assign the passed LayoutParams to the passed View and add the view to the window.,77,assign
+1015,39133,android.graphics.ColorMatrix.set(android.graphics.ColorMatrix),"Assign the src colormatrix into this matrix, copying all of its values.",77,assign
+1016,52753,"android.view.ViewGroup.onLayout(boolean,int,int,int,int)",Called from layout when this view should assign a size and position to each of its children.,9,\N
+1017,33648,org.xml.sax.ext.Locator2Impl.setXMLVersion(java.lang.String),Assigns the current value of the version property.,77,assign
+1018,39219,"android.graphics.Interpolator.setKeyFrame(int,int,float[])","Assign the keyFrame (specified by index) a time value and an array of key values (with an implicity blend array of [0, 0, 1, 1] giving linear transition to the next set of key values).",77,assign
+1019,32078,org.omg.CORBA.IntHolder._read(org.omg.CORBA.portable.InputStream),Reads unmarshalled data from input and assigns it to the value field in this IntHolder object.,43,read
+1020,36373,"android.appwidget.AppWidgetHostView.onLayout(boolean,int,int,int,int)",Called from layout when this view should assign a size and position to each of its children.,9,call
+1021,14403,"java.util.Arrays.fill(float[],int,int,float)",Assigns the specified float value to each element of the specified range of the specified array of floats.,77,assign
+1022,8380,java.lang.invoke.MethodHandles.arrayElementGetter(java.lang.Class<?>),Produces a method handle giving read access to elements of an array.,15,produce
+1023,7336,java.io.WriteAbortedException.getMessage(),"Produce the message and include the message from the nested exception, if there is one.",15,produce
+1024,8387,java.lang.invoke.MethodHandles.exactInvoker(java.lang.invoke.MethodType),"Produces a special invoker method handle which can be used to invoke any method handle of the given type, as if by invokeExact.",15,produce
+1025,43345,android.media.ImageReader.getSurface(),Get a Surface that can be used to produce Images for this ImageReader.,54,get
+1026,41126,"android.icu.text.CollationKey.getBound(int,int)",Produces a bound for the sort order of a given collation key and a strength level.,15,produce
+1027,8407,"java.lang.invoke.MethodHandles.Lookup.findStatic(java.lang.Class<?>,java.lang.String,java.lang.invoke.MethodType)",Produces a method handle for a static method.,15,produce
+1028,41562,"android.icu.text.MessageFormat.parseObject(java.lang.String,java.text.ParsePosition)",Parses text from a string to produce an object array or Map.,12,parse
+1029,8386,"java.lang.invoke.MethodHandles.dropArguments(java.lang.invoke.MethodHandle,int,java.lang.Class<?>...)",Produces a method handle which will discard some dummy arguments before calling some other specified target method handle.,15,produce
+1030,8378,java.lang.invoke.MethodHandleProxies.wrapperInstanceTarget(java.lang.Object),Produces or recovers a target method handle which is behaviorally equivalent to the unique method of this wrapper instance.,15,produce
+1031,6489,"java.beans.PersistenceDelegate.initialize(java.lang.Class<?>,java.lang.Object,java.lang.Object,java.beans.Encoder)",Produce a series of statements with side effects on newInstance so that the new instance becomes equivalent to oldInstance.,15,produce
+1032,9042,"java.net.DatagramSocketImpl.connect(java.net.InetAddress,int)",Connects a datagram socket to a remote destination.,34,connect
+1033,22338,javax.sql.CommonDataSource.setLoginTimeout(int),Sets the maximum time in seconds that this data source will wait while attempting to connect to a database.,77,set
+1034,7140,java.io.PipedWriter.connect(java.io.PipedReader),Connects this piped writer to a receiver.,34,connect
+1035,9777,"java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress,A,,? super A>)",Connects this channel.,34,connect
+1036,44910,"android.net.SSLCertificateSocketFactory.createSocket(java.net.InetAddress,int)",Creates a socket and connects it to the specified port number at the specified address.,15,create
+1037,9778,java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress),Connects this channel.,34,connect
+1038,37270,"android.content.ContextWrapper.bindService(android.content.Intent,android.content.ServiceConnection,int)","Connect to an application service, creating it if needed.",34,connect
+1039,48006,android.service.autofill.AutofillService.onConnected(),Called when the Android system connects to service.,9,call
+1040,54371,android.widget.AbsListView.onRemoteAdapterConnected(),Called back when the adapter connects to the RemoteViewsService.,9,call
+1041,36468,"android.bluetooth.BluetoothDevice.connectGatt(android.content.Context,boolean,android.bluetooth.BluetoothGattCallback,int)",Connect to GATT Server hosted by this device.,34,connect
+1042,24174,javax.swing.JLayer.isPaintingOrigin(),"Always returns true to cause painting to originate from JLayer, or one of its ancestors.",54,return
+1043,47567,android.renderscript.RenderScript.RSErrorHandler.run(),"When an object implementing interface Runnable is used to create a thread, starting the thread causes the object's run method to be called in that separately executing thread.",53,\N
+1044,29422,javax.swing.text.html.HTML.Tag.breaksFlow(),"Returns true if this tag causes a line break to the flow of data, otherwise returns false.",54,return
+1045,52758,android.view.ViewGroup.setStaticTransformationsEnabled(boolean),"When this property is set to true, this ViewGroup supports static transformations on children; this causes getChildStaticTransformation(View, android.view.animation.Transformation) to be invoked when a child is drawn.",9,\N
+1046,7859,java.lang.Process.waitFor(),"Causes the current thread to wait, if necessary, until the process represented by this Process object has terminated.",28,cause
+1047,7829,"java.lang.Object.wait(long,int)","Causes the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, or some other thread interrupts the current thread, or a certain amount of real time has elapsed.",28,wait
+1048,33120,"org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_state_changed(org.omg.PortableInterceptor.ObjectReferenceTemplate[],short)","Called whenever the state of an object adapter changes, and the state change is not caused by an adapter manager.",9,call
+1049,52817,android.view.ViewPropertyAnimator.zBy(float),This method will cause the View's z property to be animated by the specified value.,28,cause
+1050,4592,java.awt.dnd.DropTarget.DropTargetAutoScroller.updateLocation(java.awt.Point),cause autoscroll to occur,28,\N
+1051,52327,android.view.View.post(java.lang.Runnable),Causes the Runnable to be added to the message queue.,28,add
+1052,17406,java.util.stream.LongStream.Builder.build(),"Builds the stream, transitioning this builder to the built state.",15,build
+1053,35378,android.app.Notification.CarExtender.Builder.build(),Builds a new unread conversation object.,15,build
+1054,29795,"javax.swing.tree.DefaultMutableTreeNode.getPathToRoot(javax.swing.tree.TreeNode,int)","Builds the parents of node up to and including the root node, where the original node is the last element in the returned array.",15,build
+1055,17360,java.util.stream.IntStream.Builder.build(),"Builds the stream, transitioning this builder to the built state.",15,build
+1056,29898,"javax.swing.tree.DefaultTreeModel.getPathToRoot(javax.swing.tree.TreeNode,int)","Builds the parents of node up to and including the root node, where the original node is the last element in the returned array.",15,build
+1057,44416,android.media.session.PlaybackState.Builder.build(),Build and return the PlaybackState instance with these values.,15,build
+1058,58583,"javax.net.ssl.X509ExtendedTrustManager.checkClientTrusted(java.security.cert.X509Certificate,java.lang.String,java.net.Socket)","Given the partial or complete certificate chain provided by the peer, build and validate the certificate path based on the authentication type and ssl parameters.",65,build
+1059,46808,"android.preference.PreferenceActivity.onBuildStartFragmentIntent(java.lang.String,android.os.Bundle,int,int)","Called by startWithFragment(String, Bundle, Fragment, int, int, int) when in single-pane mode, to build an Intent to launch a new activity showing the selected fragment.",9,call
+1060,36808,android.companion.WifiDeviceFilter.Builder.build(),"Builds the instance Once this method is called, this builder should no longer be used.",15,build
+1061,47203,"android.provider.ContactsContract.RawContacts.getContactLookupUri(android.content.ContentResolver,android.net.Uri)",Build a CONTENT_LOOKUP_URI style Uri for the parent ContactsContract.Contacts entry of the given ContactsContract.RawContacts entry.,15,build
+1062,15145,"java.util.ResourceBundle.Control.needsReload(java.lang.String,java.util.Locale,java.lang.String,java.lang.ClassLoader,java.util.ResourceBundle,long)",Determines if the expired bundle in the cache needs to be reloaded based on the loading time given by loadTime or some other criteria.,65,determine
+1063,39320,android.graphics.Paint.descent(),Return the distance below (positive) the baseline (descent) based on the current typeface and text size.,54,return
+1064,6081,"java.awt.image.Raster.createPackedRaster(java.awt.image.DataBuffer,int,int,int,java.awt.Point)","Creates a Raster based on a MultiPixelPackedSampleModel with the specified DataBuffer, width, height, and bits per pixel.",15,create
+1065,5496,"java.awt.geom.RectangularShape.setFrameFromDiagonal(java.awt.geom.Point2D,java.awt.geom.Point2D)",Sets the diagonal of the framing rectangle of this Shape based on two specified Point2D objects.,77,set
+1066,57668,java.util.Arrays.hashCode(java.lang.Object),Returns a hash code based on the contents of the specified array.,54,return
+1067,5495,"java.awt.geom.RectangularShape.setFrameFromDiagonal(double,double,double,double)",Sets the diagonal of the framing rectangle of this Shape based on the two specified coordinates.,77,set
+1068,46846,android.preference.PreferenceFragment.findPreference(java.lang.CharSequence),Finds a Preference based on its key.,62,find
+1069,14412,java.util.Arrays.hashCode(float[]),Returns a hash code based on the contents of the specified array.,54,return
+1070,26831,javax.swing.plaf.basic.BasicTreeUI.createPropertyChangeListener(),Creates a listener that is responsible that updates the UI based on how the tree changes.,15,create
+1071,51653,"android.view.Gravity.applyDisplay(int,android.graphics.Rect,android.graphics.Rect,int)","Apply additional gravity behavior based on the overall \display\"" that an object exists in.""",70,apply
+1072,16775,java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock.tryLock(),Acquires the read lock only if the write lock is not held by another thread at the time of invocation.,54,acquire
+1073,16665,java.util.concurrent.locks.AbstractQueuedLongSynchronizer.acquire(long),"Acquires in exclusive mode, ignoring interrupts.",54,acquire
+1074,16746,java.util.concurrent.locks.ReentrantLock.lockInterruptibly(),Acquires the lock unless the current thread is interrupted.,54,acquire
+1075,16749,java.util.concurrent.locks.ReentrantLock.tryLock(),Acquires the lock only if it is not held by another thread at the time of invocation.,54,acquire
+1076,16339,java.util.concurrent.Semaphore.tryAcquire(),"Acquires a permit from this semaphore, only if one is available at the time of invocation.",54,acquire
+1077,9847,java.nio.channels.FileLock.acquiredBy(),Returns the channel upon whose file this lock was acquired.,54,return
+1078,16811,java.util.concurrent.locks.StampedLock.writeLockInterruptibly(),"Exclusively acquires the lock, blocking if necessary until available or the current thread is interrupted.",54,acquire
+1079,22173,javax.sound.sampled.SourceDataLine.open(javax.sound.sampled.AudioFormat),"Opens the line with the specified format, causing the line to acquire any required system resources and become operational.",46,open
+1080,16753,java.util.concurrent.locks.ReentrantReadWriteLock.getQueuedReaderThreads(),Returns a collection containing threads that may be waiting to acquire the read lock.,54,return
+1081,16668,java.util.concurrent.locks.AbstractQueuedLongSynchronizer.acquireSharedInterruptibly(long),"Acquires in shared mode, aborting if interrupted.",54,acquire
+1082,45157,android.net.sip.SipAudioCall.setListener(android.net.sip.SipAudioCall.Listener),Sets the listener to listen to the audio call events.,77,set
+1083,38660,android.databinding.Observable.addOnPropertyChangedCallback(android.databinding.Observable.OnPropertyChangedCallback),Adds a callback to listen for changes to the Observable.,61,add
+1084,43789,"android.media.MediaRouter.addCallback(int,android.media.MediaRouter.Callback)",Add a callback to listen to events about specific kinds of media routes.,61,add
+1085,39661,android.graphics.drawable.Animatable2.registerAnimationCallback(android.graphics.drawable.Animatable2.AnimationCallback),Adds a callback to listen to the animation events.,61,add
+1086,43788,"android.media.MediaRouter.addCallback(int,android.media.MediaRouter.Callback,int)",Add a callback to listen to events about specific kinds of media routes.,61,add
+1087,9769,java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress),Binds the channel's socket to a local address and configures the socket to listen for connections.,79,bind
+1088,9770,"java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress,int)",Binds the channel's socket to a local address and configures the socket to listen for connections.,79,bind
+1089,38666,android.databinding.BaseObservable.addOnPropertyChangedCallback(android.databinding.Observable.OnPropertyChangedCallback),Adds a callback to listen for changes to the Observable.,61,add
+1090,51995,android.view.TextureView.setSurfaceTextureListener(android.view.TextureView.SurfaceTextureListener),Sets the TextureView.SurfaceTextureListener used to listen to surface texture events.,77,set
+1091,45189,"android.net.sip.SipManager.setRegistrationListener(java.lang.String,android.net.sip.SipRegistrationListener)",Sets the listener to listen to registration events.,77,set
+1092,42579,android.icu.util.ULocale.Builder.setLanguageTag(java.lang.String),Resets the Builder to match the provided IETF BCP 47 language tag.,77,reset
+1093,5738,"java.awt.image.ColorModel.coerceData(java.awt.image.WritableRaster,boolean)","Forces the raster data to match the state specified in the isAlphaPremultiplied variable, assuming the data is currently correctly described by this ColorModel.",33,match
+1094,49678,android.test.mock.MockContext.createConfigurationContext(android.content.res.Configuration),Return a new Context object for the current Context but whose resources are adjusted to match the given Configuration.,54,return
+1095,49680,android.test.mock.MockContext.createDisplayContext(android.view.Display),Return a new Context object for the current Context but whose resources are adjusted to match the metrics of the given Display.,54,return
+1096,23646,javax.swing.JComboBox.configurePropertiesFromAction(javax.swing.Action),Sets the properties on this combobox to match those in the specified Action.,77,set
+1097,5668,java.awt.image.BufferedImage.coerceData(boolean),Forces the data to match the state specified in the isAlphaPremultiplied variable.,33,match
+1098,6395,java.beans.PropertyEditor.getJavaInitializationString(),Returns a fragment of Java code that can be used to set a property to match the editors current state.,54,return
+1099,23899,javax.swing.JEditorPane.getScrollableTracksViewportWidth(),Returns true if a viewport should always force the width of this Scrollable to match the width of the viewport.,54,return
+1100,5779,"java.awt.image.ComponentColorModel.coerceData(java.awt.image.WritableRaster,boolean)","Forces the raster data to match the state specified in the isAlphaPremultiplied variable, assuming the data is currently correctly described by this ColorModel.",33,match
+1101,31014,javax.xml.soap.AttachmentPart.getNonMatchingMimeHeaders(java.lang.String[]),Retrieves all MimeHeader objects whose name does not match a name in the given array.,62,retrieve
+1102,9655,java.nio.IntBuffer.put(int[]),Relative bulk put method (optional operation).,53,\N
+1103,9541,"java.nio.ByteBuffer.putShort(int,short)",Absolute put method for writing a short value (optional operation).,61,\N
+1104,7086,"java.io.ObjectOutputStream.PutField.put(java.lang.String,byte)",Put the value of the named byte field into the persistent field.,61,put
+1105,9527,java.nio.ByteBuffer.put(java.nio.ByteBuffer),Relative bulk put method (optional operation).,53,\N
+1106,9574,java.nio.CharBuffer.put(char[]),Relative bulk put method (optional operation).,53,\N
+1107,9538,java.nio.ByteBuffer.putLong(long),Relative put method for writing a long value (optional operation).,61,\N
+1108,9604,"java.nio.DoubleBuffer.put(double[],int,int)",Relative bulk put method (optional operation).,53,\N
+1109,9678,java.nio.LongBuffer.put(java.nio.LongBuffer),Relative bulk put method (optional operation).,53,\N
+1110,7087,"java.io.ObjectOutputStream.PutField.put(java.lang.String,char)",Put the value of the named char field into the persistent field.,61,put
+1111,9526,"java.nio.ByteBuffer.put(int,byte)",Absolute put method (optional operation).,61,\N
+1112,26648,javax.swing.plaf.basic.BasicSplitPaneUI.finishDraggingTo(int),Messaged to finish the dragging session.,14,finish
+1113,46801,"android.preference.PreferenceActivity.finishPreferencePanel(android.app.Fragment,int,android.content.Intent)",Called by a preference panel fragment to finish itself.,14,finish
+1114,36898,android.content.BroadcastReceiver.PendingResult.finish(),Finish the broadcast.,14,finish
+1115,53529,android.view.inputmethod.InputConnection.finishComposingText(),Have the text editor finish whatever composing text is currently active.,14,\N
+1116,9886,java.nio.channels.SelectionKey.isConnectable(),"Tests whether this key's channel has either finished, or failed to finish, its socket-connection operation.",65,test
+1117,42637,android.inputmethodservice.ExtractEditText.finishInternalChanges(),Finish making changes that will not be reported to the client.,14,finish
+1118,53783,android.view.textservice.SpellCheckerSession.close(),Finish this session and allow TextServicesManagerService to disconnect the bound spell checker.,14,finish
+1119,34282,android.app.Activity.finishActivity(int),"Force finish another activity that you had previously started with startActivityForResult(Intent, int).",14,finish
+1120,51522,android.view.ActionMode.finish(),Finish and close this action mode.,14,finish
+1121,49554,"android.test.MoreAsserts.assertEquals(java.lang.Object,java.lang.Object)",Asserts that array actual is the same size and every element is the same as those in array expected.,10,assert
+1122,49631,"android.test.ViewAsserts.assertBottomAligned(android.view.View,android.view.View)","Assert that two views are bottom aligned, that is that their bottom edges are on the same y location.",10,assert
+1123,49630,"android.test.ViewAsserts.assertBottomAligned(android.view.View,android.view.View,int)","Assert that two views are bottom aligned, that is that their bottom edges are on the same y location, with respect to the specified margin.",10,assert
+1124,58708,"junit.framework.Assert.assertEquals(java.lang.String,int,int)",Asserts that two ints are equal.,10,assert
+1125,58716,"junit.framework.Assert.assertEquals(double,double,double)",Asserts that two doubles are equal concerning a delta.,10,assert
+1126,49543,"android.test.MoreAsserts.assertContainsRegex(java.lang.String,java.lang.String,java.lang.String)",Asserts that expectedRegex matches any substring of actual and fails with message if it does not.,10,assert
+1127,49563,"android.test.MoreAsserts.assertMatchesRegex(java.lang.String,java.lang.String,java.lang.String)",Asserts that expectedRegex exactly matches actual and fails with message if it does not.,10,assert
+1128,49568,"android.test.MoreAsserts.assertNotEmpty(java.lang.String,java.lang.Iterable<?>)",Asserts that iterable is not empty.,10,assert
+1129,58715,"junit.framework.Assert.assertEquals(byte,byte)",Asserts that two bytes are equal.,10,assert
+1130,58713,"junit.framework.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object)",Asserts that two objects are equal.,10,assert
+1131,50755,android.transition.Transition.setMatchOrder(int...),Sets the order in which Transition matches View start and end values.,77,set
+1132,28313,"javax.swing.table.DefaultTableModel.moveRow(int,int,int)",Moves one or more rows from the inclusive range start to end to the to position in the model.,68,move
+1133,31703,javax.xml.ws.spi.http.HttpExchange.close(),This must be called to end an exchange.,9,end
+1134,34020,"android.animation.ArgbEvaluator.evaluate(float,java.lang.Object,java.lang.Object)",This function returns the calculated in-between value for a color given integers that represent the start and end values in the four bytes of the 32-bit int.,54,return
+1135,47858,android.sax.Element.setTextElementListener(android.sax.TextElementListener),Sets start and end text element listeners at the same time.,77,set
+1136,34099,"android.animation.PointFEvaluator.evaluate(float,android.graphics.PointF,android.graphics.PointF)","This function returns the result of linearly interpolating the start and end PointF values, with fraction representing the proportion between the start and end values.",54,return
+1137,50779,android.transition.TransitionPropagation.captureValues(android.transition.TransitionValues),Captures the values in the start or end scene for the properties that this transition propagation monitors.,54,capture
+1138,38539,android.database.sqlite.SQLiteDatabase.endTransaction(),End a transaction.,9,end
+1139,50196,"android.text.TextUtils.copySpansFrom(android.text.Spanned,int,int,java.lang.Class,android.text.Spannable,int)",Copies the spans from the region start...end in source to the region destoff...destoff+end-start in dest.,80,copy
