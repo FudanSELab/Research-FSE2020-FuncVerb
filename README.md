@@ -41,8 +41,8 @@ on answering the following research questions:
 
 
 ##### Annotation Data
-1. [1,139 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase
+1. [1,139 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/1139_f_sentences_with_annotation.csv) for coding protocol definition phase
 
-1. [13,635 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase and annotation phase.
+1. [13,635 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/13635_f_sentences_with_annotation.csv) for coding protocol definition phase and annotation phase.
 
-1. [14,774 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase and annotation phase. "single_description" is the sentences, "final_annotation_type" is a id representing the f_category. 
+1. [14,774 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/14774_f_sentences_with_annotation.csv) for coding protocol definition phase and annotation phase. "single_description" is the sentences, "final_annotation_type" is a id representing the f_category. 
