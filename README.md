@@ -38,3 +38,11 @@ on answering the following research questions:
 2. [poi_test_sentences](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/POI_Data.xlsx) shows the data for _p\_patterns_ evaluation in poi. The first column is the sentences. The second and third column are annotation _f\_category_ and annotation _p\_pattern_. The fourth and fifth column are automatic _f\_category_ and automatic _p\_pattern_. The last two column represent if the automatic _f\_category_ and _p\_pattern_ are correct.
 
 3. [evaluation_questions_with_answers.xlsx](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/evaluation_questions_with_answers.xlsx) shows the task questions and answers. Also the group which the task belong to is in the file at column. [Task1.docx](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/Task1.docx) shows a template which participants need to fill in. [Evaluation_Answer.xlsx](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/Evaluation_Answer.xlsx) shows the data that participants record in the tasks. the first column is the question's stackoverflow url. The second column is question title. The third column is the standard answer. 4~15th column represents if the participant find the correct answer via the tools. Next to them are the total and average number of participants who find the answer using the tools.
+
+
+##### Annotation Data
+1. [1,139 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase
+
+1. [13,635 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase and annotation phase.
+
+1. [14,774 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Evaluation/5_fold_cross_validation_accuracy.xlsx) for coding protocol definition phase and annotation phase. "single_description" is the sentences, "final_annotation_type" is a id representing the f_category. 
