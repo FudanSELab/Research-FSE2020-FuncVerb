@@ -26,7 +26,7 @@ on answering the following research questions:
 
 2. [annotation_website](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/RQ2/annotation_website.png) is a screenshot of our annotation website.
 
-3. [1,139 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/1139_f_sentences_with_annotation.csv) for coding protocol definition phase
+3. [1,139 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/1139_f_sentences_with_annotation.csv) for coding protocol definition phase.
 
 4. [13,635 f_sentences with annotation](https://github.com/FudanSELab/Research-FSE2020-FuncVerb/blob/master/Annotation_data/13635_f_sentences_with_annotation.csv) for coding protocol definition phase and annotation phase.
 
